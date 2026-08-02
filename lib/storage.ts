@@ -22,6 +22,7 @@ export function defaultState(now = Date.now()): LexiconState {
     myWords: [],
     srs: {},
     seen: {},
+    known: {},
     wotd: {},
     days: {},
     streak: 0,
@@ -54,6 +55,7 @@ export function hydrate(raw: unknown): LexiconState {
     myWords: migrated.myWords ?? base.myWords,
     srs: migrated.srs ?? base.srs,
     seen: migrated.seen ?? base.seen,
+    known: migrated.known ?? base.known,
     wotd: migrated.wotd ?? base.wotd,
     days: migrated.days ?? base.days,
     highScores: migrated.highScores ?? base.highScores,
@@ -61,8 +63,8 @@ export function hydrate(raw: unknown): LexiconState {
 }
 
 /**
- * Schema migrations live here. v1 is the first shipped schema, so there is
- * nothing to upgrade yet — future versions add cases and bump STATE_VERSION.
+ * Schema migrations. Each case upgrades one version to the next and falls
+ * through, so a v1 save loaded by a v3 build walks the whole chain.
  */
 function migrate(input: Partial<LexiconState>): Partial<LexiconState> {
   const version = input.version ?? STATE_VERSION;
@@ -70,7 +72,12 @@ function migrate(input: Partial<LexiconState>): Partial<LexiconState> {
     // A newer build wrote this. Keep what we understand rather than wiping it.
     return input;
   }
-  return input;
+  let state = input;
+  if (version < 2) {
+    // v2 added the "I know this" list.
+    state = { ...state, known: state.known ?? {}, version: 2 };
+  }
+  return state;
 }
 
 export function loadState(): LexiconState {

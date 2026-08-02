@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { splitExample } from '@/lib/format';
 import type { FeedItem } from '@/lib/types';
-import { DeckTag, SaveButton, SpeakButton } from './Bits';
+import { Conversation, DeckTag, KnowButton, SaveButton, SpeakButton, Synonyms } from './Bits';
 
 export default function EntryRow({
   item,
@@ -57,6 +57,12 @@ export default function EntryRow({
 
           <p className="mt-3 text-[15px] leading-[1.5]">{entry.definition}</p>
 
+          {entry.synonyms?.length ? (
+            <div className="mt-3">
+              <Synonyms words={entry.synonyms} />
+            </div>
+          ) : null}
+
           <div className="mt-4 space-y-3">
             {entry.examples.map((example, i) => {
               const [source, gloss] = splitExample(example, item.lang);
@@ -78,6 +84,12 @@ export default function EntryRow({
             })}
           </div>
 
+          {entry.conversation?.length ? (
+            <div className="mt-4">
+              <Conversation lines={entry.conversation} lang={item.lang} />
+            </div>
+          ) : null}
+
           {entry.note ? (
             <p className="mt-4 text-[13px] leading-snug" style={{ color: 'var(--faint)' }}>
               <span className="kicker mr-2">Usage</span>
@@ -88,6 +100,7 @@ export default function EntryRow({
           <div className="mt-4 flex items-center gap-2.5">
             <SpeakButton text={entry.word} lang={item.lang} size="sm" />
             <SaveButton entryId={entry.id} size="sm" />
+            <KnowButton entryId={entry.id} size="sm" />
             {action}
           </div>
         </div>

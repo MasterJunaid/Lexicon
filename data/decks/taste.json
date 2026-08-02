@@ -13,10 +13,19 @@
       "pos": "adj.",
       "pron": "sar-TOR-ee-ul",
       "definition": "Relating to clothing and how it's made or worn — specifically to tailoring and its craft.",
+      "synonyms": [
+        "clothing-related",
+        "to do with tailoring",
+        "style-wise"
+      ],
       "examples": [
         "The sartorial move for a conference where everyone wears branded quarter-zips is an unstructured jacket and no logo anywhere.",
         "His sartorial vocabulary is narrow and completely consistent, which reads as taste rather than effort.",
         "There's a sartorial argument for owning three great things instead of twelve adequate ones."
+      ],
+      "conversation": [
+        "Friend: Everyone at this conference wears a branded quarter-zip.",
+        "You: Which is exactly the sartorial opening. Unstructured jacket, no logo anywhere, done."
       ],
       "note": "From the Latin for tailor. Reserve it for construction and craft — using it about a hoodie is a small joke, and only funny on purpose.",
       "tier": 2
@@ -27,10 +36,19 @@
       "pos": "n.",
       "pron": "sil-oo-ET",
       "definition": "The outline an outfit makes — the shape you read from across a room, before any detail arrives.",
+      "synonyms": [
+        "outline",
+        "overall shape",
+        "the line of it"
+      ],
       "examples": [
         "Fit is a detail; silhouette is the decision. Wide trouser and a cropped jacket is a different sentence than slim and long, in the same two colors.",
         "For the panel photos, pick the silhouette first — the camera flattens texture and keeps shape.",
         "Every decade of menswear is basically an argument about silhouette conducted through trouser width."
+      ],
+      "conversation": [
+        "Friend: Should I size down?",
+        "You: Decide the silhouette first. Wide trouser and cropped jacket is a different sentence than slim and long, in the same two colours."
       ],
       "note": "The most useful word in the deck for actually getting dressed: shape reads at distance, fabric reads at conversation range, detail reads at arm's length.",
       "tier": 1
@@ -41,10 +59,19 @@
       "pos": "n.",
       "pron": "DRAYP",
       "definition": "How a fabric falls and moves on the body under its own weight.",
+      "synonyms": [
+        "how it hangs",
+        "fall",
+        "the way it moves"
+      ],
       "examples": [
         "Cheap suiting has no drape — it hangs like cardboard and photographs like it too, which is why the LinkedIn shots from that event never worked.",
         "Wool drapes, linen creases, polyester does neither and pretends to do both.",
         "Drape is why the same cut in two fabrics looks like two different garments."
+      ],
+      "conversation": [
+        "Friend: Why does the cheaper one look off in photos?",
+        "You: No drape. It hangs like cardboard, and the camera picks that up before it picks up the colour."
       ],
       "note": "The single quality that separates expensive-looking from expensive-costing. It's a property of the cloth, not the price tag or the label.",
       "tier": 2
@@ -55,10 +82,19 @@
       "pos": "adj.",
       "pron": "mon-uh-kroh-MAT-ik",
       "definition": "Built from a single color across the whole outfit, with variation coming from texture rather than hue.",
+      "synonyms": [
+        "one colour throughout",
+        "single-hue",
+        "head to toe in one shade"
+      ],
       "examples": [
         "Monochromatic is the cheat code for a founder-dinner outfit: one color head to toe reads as decisive and takes zero thought at 7pm.",
         "All-black is monochromatic by default, which is why it's both foolproof and slightly boring.",
         "The trick with monochromatic dressing is texture — flannel, knit, and suede in the same brown keep it from looking like a uniform."
+      ],
+      "conversation": [
+        "Friend: I have got twenty minutes before this dinner.",
+        "You: Go monochromatic. One colour top to bottom reads as decisive and needs no thought."
       ],
       "note": "Frequently confused with tonal. Monochromatic is one color; tonal is several shades of one color. The distinction is small and worth having.",
       "tier": 2
@@ -69,10 +105,19 @@
       "pos": "adj.",
       "pron": "TOH-nul",
       "definition": "Using several shades of the same color together — variation within one family rather than contrast between families.",
+      "synonyms": [
+        "shades of one colour",
+        "same family",
+        "related tones"
+      ],
       "examples": [
         "A tonal outfit in three browns is harder than it looks and better than it sounds; the shades have to be far enough apart to be intentional.",
         "Tonal beats matchy — identical shades read as a set, related shades read as a choice.",
         "The camera at a conference is unkind to contrast and generous to tonal dressing."
+      ],
+      "conversation": [
+        "SA: These two browns are quite close.",
+        "You: Tonal is the aim, but they need to be far enough apart to read as a choice, not a mistake."
       ],
       "note": "Sits one step down from monochromatic in strictness and one step up in difficulty. Getting the intervals right is the whole skill.",
       "tier": 2
@@ -83,10 +128,19 @@
       "pos": "adj.",
       "pron": "bih-SPOHK",
       "definition": "Made from scratch to one person's measurements, with a pattern cut specifically for them.",
+      "synonyms": [
+        "made to your pattern",
+        "custom-cut",
+        "built from scratch"
+      ],
       "examples": [
         "Bespoke means a pattern cut for your body from nothing — not a stock pattern adjusted, which is made-to-measure and a fifth of the price.",
         "The word has been stolen by software marketing, where “bespoke solution” means a settings page.",
         "One bespoke jacket outlasts a decade of trend-cycle buying, which is the actual argument for it."
+      ],
+      "conversation": [
+        "Friend: The site says bespoke.",
+        "You: Then ask if they cut a new pattern. If they are adjusting a house pattern it is made-to-measure, and it should cost a fifth as much."
       ],
       "note": "Precision here is a small credibility signal in style circles, the same way “disruptive” is in strategy circles. Most things called bespoke are made-to-measure.",
       "tier": 2
@@ -97,10 +151,19 @@
       "pos": "adj.",
       "pron": "MAYD-tuh-MEZH-er",
       "definition": "Built from an existing base pattern adjusted to your measurements — the middle ground between off-the-rack and bespoke.",
+      "synonyms": [
+        "MTM",
+        "adjusted to fit",
+        "semi-custom"
+      ],
       "examples": [
         "Made-to-measure is the right answer for a first real jacket: 80% of the fit for 20% of the cost and three weeks instead of three fittings.",
         "The house pattern still dictates the shape, so choose the house whose shape you already like.",
         "Nobody can tell made-to-measure from bespoke across a table, which is worth knowing before spending the difference."
+      ],
+      "conversation": [
+        "Friend: First proper jacket. Where do I start?",
+        "You: Made-to-measure. Eighty percent of the fit for twenty percent of the cost, three weeks instead of three fittings."
       ],
       "note": "The genuinely useful category for most people. Knowing where it sits between the other two is the whole point of learning the word.",
       "tier": 2
@@ -111,10 +174,19 @@
       "pos": "n.",
       "pron": "at-ul-YAY",
       "definition": "A workshop where things are designed and made by hand, usually by a small named team.",
+      "synonyms": [
+        "workshop",
+        "studio",
+        "the place it is made"
+      ],
       "examples": [
         "The atelier is the part of a fashion house that actually makes things; the rest is licensing and fragrance.",
         "Small ateliers are having a moment for the same reason micro-creators are — the audience wants to see whose hands were on it.",
         "An atelier's constraint is capacity, and that constraint is most of the appeal."
+      ],
+      "conversation": [
+        "Friend: Why is that brand so expensive for such a small collection?",
+        "You: It comes out of a real atelier. Their constraint is capacity, and honestly that constraint is most of the appeal."
       ],
       "note": "French, kept for the specific implication of craft at small scale. There's a direct parallel to creator economics worth a LinkedIn post: scarcity as a feature of the model.",
       "tier": 3
@@ -125,10 +197,19 @@
       "pos": "n.",
       "pron": "PROV-uh-nuns",
       "definition": "The documented history of where a thing came from and who has owned it.",
+      "synonyms": [
+        "history",
+        "where it came from",
+        "paper trail"
+      ],
       "examples": [
         "Provenance is why a vintage watch with papers is worth double the same watch without them — the story is a priced asset.",
         "Resale platforms are essentially provenance infrastructure with a checkout attached.",
         "Provenance sells the object twice: once for what it is, once for where it's been."
+      ],
+      "conversation": [
+        "Friend: Same watch, one is double the price.",
+        "You: Provenance. Box, papers, known owner. You are paying for the story being verifiable."
       ],
       "note": "Crosses cleanly into business writing. Creator-led commerce is a provenance play — you're buying the object and the chain of custody through someone you trust.",
       "tier": 3
@@ -139,10 +220,19 @@
       "pos": "n.",
       "pron": "puh-TEE-nuh",
       "definition": "The surface a material earns through use — the color and sheen that only time puts on.",
+      "synonyms": [
+        "aged surface",
+        "wear that improves it",
+        "character from use"
+      ],
       "examples": [
         "Good leather develops a patina; coated leather develops cracks. That difference shows up in year three, not in the store.",
         "Patina is the only luxury that can't be bought, which is exactly why brands keep trying to manufacture it.",
         "Raw denim fades where you bend, and the result is a patina that's specifically yours."
+      ],
+      "conversation": [
+        "Friend: Will this leather look bad in a year?",
+        "You: Good leather develops a patina. Coated leather develops cracks. You find out in year three."
       ],
       "note": "The concept behind the whole heritage-goods argument: some things get better with wear, most get worse, and knowing which is which is taste.",
       "tier": 2
@@ -153,10 +243,19 @@
       "pos": "adj.",
       "pron": "un-der-STAY-tid",
       "definition": "Deliberately quiet — good enough to notice, restrained enough not to announce itself.",
+      "synonyms": [
+        "quiet",
+        "low-key",
+        "restrained"
+      ],
       "examples": [
         "The understated version of a personal brand: excellent work, plain profile photo, no adjectives in the headline.",
         "Understated only works if the quality is real; without it you've just got plain.",
         "A logo-free jacket in a room of monograms is the loudest understated thing in the building."
+      ],
+      "conversation": [
+        "Maya: Your LinkedIn headline is just your title.",
+        "You: Deliberately understated. Excellent work, plain photo, no adjectives. It only works if the work is real."
       ],
       "note": "The register Jun's whole personal brand runs in — same principle in writing as in dressing: cut the adjectives and let the specifics carry it.",
       "tier": 1
@@ -167,10 +266,19 @@
       "pos": "n.",
       "pron": "KAP-sul",
       "definition": "A small set of pieces designed so everything works with everything else.",
+      "synonyms": [
+        "small coordinated set",
+        "core wardrobe",
+        "edited selection"
+      ],
       "examples": [
         "A ten-piece capsule for travel means every top works with every bottom — that's a systems decision, not a fashion one.",
         "Capsule thinking is portfolio thinking: fewer holdings, higher conviction, no dead weight.",
         "Most people don't need more clothes, they need a capsule and the discipline to stop buying outside it."
+      ],
+      "conversation": [
+        "Friend: I am overpacking again.",
+        "You: Build a capsule. Ten pieces where every top works with every bottom. It is a systems decision, not a fashion one."
       ],
       "note": "The constraint is the product. It's the same insight as a creator brief template — narrowing the option space is what makes output fast and consistent.",
       "tier": 1
@@ -181,10 +289,19 @@
       "pos": "n.",
       "pron": "pruh-POR-shun",
       "definition": "The relationship between the sizes of the parts — how long against how wide, where the waist sits, where the eye lands.",
+      "synonyms": [
+        "balance of sizes",
+        "relative scale",
+        "how the parts relate"
+      ],
       "examples": [
         "Proportion is why an expensive outfit can look wrong and a cheap one can look right; the sizes have to talk to each other.",
         "Cropping the jacket an inch changes the proportion of the whole outfit, and everyone notices without knowing what changed.",
         "Fashion trends are mostly proportion trends with new fabrics attached."
+      ],
+      "conversation": [
+        "Friend: Something is off but I cannot say what.",
+        "You: Proportion. Crop the jacket an inch and everyone will notice it works without knowing what changed."
       ],
       "note": "If silhouette is the shape from across the room, proportion is the internal math that makes the shape work. Fixing proportion fixes more than shopping does.",
       "tier": 2
@@ -195,10 +312,19 @@
       "pos": "adj.",
       "pron": "un-STRUK-cherd",
       "definition": "Made without internal padding or canvas, so the garment takes the shape of the wearer instead of imposing one.",
+      "synonyms": [
+        "soft-shouldered",
+        "unpadded",
+        "relaxed build"
+      ],
       "examples": [
         "An unstructured blazer is the single most useful thing to own for a job where the dress code is “not a suit, but not nothing.”",
         "Unstructured reads relaxed; structured reads formal, and the difference is entirely inside the shoulder.",
         "The tradeoff is honesty — unstructured tailoring shows you exactly the posture you actually have."
+      ],
+      "conversation": [
+        "Friend: The dress code says not a suit but not nothing.",
+        "You: Unstructured blazer. Structured shoulders read like a costume from another industry."
       ],
       "note": "The right default for tech and creator settings, where a fully structured shoulder reads as a costume from another industry.",
       "tier": 2
@@ -209,10 +335,19 @@
       "pos": "n.",
       "pron": "SEL-vij",
       "definition": "The tightly finished edge of fabric woven on a narrow shuttle loom, visible as a clean band in the outseam of denim.",
+      "synonyms": [
+        "self-finished edge",
+        "shuttle-loom denim",
+        "the clean seam edge"
+      ],
       "examples": [
         "The selvedge line in a cuffed jean is a small, quiet signal that the fabric was made slowly on old machinery.",
         "Selvedge doesn't make denim better by itself; it correlates with mills that care, which is a different claim.",
         "It's a proxy for quality, and like every proxy it drifts once it becomes a marketing term."
+      ],
+      "conversation": [
+        "SA: These are selvedge.",
+        "You: Which tells me the mill cares, not that the denim is better. It is a proxy, and proxies drift once they become marketing."
       ],
       "note": "A perfect example of a signal becoming a marketing checkbox — the same arc as “artisanal” or “data-driven.” Worth the parallel in a post.",
       "tier": 3
@@ -223,10 +358,19 @@
       "pos": "adj.",
       "pron": "ar-KY-vul",
       "definition": "From a brand's past collections, sought after specifically because it can't be made again.",
+      "synonyms": [
+        "from the back catalogue",
+        "past-season",
+        "out of the archive"
+      ],
       "examples": [
         "Archival pieces are the resale market's version of scarcity — the supply is fixed and the demand is nostalgic.",
         "Half of what's sold as archival is just old, and the gap between those two things is provenance.",
         "Every brand with a real archive is sitting on a content strategy it hasn't used."
+      ],
+      "conversation": [
+        "Friend: This is archival, apparently.",
+        "You: Or it is just old. The difference is provenance — can they show which season it came from?"
       ],
       "note": "Direct crossover to brand work: archives are owned distribution for a heritage brand, and almost nobody mines them properly.",
       "tier": 3
@@ -237,10 +381,19 @@
       "pos": "n.",
       "pron": "HAIR-ih-tij",
       "definition": "A brand's inherited history, used as evidence that it knows what it's doing.",
+      "synonyms": [
+        "history",
+        "legacy",
+        "inherited reputation"
+      ],
       "examples": [
         "Heritage is positioning that can't be copied — a competitor can match the product and can't match 1892.",
         "The risk of heritage is calcification: brands that sell their past stop being able to change their present.",
         "Heritage marketing only works when the object is still good; otherwise it's an obituary with a price tag."
+      ],
+      "conversation": [
+        "Maya: Can we build something a competitor cannot copy?",
+        "You: Heritage is the purest version — they can match the product and they cannot match 1892. We do not have that, so we need the roster instead."
       ],
       "note": "The clearest real-world moat in consumer goods, and a good example for a strategy memo — an advantage that literally cannot be bought.",
       "tier": 2
@@ -251,10 +404,19 @@
       "pos": "adj.",
       "pron": "ah-vahnt-GARD",
       "definition": "Ahead of the mainstream in a way that's initially uncomfortable — experimental by intention.",
+      "synonyms": [
+        "experimental",
+        "ahead of the curve",
+        "boundary-pushing"
+      ],
       "examples": [
         "Avant-garde design isn't trying to be liked this season; it's trying to set the vocabulary for the next five.",
         "What's avant-garde eventually becomes normal, gets cheap, and shows up in a fast-fashion window three years later.",
         "The avant-garde piece in an outfit works best when everything around it is quiet."
+      ],
+      "conversation": [
+        "Friend: Nobody is going to wear that.",
+        "You: Not this season. Avant-garde sets the vocabulary and shows up in a high-street window three years later."
       ],
       "note": "The trickle-down from avant-garde to mass-market is the same S-curve as early adopters to mainstream. Same shape, different industry.",
       "tier": 3
@@ -265,10 +427,19 @@
       "pos": "adj.",
       "pron": "ih-KLEK-tik",
       "definition": "Drawing from many sources on purpose, held together by the taste of whoever chose them.",
+      "synonyms": [
+        "mixed",
+        "drawn from everywhere",
+        "varied but chosen"
+      ],
       "examples": [
         "An eclectic wardrobe only works if one thing is consistent — usually palette, sometimes proportion, occasionally sheer conviction.",
         "Eclectic without an organizing principle is just a pile.",
         "The best-dressed person in most rooms is eclectic within a very narrow color range."
+      ],
+      "conversation": [
+        "Friend: How is his wardrobe so random and still good?",
+        "You: Eclectic with one thing held constant. His whole palette lives inside three colours."
       ],
       "note": "Same rule as a content strategy: variety works when there's a throughline. Without one, eclectic and incoherent are indistinguishable.",
       "tier": 2
@@ -279,10 +450,19 @@
       "pos": "adj.",
       "pron": "kun-SID-erd",
       "definition": "Showing evidence of decisions — every element chosen rather than defaulted into.",
+      "synonyms": [
+        "deliberate",
+        "thought through",
+        "intentional"
+      ],
       "examples": [
         "A considered outfit isn't a complicated one; it's one where you could explain every piece if asked.",
         "Considered is the compliment worth chasing, and it applies equally to a jacket, a deck, and a landing page.",
         "The difference between considered and fussy is whether the decisions serve the whole or announce themselves."
+      ],
+      "conversation": [
+        "Friend: You always look put together without trying.",
+        "You: It is considered, not complicated. I could explain every piece if you asked."
       ],
       "note": "The single best word for the quality Jun's whole aesthetic is aiming at — in dressing, in writing, in product. Deliberate, not decorated.",
       "tier": 1
@@ -293,10 +473,19 @@
       "pos": "n.",
       "pron": "rih-STRAYNT",
       "definition": "The discipline of leaving out the thing you could have added.",
+      "synonyms": [
+        "holding back",
+        "discipline",
+        "knowing when to stop"
+      ],
       "examples": [
         "Restraint is the hardest edit in an outfit and in a memo: the piece you take off is what makes the rest work.",
         "Everyone can add. Restraint is the scarce skill, and it's visible instantly.",
         "One accessory, chosen well, beats three defended individually."
+      ],
+      "conversation": [
+        "Friend: One more chain?",
+        "You: Restraint. The thing you take off is what makes the rest work — same rule as the last paragraph of a post."
       ],
       "note": "Coco Chanel's take-one-thing-off rule is a restraint heuristic. The same rule applied to a LinkedIn draft removes the last paragraph almost every time.",
       "tier": 1
@@ -307,10 +496,19 @@
       "pos": "n.",
       "pron": "in-SOO-see-uns",
       "definition": "Casual unconcern — looking like you didn't think about it, whether or not you did.",
+      "synonyms": [
+        "studied nonchalance",
+        "effortlessness",
+        "careless ease"
+      ],
       "examples": [
         "Italian tailoring sells insouciance: an unbuttoned cuff, a slightly rumpled linen, a whole architecture of studied ease.",
         "Insouciance is a performance of effortlessness, and everyone knows it, which is part of the fun.",
         "The LinkedIn equivalent is the post that reads like a passing thought and took four drafts."
+      ],
+      "conversation": [
+        "Friend: Your cuff is undone.",
+        "You: Insouciance. Italian tailoring sells it, and everyone knows it took four attempts."
       ],
       "note": "Sprezzatura is the Italian cousin — same idea, more specifically about deliberately imperfect elegance. Both describe hidden effort.",
       "tier": 3
@@ -321,10 +519,19 @@
       "pos": "adj.",
       "pron": "LOOSH",
       "definition": "Disreputable in an appealing way — slightly too relaxed for the setting, and better for it.",
+      "synonyms": [
+        "rakish",
+        "a bit too relaxed",
+        "disreputably charming"
+      ],
       "examples": [
         "A louche outfit is one button too far open and knows exactly what it's doing.",
         "Louche is charming at a dinner and a mistake in a board meeting; the word carries its own risk assessment.",
         "There's a louche register in writing too — the sentence that's a little too honest for a corporate blog."
+      ],
+      "conversation": [
+        "Friend: Is this too much for a work dinner?",
+        "You: It is louche. Charming at dinner, a mistake in a board meeting. Depends entirely on the room."
       ],
       "note": "One of the few style words that's a compliment and a warning simultaneously. Depends entirely on the room.",
       "tier": 3
@@ -335,10 +542,19 @@
       "pos": "v.",
       "pron": "JUK-stuh-pohz",
       "definition": "To place two contrasting things side by side so each makes the other more visible.",
+      "synonyms": [
+        "put side by side",
+        "contrast",
+        "set against"
+      ],
       "examples": [
         "Juxtaposing formal and casual — tailored trouser, worn tee — is the entire grammar of how people dress in tech.",
         "The contrast has to be intentional, or it's just mismatched.",
         "Good thumbnails juxtapose too: one soft element against one hard one, and the eye stops."
+      ],
+      "conversation": [
+        "Maya: The thumbnail looks flat.",
+        "You: Juxtapose something. One soft element against one hard one and the eye stops. Same grammar as tailored trousers with a worn tee."
       ],
       "note": "Works identically in visual composition and in argument. Juxtaposing the orthodoxy against one counterexample is a whole post structure.",
       "tier": 2
@@ -349,10 +565,19 @@
       "pos": "v.",
       "pron": "kyoo-RAYT",
       "definition": "To select and arrange a small set from a large one, taking responsibility for what's left out.",
+      "synonyms": [
+        "select",
+        "edit down",
+        "choose carefully"
+      ],
       "examples": [
         "Curating a roster of 40 creators is the same skill as curating a wardrobe: the exclusions are the work.",
         "The word has been flattened — everything is “curated” now, including airport gift shops — but the underlying job is real.",
         "You haven't curated anything if nothing was rejected."
+      ],
+      "conversation": [
+        "Dan: We curated the creator roster.",
+        "You: Did we reject anyone? If not we collected, we did not curate. The exclusions are the work."
       ],
       "note": "Threadbare from overuse. Use it only where real exclusion happened, and say what you excluded — that's what rescues it.",
       "tier": 1
@@ -363,10 +588,19 @@
       "pos": "n.",
       "pron": "kon-uh-SUR",
       "definition": "Someone whose judgment in a narrow field is trained enough to notice what others can't.",
+      "synonyms": [
+        "expert",
+        "trained eye",
+        "someone who really knows"
+      ],
       "examples": [
         "A fragrance connoisseur can name the base accord blind; the rest of us know whether we like it, which is also a valid position.",
         "Connoisseurship is pattern recognition built from volume — a thousand samples, not one strong opinion.",
         "Every category has connoisseurs, and they're the hardest and most valuable audience to win."
+      ],
+      "conversation": [
+        "Friend: He named the base notes blind.",
+        "You: Connoisseur. It is pattern recognition built from a thousand samples, not one strong opinion."
       ],
       "note": "In creator terms, connoisseurs are the people whose endorsement transfers credibility to everyone else. Small audience, enormous downstream effect.",
       "tier": 3
@@ -377,10 +611,19 @@
       "pos": "n.",
       "pron": "see-YAHZH",
       "definition": "The scented trail a fragrance leaves behind you as you move through a room.",
+      "synonyms": [
+        "scent trail",
+        "the wake it leaves",
+        "how it follows you"
+      ],
       "examples": [
         "Sillage is what other people experience; what you smell on your own wrist after an hour is almost irrelevant.",
         "Heavy sillage in an open-plan office is a decision about other people, not about you.",
         "The French word means “wake” — the trail a boat leaves — which is a much better image than any English substitute."
+      ],
+      "conversation": [
+        "Friend: Can people smell this on me?",
+        "You: That is sillage — the trail behind you. What you smell on your own wrist after an hour is almost irrelevant."
       ],
       "note": "Distinct from projection, which is how far it radiates while you stand still. Sillage is the trail; projection is the bubble.",
       "tier": 3
@@ -391,10 +634,19 @@
       "pos": "n.",
       "pron": "uh-KORD",
       "definition": "A blend of several notes that the nose reads as one new smell rather than as its ingredients.",
+      "synonyms": [
+        "blended note",
+        "a scent chord",
+        "combined impression"
+      ],
       "examples": [
         "An accord is a chord, not a note — the fresh-linen accord in half of modern perfumery isn't a single material, it's an arrangement.",
         "You can't isolate an accord's parts by smelling harder; it's built to fuse.",
         "Perfumers think in accords the way growth people think in channels: the unit that actually gets composed with."
+      ],
+      "conversation": [
+        "Friend: What is that clean laundry smell made of?",
+        "You: It is an accord, not one ingredient. Like a chord — the parts fuse and you cannot pull them apart by sniffing harder."
       ],
       "note": "The musical metaphor is exact and worth keeping. Notes are pitches, accords are chords, a fragrance is the composition.",
       "tier": 3
@@ -405,10 +657,19 @@
       "pos": "n.",
       "pron": "DRY-down",
       "definition": "What a fragrance becomes after the opening burns off — the base that stays on skin for hours.",
+      "synonyms": [
+        "the later stage",
+        "what it settles into",
+        "the base phase"
+      ],
       "examples": [
         "Never buy on the opening; the first ten minutes are the trailer and the dry-down is the film.",
         "The dry-down is what your coworkers will actually smell at 3pm, which is the version worth choosing.",
         "Sampling properly means wearing it for six hours, not sniffing a card in a store."
+      ],
+      "conversation": [
+        "SA: What do you think?",
+        "You: Ask me in six hours. The opening is the trailer, the dry-down is the film, and that is what my colleagues will smell at 3pm."
       ],
       "note": "The single most useful piece of buying advice in fragrance, and it generalizes: judge things by what they're like once the novelty burns off.",
       "tier": 2
@@ -419,10 +680,19 @@
       "pos": "n.",
       "pron": "BAYS noht",
       "definition": "The heaviest, slowest-evaporating materials in a fragrance — the foundation that appears last and lasts longest.",
+      "synonyms": [
+        "the foundation",
+        "the lasting notes",
+        "what stays at the end"
+      ],
       "examples": [
         "Base notes are usually woods, resins, musks, or vanilla — the materials heavy enough to still be there at midnight.",
         "Top notes sell the bottle, base notes decide whether you wear it twice.",
         "A fragrance with a thin base disappears by lunch no matter how good the opening was."
+      ],
+      "conversation": [
+        "Friend: Why does this vanish by lunch?",
+        "You: Thin base notes. Woods, resins and musks are what is still there at midnight. Top notes sell the bottle."
       ],
       "note": "The three-tier structure — top, heart, base — is the standard vocabulary and it's genuinely useful, since it's ordered by evaporation rate, not importance.",
       "tier": 2
@@ -433,10 +703,19 @@
       "pos": "adj.",
       "pron": "goor-MAHND",
       "definition": "Smelling of edible things — vanilla, caramel, coffee, chocolate, almond.",
+      "synonyms": [
+        "edible-smelling",
+        "sweet",
+        "dessert-like"
+      ],
       "examples": [
         "Gourmands own winter for a reason: warmth reads as comfort, and comfort is most of what a cold-weather fragrance is for.",
         "The risk with gourmand is dessert — one degree too sweet and it stops being a fragrance and becomes a bakery.",
         "Gourmand fragrances dominate the Gen Z market, which tells you something about what this audience wants from a scent."
+      ],
+      "conversation": [
+        "Friend: Why does everyone smell like vanilla in winter?",
+        "You: Gourmands own the cold months. Warmth reads as comfort. The risk is one degree too sweet and you smell like a bakery."
       ],
       "note": "The category most likely to get compliments and least likely to be interesting after a year. Worth knowing why you like it.",
       "tier": 2
@@ -447,10 +726,19 @@
       "pos": "n.",
       "pron": "SHEE-pruh",
       "definition": "A classic structure built on citrus up top and mossy, woody depth underneath — bright over bitter.",
+      "synonyms": [
+        "citrus-and-moss structure",
+        "the classic dry style",
+        "bright over bitter"
+      ],
       "examples": [
         "A chypre is the sartorial equivalent of a navy suit: formal, old, and completely impossible to get wrong.",
         "Modern chypres work around the restrictions on real oakmoss, which is why the vintage ones smell different and their fans won't stop mentioning it.",
         "If gourmand is comfort, chypre is composure."
+      ],
+      "conversation": [
+        "SA: What are you usually drawn to?",
+        "You: Chypre. It is the navy suit of fragrance — old, formal, impossible to get wrong."
       ],
       "note": "Named after Cyprus, after a 1917 Coty fragrance. Pronouncing it correctly is a small in-group signal, which is most of why anyone learns it.",
       "tier": 3
@@ -461,10 +749,19 @@
       "pos": "n.",
       "pron": "foo-ZHAIR",
       "definition": "The lavender-and-coumarin structure behind most classic masculine fragrances — herbal, clean, slightly sweet at the base.",
+      "synonyms": [
+        "lavender-based style",
+        "the barbershop family",
+        "classic masculine structure"
+      ],
       "examples": [
         "Nearly every barbershop scent and drugstore aftershave is a fougère; it's the default grammar of masculine perfumery.",
         "The name means “fern,” which smells of nothing — the whole family is an invention, not an imitation.",
         "Knowing you're a fougère person saves you about forty samples."
+      ],
+      "conversation": [
+        "Friend: This smells like every aftershave ever.",
+        "You: Because it is a fougère. Lavender and coumarin, the default grammar of masculine perfumery. Knowing you like it saves forty samples."
       ],
       "note": "Chypre and fougère are the two structural families worth knowing by name. Everything else you can navigate by note.",
       "tier": 3
@@ -475,10 +772,19 @@
       "pos": "n.",
       "pron": "OOD",
       "definition": "Resinous wood from infected agar trees — dark, animalic, medicinal, and among the most expensive materials in perfumery.",
+      "synonyms": [
+        "agarwood",
+        "resinous wood note",
+        "that dark medicinal note"
+      ],
       "examples": [
         "Real oud is rarer than the number of bottles claiming it; most Western “oud” fragrances are a synthetic impression of it.",
         "Oud is polarizing in a useful way: it's the first material that teaches you your own taste has edges.",
         "A little oud is depth; a lot of oud is a statement you'll be making all day."
+      ],
+      "conversation": [
+        "Friend: This is intense.",
+        "You: Oud. Most Western versions are a synthetic impression of it, and even that is polarising. A little is depth, a lot is a statement all day."
       ],
       "note": "The material that opened Western perfumery to Middle Eastern traditions commercially. The story of how it got mainstream is a positioning case study in itself.",
       "tier": 3
@@ -489,10 +795,19 @@
       "pos": "n.",
       "pron": "AL-duh-hyde",
       "definition": "Synthetic materials that add a bright, soapy, slightly abstract sparkle — the effect that made Chanel No. 5 sound like the future in 1921.",
+      "synonyms": [
+        "soapy sparkle",
+        "that abstract clean note",
+        "fizzy brightness"
+      ],
       "examples": [
         "Aldehydes smell like clean laundry and champagne fizz and nothing in nature, which was exactly the point.",
         "The aldehydic opening is why vintage perfume smells “like perfume” rather than like a specific thing.",
         "It's the first great example of a synthetic beating a natural on purpose rather than on price."
+      ],
+      "conversation": [
+        "Friend: Why does old perfume smell like perfume rather than like a thing?",
+        "You: Aldehydes. Soap and champagne fizz and nothing in nature, which was the entire point in 1921."
       ],
       "note": "A genuinely good innovation story for a memo: a new material didn't imitate an old one, it created a category that hadn't existed.",
       "tier": 3
@@ -503,10 +818,19 @@
       "pos": "n.",
       "pron": "pruh-JEK-shun",
       "definition": "How far a fragrance radiates from the skin while you're standing still.",
+      "synonyms": [
+        "how far it carries",
+        "the radius",
+        "strength off the skin"
+      ],
       "examples": [
         "Two sprays for a client dinner: enough projection to be noticed at handshake distance and nothing beyond it.",
         "Projection fades faster than longevity — the scent goes quiet long before it goes away.",
         "Big projection is a young man's mistake and occasionally a great decision."
+      ],
+      "conversation": [
+        "Friend: Two sprays or four?",
+        "You: Two. Enough projection to be noticed at handshake distance and nothing past that."
       ],
       "note": "The trio to keep straight: projection (radius), sillage (trail), longevity (duration). Reviewers use all three and rarely define any of them.",
       "tier": 2
@@ -517,10 +841,19 @@
       "pos": "n.",
       "pron": "lon-JEV-ih-tee",
       "definition": "How many hours a fragrance stays detectable on skin.",
+      "synonyms": [
+        "how long it lasts",
+        "staying power",
+        "duration"
+      ],
       "examples": [
         "Longevity depends on your skin as much as the bottle — dry skin burns through a fragrance hours faster, and no review will tell you that.",
         "Eight-hour longevity with quiet projection is the ideal for an office; the opposite combination is a hazard.",
         "Complaints about longevity are usually complaints about concentration, and that's a price question."
+      ],
+      "conversation": [
+        "Friend: The review said eight hours and it died on me in three.",
+        "You: Longevity depends on your skin as much as the bottle. Dry skin burns through a fragrance and no review mentions it."
       ],
       "note": "Reviews treat it as an objective property and it isn't — it's an interaction between the material, your skin, and the weather.",
       "tier": 1
@@ -531,10 +864,19 @@
       "pos": "n.",
       "pron": "DEE-kant",
       "definition": "A small portion of a fragrance transferred from a full bottle, bought to try something properly without committing to it.",
+      "synonyms": [
+        "a sample",
+        "small transfer bottle",
+        "a try-size"
+      ],
       "examples": [
         "Buy a 5ml decant before a $300 bottle — it's the cheapest possible test of a fairly expensive hypothesis.",
         "The decant market is a whole informal economy running on trust and shipping supplies.",
         "Ten decants teach you more about your taste than one expensive mistake."
+      ],
+      "conversation": [
+        "Friend: Three hundred pounds is a lot to guess.",
+        "You: Buy a five millilitre decant first. Cheapest possible test of a fairly expensive hypothesis."
       ],
       "note": "Structurally identical to a pilot budget: pay a little to reduce uncertainty before committing. Same logic Jun applies to a new creator or a new channel.",
       "tier": 2
@@ -545,10 +887,19 @@
       "pos": "adj.",
       "pron": "ol-FAK-tuh-ree",
       "definition": "Relating to the sense of smell.",
+      "synonyms": [
+        "to do with smell",
+        "scent-related",
+        "nose-level"
+      ],
       "examples": [
         "Smell is the only sense wired straight into memory, which is why olfactory branding outperforms every other kind and almost nobody uses it.",
         "Hotels and airlines figured out olfactory identity twenty years before anyone else did.",
         "An olfactory memory arrives whole — you don't recall the scent, you're briefly back in the room."
+      ],
+      "conversation": [
+        "Maya: What is the most underused branding channel?",
+        "You: Olfactory. Smell is wired straight into memory, hotels figured it out twenty years ago, and nobody buys media on it."
       ],
       "note": "The memory-and-emotion angle is a strong LinkedIn post for a brand-building audience: the highest-recall channel is the one nobody buys media on.",
       "tier": 2
@@ -559,10 +910,19 @@
       "pos": "n.",
       "pron": "NOHZ",
       "definition": "A trained perfumer — the person who composes a fragrance.",
+      "synonyms": [
+        "perfumer",
+        "the composer",
+        "the maker"
+      ],
       "examples": [
         "Fragrance houses are finally putting the nose's name on the box, which is the same shift as chefs and creators getting billing.",
         "Following a nose across brands is more reliable than following any single brand.",
         "The move from anonymous house output to named individual talent is the story of the last decade in every creative industry."
+      ],
+      "conversation": [
+        "Friend: How do you find things you like?",
+        "You: Follow the nose, not the brand. Same shift as chefs and creators getting billing — value moved to the individual."
       ],
       "note": "The named-creator dynamic in miniature: value migrating from the institution to the individual. Same trend Bloom's whole thesis rests on.",
       "tier": 2

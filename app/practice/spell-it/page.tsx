@@ -5,12 +5,13 @@ import { SpeakButton } from '@/components/Bits';
 import { NotEnoughWords, PracticeResult, PracticeShell } from '@/components/practice/Shell';
 import { buildSpell, normalizeSpelling, practicePool } from '@/lib/practice';
 import { speak } from '@/lib/speech';
-import { useStore } from '@/lib/store';
+import { useLearnableItems, useStore } from '@/lib/store';
 
 const ROUND = 8;
 
 export default function SpellItPage() {
-  const { items, state, ready, queueForReview, logPractice } = useStore();
+  const { state, ready, queueForReview, logPractice } = useStore();
+  const items = useLearnableItems();
   const pool = useMemo(
     () => practicePool(items, state.seen, state.saved, state.srs),
     [items, state.seen, state.saved, state.srs]

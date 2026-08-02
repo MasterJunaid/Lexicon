@@ -13,9 +13,18 @@
       "pos": "interj.",
       "pron": "BAH-leh",
       "definition": "OK / got it / sounds good — the most-used word in Spain, full stop.",
+      "synonyms": [
+        "de acuerdo (agreed)",
+        "okay",
+        "bueno (LatAm)"
+      ],
       "examples": [
         "—Nos vemos a las nueve. —Vale. — “See you at nine.” “OK.”",
         "Vale, vale, ya voy. — “OK, OK, I'm coming.”"
+      ],
+      "conversation": [
+        "Ana: Te recojo a las nueve, ¿te va bien? — I will pick you up at nine, does that work?",
+        "Tú: Vale, nos vemos abajo. — OK, see you downstairs."
       ],
       "note": "In Spain this replaces okay in about 90% of conversations. Doubling it (vale, vale) means “yes, fine, enough.” Latin American Spanish uses bueno or listo instead.",
       "tier": 1
@@ -26,9 +35,18 @@
       "pos": "phrase",
       "pron": "keh TAHL",
       "definition": "How's it going? — the default greeting, more casual than ¿cómo estás?",
+      "synonyms": [
+        "¿cómo estás? (how are you)",
+        "¿cómo va? (how is it going)",
+        "what's up"
+      ],
       "examples": [
         "¿Qué tal el finde? — “How was the weekend?”",
         "¿Qué tal? ¿Todo bien? — “How's it going? All good?”"
+      ],
+      "conversation": [
+        "Ana: ¡Hombre, cuánto tiempo! ¿Qué tal? — Hey, long time! How are you?",
+        "Tú: Muy bien, ¿y tú? ¿Qué tal el trabajo nuevo? — Really good, and you? How is the new job?"
       ],
       "note": "Works as a greeting on its own and as “how was...” with any noun attached: ¿qué tal la reunión?, ¿qué tal el vuelo?",
       "tier": 1
@@ -39,9 +57,18 @@
       "pos": "adj.",
       "pron": "GWHY",
       "definition": "Cool, great — Spain-only slang, mild and completely everyday.",
+      "synonyms": [
+        "chulo (cool)",
+        "genial (great)",
+        "guapo (nice, Spain)"
+      ],
       "examples": [
         "Qué guay el sitio, ¿cómo lo encontraste? — “What a cool place, how did you find it?”",
         "Me parece guay. — “Sounds good to me.”"
+      ],
+      "conversation": [
+        "Tú: Qué guay este sitio, ¿cómo lo encontraste? — This place is so cool, how did you find it?",
+        "Ana: Me lo dijo un compañero de curro. — A guy from work told me about it."
       ],
       "note": "Safe to use with anyone in Spain; it isn't teen slang. Say it in Mexico and you'll be understood as unmistakably Spanish.",
       "tier": 1
@@ -52,9 +79,18 @@
       "pos": "n.",
       "pron": "TEE-oh / TEE-ah",
       "definition": "Literally uncle/aunt; in Spain, dude / mate — used constantly between friends.",
+      "synonyms": [
+        "colega (mate)",
+        "tronco (dude, dated)",
+        "dude"
+      ],
       "examples": [
         "Tío, no me lo puedo creer. — “Dude, I can't believe it.”",
         "Es una tía muy maja. — “She's a really nice person.”"
+      ],
+      "conversation": [
+        "Ana: Tío, llevo esperando media hora. — Dude, I have been waiting half an hour.",
+        "Tú: Perdona, el metro estaba fatal. — Sorry, the metro was a disaster."
       ],
       "note": "Context does all the work — same word means your actual uncle. Only for friends and peers, never a colleague you've just met.",
       "tier": 1
@@ -65,9 +101,18 @@
       "pos": "phrase",
       "pron": "en PLAHN",
       "definition": "Like / sort of — the filler phrase young Spaniards use constantly.",
+      "synonyms": [
+        "como (like)",
+        "tipo (sort of)",
+        "rollo (kind of)"
+      ],
       "examples": [
         "Fuimos en plan tranquilo, sin hacer mucho. — “We went in a chill way, without doing much.”",
         "Me dijo, en plan, que no le interesaba. — “He told me, like, that he wasn't interested.”"
+      ],
+      "conversation": [
+        "Ana: ¿Qué hicisteis el finde? — What did you do at the weekend?",
+        "Tú: Nada, en plan tranquilo. Un par de cañas y a casa. — Nothing, kind of chill. A couple of beers and home."
       ],
       "note": "The Madrid equivalent of “like.” Hearing it is more useful than using it — it'll appear in every conversation under 35.",
       "tier": 2
@@ -78,9 +123,18 @@
       "pos": "phrase",
       "pron": "oh SEH-ah",
       "definition": "I mean / that is — used to restate or clarify what you just said.",
+      "synonyms": [
+        "es decir (that is)",
+        "quiero decir (I mean)",
+        "vamos (I mean)"
+      ],
       "examples": [
         "No puedo el jueves, o sea, sí puedo pero por la tarde. — “I can't Thursday, I mean, I can but in the afternoon.”",
         "O sea, que no vienes. — “So basically, you're not coming.”"
+      ],
+      "conversation": [
+        "Ana: ¿Entonces no vienes? — So you are not coming?",
+        "Tú: Sí voy, o sea, llego tarde pero voy. — I am coming, I mean, I will be late but I am coming."
       ],
       "note": "Literally “or it may be.” Enormously common as both a genuine clarifier and pure filler.",
       "tier": 2
@@ -91,9 +145,18 @@
       "pos": "phrase",
       "pron": "por see-AIR-toh",
       "definition": "By the way — introduces a change of subject.",
+      "synonyms": [
+        "a propósito (by the way)",
+        "oye (hey)",
+        "incidentally"
+      ],
       "examples": [
         "Por cierto, ¿al final cogiste el piso? — “By the way, did you end up taking the apartment?”",
         "Por cierto, te mandé un correo ayer. — “By the way, I sent you an email yesterday.”"
+      ],
+      "conversation": [
+        "Tú: Por cierto, ¿al final cogiste el piso de Lavapiés? — By the way, did you end up taking the flat in Lavapiés?",
+        "Ana: Sí, me mudo el sábado. — Yes, I move on Saturday."
       ],
       "note": "The natural conversational pivot. Not the same as por supuesto, which means “of course” — an easy pair to mix up early on.",
       "tier": 2
@@ -104,9 +167,18 @@
       "pos": "interj.",
       "pron": "KLAH-roh",
       "definition": "Of course / right — agreement, and the standard sound of listening.",
+      "synonyms": [
+        "por supuesto (of course)",
+        "obvio (obviously)",
+        "desde luego (certainly)"
+      ],
       "examples": [
         "—Es que no tenía tiempo. —Claro, claro. — “I just didn't have time.” “Right, of course.”",
         "Claro que sí. — “Absolutely.”"
+      ],
+      "conversation": [
+        "Ana: Es que no me dio tiempo a terminarlo. — I just did not have time to finish it.",
+        "Tú: Claro, claro. No pasa nada. — Right, of course. It is fine."
       ],
       "note": "Spaniards say claro throughout a conversation to signal they're following, the way English speakers say “right.” Silence reads as disagreement.",
       "tier": 1
@@ -117,9 +189,18 @@
       "pos": "v.",
       "pron": "keh-DAR",
       "definition": "To arrange to meet up — the standard verb for making plans.",
+      "synonyms": [
+        "verse (to meet)",
+        "reunirse (to get together)",
+        "hacer planes (make plans)"
+      ],
       "examples": [
         "¿Quedamos el sábado a las ocho? — “Shall we meet up Saturday at eight?”",
         "He quedado con Marta en Malasaña. — “I'm meeting Marta in Malasaña.”"
+      ],
+      "conversation": [
+        "Ana: ¿Quedamos el sábado? — Shall we meet up Saturday?",
+        "Tú: Vale, ¿a las ocho en Malasaña? — Sure, eight in Malasaña?"
       ],
       "note": "One of the highest-value verbs for actually having a social life in Spain. Reflexive quedarse means something different — to stay.",
       "tier": 1
@@ -130,9 +211,18 @@
       "pos": "phrase",
       "pron": "teh-NAIR GAH-nas deh",
       "definition": "To feel like / to be up for something.",
+      "synonyms": [
+        "apetecer (to fancy)",
+        "querer (to want)",
+        "estar deseando (to look forward to)"
+      ],
       "examples": [
         "Tengo muchas ganas de volver a Madrid. — “I really want to go back to Madrid.”",
         "No tengo ganas de cocinar hoy. — “I don't feel like cooking today.”"
+      ],
+      "conversation": [
+        "Ana: ¿Te apetece cenar fuera? — Do you fancy dinner out?",
+        "Tú: La verdad es que no tengo ganas de nada hoy. — Honestly I do not feel like anything today."
       ],
       "note": "Covers both wanting and looking forward to. Tengo ganas on its own is a complete, very common answer.",
       "tier": 1
@@ -143,9 +233,18 @@
       "pos": "phrase",
       "pron": "eh-CHAR deh MEH-nos",
       "definition": "To miss someone or something.",
+      "synonyms": [
+        "extrañar (LatAm)",
+        "añorar (to long for)",
+        "to miss"
+      ],
       "examples": [
         "Echo de menos las cañas de después del trabajo. — “I miss the after-work beers.”",
         "Te echamos de menos por aquí. — “We miss you around here.”"
+      ],
+      "conversation": [
+        "Ana: ¿Qué es lo que más echas de menos de Madrid? — What do you miss most about Madrid?",
+        "Tú: Las cañas de después del trabajo, sin duda. — The after-work beers, no question."
       ],
       "note": "The Spain version. Latin America mostly says extrañar, which is understood in Spain but marks you instantly as having learned elsewhere.",
       "tier": 2
@@ -156,9 +255,18 @@
       "pos": "v.",
       "pron": "ah-kah-BAR deh",
       "definition": "To have just done something — the recent past in one construction.",
+      "synonyms": [
+        "recién (just, LatAm)",
+        "hace un momento (a moment ago)",
+        "just now"
+      ],
       "examples": [
         "Acabo de llegar. — “I've just arrived.”",
         "Acabábamos de empezar cuando llamó. — “We had just started when he called.”"
+      ],
+      "conversation": [
+        "Ana: ¿Dónde estás? — Where are you?",
+        "Tú: Acabo de llegar, estoy en la puerta. — I have just arrived, I am at the door."
       ],
       "note": "Always followed by an infinitive. Structurally simple and it replaces an awkward workaround learners otherwise reach for.",
       "tier": 2
@@ -169,9 +277,18 @@
       "pos": "v.",
       "pron": "so-LAIR",
       "definition": "To usually do something — habitual action built into the verb.",
+      "synonyms": [
+        "normalmente (normally)",
+        "acostumbrar (to be used to)",
+        "usually do"
+      ],
       "examples": [
         "Suelo desayunar fuera los viernes. — “I usually have breakfast out on Fridays.”",
         "No solemos trabajar los sábados. — “We don't usually work Saturdays.”"
+      ],
+      "conversation": [
+        "Ana: ¿Desayunas en casa? — Do you have breakfast at home?",
+        "Tú: Suelo desayunar fuera los viernes. — I usually eat out on Fridays."
       ],
       "note": "No clean English equivalent — it packs “usually” into the verb itself. Stem-changes to sueLo, sueLes, sueLe.",
       "tier": 2
@@ -182,9 +299,18 @@
       "pos": "v.",
       "pron": "yeh-BAR",
       "definition": "To have been (doing something) for a length of time — among many other meanings.",
+      "synonyms": [
+        "hacer que (it has been)",
+        "estar desde (to be since)",
+        "have been for"
+      ],
       "examples": [
         "Llevo tres años estudiando español. — “I've been studying Spanish for three years.”",
         "¿Cuánto llevas esperando? — “How long have you been waiting?”"
+      ],
+      "conversation": [
+        "Ana: ¿Cuánto llevas estudiando español? — How long have you been studying Spanish?",
+        "Tú: Llevo tres años, pero con pausas. — Three years, but with breaks."
       ],
       "note": "This duration sense is the hardest and most useful one. Llevar also means to carry, to wear, and to take someone somewhere.",
       "tier": 2
@@ -195,9 +321,18 @@
       "pos": "v.",
       "pron": "tar-DAR",
       "definition": "To take (an amount of time) — how long something lasts.",
+      "synonyms": [
+        "demorar (to take time)",
+        "llevar tiempo (to take a while)",
+        "to take (time)"
+      ],
       "examples": [
         "¿Cuánto se tarda de Atocha a Chamberí? — “How long does it take from Atocha to Chamberí?”",
         "No tardo nada, cinco minutos. — “I'll be quick, five minutes.”"
+      ],
+      "conversation": [
+        "Tú: ¿Cuánto se tarda de Atocha a Chamberí? — How long does it take from Atocha to Chamberí?",
+        "Ana: Veinte minutos en metro. — Twenty minutes on the metro."
       ],
       "note": "Distinct from tomar (to take an object) and llevar. If it's about elapsed time, it's tardar.",
       "tier": 2
@@ -208,9 +343,18 @@
       "pos": "v.",
       "pron": "ah-pro-beh-CHAR",
       "definition": "To make the most of something — to take advantage of an opportunity, with no negative connotation.",
+      "synonyms": [
+        "sacar partido (make the most of)",
+        "usar bien (use well)",
+        "take advantage of"
+      ],
       "examples": [
         "Aprovecha que estás en Madrid y vete al Prado un martes por la mañana. — “Make the most of being in Madrid and go to the Prado on a Tuesday morning.”",
         "Aprovechando que estamos todos, hablemos del plan. — “Since we're all here, let's talk about the plan.”"
+      ],
+      "conversation": [
+        "Ana: Estoy dos días en Madrid nada más. — I am only in Madrid for two days.",
+        "Tú: Aprovecha y vete al Prado un martes por la mañana. Está vacío. — Make the most of it and go to the Prado on a Tuesday morning. It is empty."
       ],
       "note": "Unlike English “take advantage of,” this is warm and positive. ¡Que aproveche! is also what you say before someone eats.",
       "tier": 2
@@ -221,9 +365,18 @@
       "pos": "v.",
       "pron": "peh-DEER",
       "definition": "To ask for or order something — request, not question.",
+      "synonyms": [
+        "solicitar (to request)",
+        "ordenar (to order, LatAm)",
+        "to ask for"
+      ],
       "examples": [
         "Voy a pedir otra caña, ¿tú quieres algo? — “I'm going to order another beer, do you want anything?”",
         "Le pedí un favor y me dijo que sí. — “I asked him a favor and he said yes.”"
+      ],
+      "conversation": [
+        "Tú: Voy a pedir otra caña, ¿quieres algo? — I am going to order another beer, do you want anything?",
+        "Ana: Un vino tinto, gracias. — A red wine, thanks."
       ],
       "note": "The classic learner mistake is pedir versus preguntar. Pedir asks for a thing; preguntar asks a question. Ordering food is always pedir.",
       "tier": 1
@@ -234,9 +387,18 @@
       "pos": "v.",
       "pron": "sah-KAR",
       "definition": "To take out, get, or withdraw — an enormously flexible everyday verb.",
+      "synonyms": [
+        "obtener (to obtain)",
+        "retirar (to withdraw)",
+        "conseguir (to get)"
+      ],
       "examples": [
         "Tengo que sacar dinero antes de cenar. — “I need to take out cash before dinner.”",
         "¿Sacaste las entradas? — “Did you get the tickets?”"
+      ],
+      "conversation": [
+        "Ana: ¿Llevas efectivo? — Do you have cash?",
+        "Tú: No, tengo que sacar dinero antes de cenar. — No, I need to take some out before dinner."
       ],
       "note": "Also covers getting a grade, taking a photo, and putting a product out. When in doubt about a verb for “get,” sacar is often right in Spain.",
       "tier": 1
@@ -247,9 +409,18 @@
       "pos": "v.",
       "pron": "pee-YAR",
       "definition": "To catch, grab, or get — colloquial Spain, used for objects, buses, jokes, and people.",
+      "synonyms": [
+        "coger (to grab, Spain)",
+        "entender (to understand)",
+        "atrapar (to catch)"
+      ],
       "examples": [
         "No pillé el chiste. — “I didn't get the joke.”",
         "Pilla tú las cañas y yo pago la cena. — “You grab the beers and I'll get dinner.”"
+      ],
+      "conversation": [
+        "Ana: ...y por eso el camarero se rió. — ...and that is why the waiter laughed.",
+        "Tú: Perdona, no pillé el chiste. — Sorry, I did not get the joke."
       ],
       "note": "Very Spanish and very frequent. ¿Lo pillas? is the everyday way to ask “you follow?”",
       "tier": 2
@@ -260,9 +431,18 @@
       "pos": "v.",
       "pron": "en-teh-RAR-seh",
       "definition": "To find out about something, or to catch what was said.",
+      "synonyms": [
+        "saber (to find out)",
+        "darse cuenta (to notice)",
+        "oír bien (to catch)"
+      ],
       "examples": [
         "Me enteré ayer de que se mudan a Barcelona. — “I found out yesterday that they're moving to Barcelona.”",
         "Perdona, no me he enterado. — “Sorry, I didn't catch that.”"
+      ],
+      "conversation": [
+        "Ana: ¿Sabías que se van a Barcelona? — Did you know they are moving to Barcelona?",
+        "Tú: Me enteré ayer. Con este ruido casi no me entero de nada. — I found out yesterday. With this noise I barely catch anything."
       ],
       "note": "No me he enterado is the single most useful sentence for a learner in a loud bar — it's about missing what was said, not failing to understand the language.",
       "tier": 2
@@ -273,9 +453,18 @@
       "pos": "phrase",
       "pron": "DAR-seh KWEN-tah",
       "definition": "To realize — for something to dawn on you.",
+      "synonyms": [
+        "percatarse (to notice)",
+        "caer (to twig)",
+        "to realize"
+      ],
       "examples": [
         "No me di cuenta de que era tan tarde. — “I didn't realize it was so late.”",
         "Cuando te das cuenta, ya llevas cinco años aquí. — “Before you know it, you've been here five years.”"
+      ],
+      "conversation": [
+        "Ana: Son las dos de la mañana. — It is two in the morning.",
+        "Tú: No me había dado cuenta. Mañana madrugo, además. — I had not realised. And I am up early tomorrow."
       ],
       "note": "Always with de before a clause. Don't confuse with realizar, which means to carry out or accomplish, not to realize.",
       "tier": 2
@@ -286,9 +475,18 @@
       "pos": "phrase",
       "pron": "ah-SAIR KAH-soh",
       "definition": "To pay attention to someone, or to take their advice.",
+      "synonyms": [
+        "escuchar (to listen to)",
+        "prestar atención (pay attention)",
+        "obedecer (to heed)"
+      ],
       "examples": [
         "No le hagas caso, siempre exagera. — “Don't pay any attention to him, he always exaggerates.”",
         "Si me hubieras hecho caso, no estaríamos aquí. — “If you'd listened to me, we wouldn't be here.”"
+      ],
+      "conversation": [
+        "Ana: Dice que el sitio es carísimo. — He says the place is really expensive.",
+        "Tú: No le hagas caso, siempre exagera. — Do not pay attention to him, he always exaggerates."
       ],
       "note": "Takes an indirect object: hacer caso a alguien. It's about heeding, not merely hearing.",
       "tier": 2
@@ -299,9 +497,18 @@
       "pos": "phrase",
       "pron": "meh-reh-SAIR lah PEH-nah",
       "definition": "To be worth it.",
+      "synonyms": [
+        "valer la pena (to be worth it)",
+        "compensar (to make up for)",
+        "to be worth it"
+      ],
       "examples": [
         "Es caro, pero merece la pena. — “It's expensive, but it's worth it.”",
         "No merece la pena discutir por eso. — “It's not worth arguing about that.”"
+      ],
+      "conversation": [
+        "Ana: Son cuarenta euros por el menú. — It is forty euros for the set menu.",
+        "Tú: Es caro, pero merece la pena. Fui el año pasado. — It is expensive, but it is worth it. I went last year."
       ],
       "note": "Also heard as valer la pena, which is more common in Latin America. Both are correct in Spain.",
       "tier": 2
@@ -312,9 +519,18 @@
       "pos": "v.",
       "pron": "mah-droo-GAR",
       "definition": "To get up very early — one verb for the whole idea.",
+      "synonyms": [
+        "levantarse temprano (get up early)",
+        "to rise early",
+        "be up at dawn"
+      ],
       "examples": [
         "Mañana madrugo, así que me voy ya. — “I'm up early tomorrow, so I'm heading off.”",
         "Odio madrugar los lunes. — “I hate getting up early on Mondays.”"
+      ],
+      "conversation": [
+        "Ana: ¿Ya te vas? Si son las once. — You are leaving already? It is eleven.",
+        "Tú: Mañana madrugo, tengo una llamada a las siete. — I am up early tomorrow, I have a call at seven."
       ],
       "note": "English needs four words for this. It's also a socially recognized excuse to leave a dinner in Spain, where dinners start at 10pm.",
       "tier": 2
@@ -325,9 +541,18 @@
       "pos": "v.",
       "pron": "koo-RAR",
       "definition": "To work — colloquial Spain, roughly “to graft.”",
+      "synonyms": [
+        "trabajar (to work)",
+        "laburar (LatAm slang)",
+        "to graft"
+      ],
       "examples": [
         "Llevo currando desde las siete. — “I've been working since seven.”",
         "Mañana no curro, es festivo. — “I'm not working tomorrow, it's a holiday.”"
+      ],
+      "conversation": [
+        "Ana: ¿Te vienes a comer? — Coming for lunch?",
+        "Tú: No puedo, llevo currando desde las siete y voy fatal. — I cannot, I have been working since seven and I am behind."
       ],
       "note": "The noun el curro means the job itself. Informal but not rude — you'd say it to colleagues, not in a job interview.",
       "tier": 2
@@ -338,9 +563,18 @@
       "pos": "n.",
       "pron": "lah em-PREH-sah",
       "definition": "The company or firm.",
+      "synonyms": [
+        "compañía (company)",
+        "negocio (business)",
+        "firma (firm)"
+      ],
       "examples": [
         "Trabajo en una empresa de tecnología financiera. — “I work at a fintech company.”",
         "La empresa está creciendo muy rápido. — “The company is growing very fast.”"
+      ],
+      "conversation": [
+        "Ana: ¿Dónde trabajas ahora? — Where do you work now?",
+        "Tú: En una empresa de tecnología financiera, de crecimiento. — At a fintech company, on growth."
       ],
       "note": "Also the root of empresario (entrepreneur/businessperson) and emprender (to start a venture) — a useful family to learn together.",
       "tier": 1
@@ -351,9 +585,18 @@
       "pos": "n.",
       "pron": "el SWEL-doh",
       "definition": "Salary — the regular pay itself.",
+      "synonyms": [
+        "salario (salary)",
+        "nómina (payslip)",
+        "paga (pay)"
+      ],
       "examples": [
         "El sueldo no es alto, pero el trabajo me gusta. — “The salary isn't high, but I like the job.”",
         "Me han subido el sueldo este año. — “They raised my salary this year.”"
+      ],
+      "conversation": [
+        "Ana: ¿Y qué tal el sitio nuevo? — And how is the new place?",
+        "Tú: El sueldo no es alto, pero el trabajo me gusta mucho. — The salary is not high, but I really like the work."
       ],
       "note": "El salario is the more formal contractual term; el sueldo is what people actually say. La nómina is the payslip.",
       "tier": 1
@@ -364,9 +607,18 @@
       "pos": "v.",
       "pron": "gas-TAR",
       "definition": "To spend money, or to use something up.",
+      "synonyms": [
+        "pagar (to pay)",
+        "consumir (to use up)",
+        "to spend"
+      ],
       "examples": [
         "Gasto demasiado en cafés, lo sé. — “I spend too much on coffee, I know.”",
         "No quiero gastar más de cincuenta euros. — “I don't want to spend more than fifty euros.”"
+      ],
+      "conversation": [
+        "Ana: Otro café. — Another coffee.",
+        "Tú: Gasto demasiado en cafés, lo sé. — I spend too much on coffee, I know."
       ],
       "note": "Only for money and resources. Spending time is pasar tiempo — using gastar there is a common and very audible learner error.",
       "tier": 1
@@ -377,9 +629,18 @@
       "pos": "v.",
       "pron": "ah-oh-RAR",
       "definition": "To save money — and by extension, to save time or effort.",
+      "synonyms": [
+        "guardar dinero (put money aside)",
+        "economizar (economise)",
+        "to save"
+      ],
       "examples": [
         "Intento ahorrar un poco cada mes. — “I try to save a bit every month.”",
         "Eso nos ahorra dos horas de trabajo. — “That saves us two hours of work.”"
+      ],
+      "conversation": [
+        "Ana: ¿Cómo lo haces para viajar tanto? — How do you manage to travel so much?",
+        "Tú: Intento ahorrar un poco cada mes, sin pensarlo. — I try to save a little every month, without thinking about it."
       ],
       "note": "Los ahorros are savings. Different verb from guardar (to keep/store) and salvar (to rescue) — English “save” splits three ways in Spanish.",
       "tier": 1
@@ -390,9 +651,18 @@
       "pos": "v.",
       "pron": "in-ber-TEER",
       "definition": "To invest — money, time, or effort.",
+      "synonyms": [
+        "meter dinero (put money in)",
+        "colocar (to place funds)",
+        "to invest"
+      ],
       "examples": [
         "Empecé a invertir con veinte euros al mes. — “I started investing with twenty euros a month.”",
         "Hemos invertido mucho tiempo en esto. — “We've invested a lot of time in this.”"
+      ],
+      "conversation": [
+        "Ana: Invertir suena a cosa de ricos. — Investing sounds like a rich person thing.",
+        "Tú: Empecé con veinte euros al mes. En serio. — I started with twenty euros a month. Genuinely."
       ],
       "note": "Also means to reverse or invert something, which makes la inversión mean both “investment” and “inversion.” Context separates them cleanly.",
       "tier": 2
@@ -403,9 +673,18 @@
       "pos": "n.",
       "pron": "lah BOL-sah",
       "definition": "The stock market — and also, everyday, a bag.",
+      "synonyms": [
+        "mercado de valores (stock market)",
+        "la Bolsa de Madrid",
+        "bag (everyday sense)"
+      ],
       "examples": [
         "La bolsa cayó un tres por ciento ayer. — “The market fell three percent yesterday.”",
         "¿Quieres una bolsa? — “Do you want a bag?”"
+      ],
+      "conversation": [
+        "Ana: ¿Viste que la bolsa cayó ayer? — Did you see the market fell yesterday?",
+        "Tú: Un tres por ciento. No pasa nada, es normal. — Three percent. It is fine, that is normal."
       ],
       "note": "Same double meaning as English “exchange” having two lives. La Bolsa de Madrid is the actual exchange; una bolsa is what you carry groceries in.",
       "tier": 2
@@ -416,9 +695,18 @@
       "pos": "n.",
       "pron": "el ree-ES-goh",
       "definition": "Risk.",
+      "synonyms": [
+        "peligro (danger)",
+        "incertidumbre (uncertainty)",
+        "arriesgado (risky, adj)"
+      ],
       "examples": [
         "Es una inversión de bajo riesgo. — “It's a low-risk investment.”",
         "No quiero correr ese riesgo. — “I don't want to take that risk.”"
+      ],
+      "conversation": [
+        "Ana: ¿Es seguro esto? — Is this safe?",
+        "Tú: Es de bajo riesgo, pero riesgo cero no existe. — It is low risk, but zero risk does not exist."
       ],
       "note": "Note the collocation: you run a risk in Spanish (correr un riesgo), not take one. Arriesgado is the adjective for risky.",
       "tier": 2
@@ -429,9 +717,18 @@
       "pos": "n.",
       "pron": "lah DEH-oo-dah",
       "definition": "Debt.",
+      "synonyms": [
+        "préstamo (loan)",
+        "lo que debes (what you owe)",
+        "debt"
+      ],
       "examples": [
         "Quiero pagar la deuda de la tarjeta antes de invertir. — “I want to pay off the card debt before investing.”",
         "Está libre de deudas por primera vez. — “She's debt-free for the first time.”"
+      ],
+      "conversation": [
+        "Ana: ¿Invierto o pago la tarjeta primero? — Should I invest or pay off the card first?",
+        "Tú: La deuda de la tarjeta primero, siempre. — The card debt first, always."
       ],
       "note": "Deber is both “to owe” and “must,” which is a nice accidental logic. Estar en deuda con alguien means to be indebted to someone personally.",
       "tier": 2
@@ -442,9 +739,18 @@
       "pos": "adj.",
       "pron": "bah-RAH-toh",
       "definition": "Cheap, inexpensive.",
+      "synonyms": [
+        "económico (inexpensive)",
+        "asequible (affordable)",
+        "caro (expensive, opposite)"
+      ],
       "examples": [
         "El menú del día es barato y está buenísimo. — “The set lunch is cheap and it's excellent.”",
         "Lo barato sale caro. — “Cheap things end up expensive.”"
+      ],
+      "conversation": [
+        "Ana: ¿Comemos aquí? — Shall we eat here?",
+        "Tú: El menú del día es barato y está buenísimo. — The set lunch is cheap and it is excellent."
       ],
       "note": "That second line is a fixed proverb and gets used constantly. Its opposite is caro, and the menú del día really is the best value in Spain.",
       "tier": 1
@@ -455,9 +761,18 @@
       "pos": "n.",
       "pron": "lah KWEN-tah",
       "definition": "The bill, or a bank account — same word.",
+      "synonyms": [
+        "factura (bill)",
+        "cuenta bancaria (bank account)",
+        "the check"
+      ],
       "examples": [
         "La cuenta, por favor. — “The check, please.”",
         "Abrí una cuenta nueva el mes pasado. — “I opened a new account last month.”"
+      ],
+      "conversation": [
+        "Tú: Perdona, ¿nos traes la cuenta? — Excuse me, could you bring us the bill?",
+        "Camarero: Ahora mismo. — Right away."
       ],
       "note": "In Spain the bill never arrives until you ask; waiting politely can go on indefinitely. Also lives inside darse cuenta and tener en cuenta (to bear in mind).",
       "tier": 1
@@ -468,9 +783,18 @@
       "pos": "n.",
       "pron": "lah KAH-nyah",
       "definition": "A small draft beer — the standard Spanish pour, around 200ml.",
+      "synonyms": [
+        "cerveza (beer)",
+        "tercio (bottled beer)",
+        "small draft"
+      ],
       "examples": [
         "¿Nos tomamos una caña? — “Shall we grab a beer?”",
         "Dos cañas y una tapa de tortilla, por favor. — “Two beers and a portion of tortilla, please.”"
+      ],
+      "conversation": [
+        "Ana: ¿Nos tomamos una caña antes de ir? — Shall we have a beer before we go?",
+        "Tú: Va, pero una. Mañana madrugo. — Go on, but one. I am up early tomorrow."
       ],
       "note": "The small size is the point — you order several across an evening rather than nursing a pint. In Madrid a caña often arrives with a free tapa.",
       "tier": 1
@@ -481,9 +805,18 @@
       "pos": "n.",
       "pron": "el MOH-beel",
       "definition": "Mobile phone.",
+      "synonyms": [
+        "celular (LatAm)",
+        "teléfono (phone)",
+        "smartphone"
+      ],
       "examples": [
         "Me he dejado el móvil en casa. — “I left my phone at home.”",
         "Te escribo por el móvil luego. — “I'll message you later.”"
+      ],
+      "conversation": [
+        "Ana: Te he llamado tres veces. — I called you three times.",
+        "Tú: Me he dejado el móvil en casa, perdona. — I left my phone at home, sorry."
       ],
       "note": "Spain says móvil; Latin America says celular. A small word that immediately signals which Spanish you learned.",
       "tier": 1
@@ -494,9 +827,18 @@
       "pos": "n.",
       "pron": "el or-deh-nah-DOR",
       "definition": "Computer.",
+      "synonyms": [
+        "computadora (LatAm)",
+        "portátil (laptop)",
+        "PC"
+      ],
       "examples": [
         "Trabajo todo el día delante del ordenador. — “I work in front of the computer all day.”",
         "Se me ha estropeado el ordenador. — “My computer's broken.”"
+      ],
+      "conversation": [
+        "Ana: ¿Trabajas mucho desde casa? — Do you work from home a lot?",
+        "Tú: Todo el día delante del ordenador, sí. — All day in front of the computer, yes."
       ],
       "note": "From the French ordinateur. Latin America uses computadora — another instant regional marker.",
       "tier": 1
@@ -507,9 +849,18 @@
       "pos": "pron.",
       "pron": "bo-SOH-tros",
       "definition": "You (plural, informal) — used in Spain and essentially nowhere else.",
+      "synonyms": [
+        "ustedes (LatAm equivalent)",
+        "you all",
+        "you lot"
+      ],
       "examples": [
         "¿Vosotros venís esta noche? — “Are you all coming tonight?”",
         "Vosotros sabéis más de esto que yo. — “You lot know more about this than I do.”"
+      ],
+      "conversation": [
+        "Tú: ¿Vosotros venís esta noche? — Are you all coming tonight?",
+        "Ana: Nosotros sí, ellos no lo saben todavía. — We are, they do not know yet."
       ],
       "note": "Carries its own verb endings (-áis, -éis). Latin America uses ustedes for everything. Learning vosotros is the price of sounding like you actually lived in Madrid.",
       "tier": 3
@@ -520,9 +871,18 @@
       "pos": "phrase",
       "pron": "meh dah ee-GWAHL",
       "definition": "I don't mind / it's all the same to me.",
+      "synonyms": [
+        "me da lo mismo (same to me)",
+        "como quieras (as you like)",
+        "I don't mind"
+      ],
       "examples": [
         "—¿Italiano o japonés? —Me da igual, elige tú. — “Italian or Japanese?” “I don't mind, you pick.”",
         "Me da igual la hora, avísame y voy. — “Any time works, let me know and I'll come.”"
+      ],
+      "conversation": [
+        "Ana: ¿Italiano o japonés? — Italian or Japanese?",
+        "Tú: Me da igual, elige tú. — I do not mind, you choose."
       ],
       "note": "Tone decides everything: relaxed it means “either is fine,” flat it means “I couldn't care less.” Me da lo mismo is the exact equivalent.",
       "tier": 1

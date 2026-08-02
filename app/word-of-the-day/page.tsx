@@ -2,15 +2,25 @@
 
 import Link from 'next/link';
 import { useMemo } from 'react';
-import { DeckTag, Empty, SaveButton, SpeakButton, TierDots } from '@/components/Bits';
+import {
+  Conversation,
+  DeckTag,
+  Empty,
+  KnowButton,
+  SaveButton,
+  SpeakButton,
+  Synonyms,
+  TierDots,
+} from '@/components/Bits';
 import { CheckIcon, FlameIcon, PlusIcon } from '@/components/Icons';
 import { wordOfTheDay } from '@/lib/daily';
 import { formatLongDate } from '@/lib/dates';
 import { splitExample } from '@/lib/format';
-import { useStore } from '@/lib/store';
+import { useLearnableItems, useStore } from '@/lib/store';
 
 export default function WordOfTheDayPage() {
-  const { items, today, state, answerWotd, ready } = useStore();
+  const { today, state, answerWotd, ready } = useStore();
+  const items = useLearnableItems();
   const item = useMemo(() => wordOfTheDay(items, today), [items, today]);
   const response = state.wotd[today];
 
@@ -82,6 +92,12 @@ export default function WordOfTheDayPage() {
 
           <p className="text-[17px] leading-[1.55]">{entry.definition}</p>
 
+          {entry.synonyms?.length ? (
+            <div className="mt-4">
+              <Synonyms words={entry.synonyms} />
+            </div>
+          ) : null}
+
           <div className="mt-6 space-y-4">
             {entry.examples.map((example, i) => {
               const [source, gloss] = splitExample(example, item.lang);
@@ -103,6 +119,12 @@ export default function WordOfTheDayPage() {
             })}
           </div>
 
+          {entry.conversation?.length ? (
+            <div className="mt-5">
+              <Conversation lines={entry.conversation} lang={item.lang} />
+            </div>
+          ) : null}
+
           {entry.note ? (
             <div className="mt-6 border-t rule pt-4">
               <p className="kicker mb-1.5">Usage</p>
@@ -112,9 +134,10 @@ export default function WordOfTheDayPage() {
             </div>
           ) : null}
 
-          <div className="mt-6 flex items-center gap-3">
+          <div className="mt-6 flex items-center gap-2.5">
             <SpeakButton text={entry.word} lang={item.lang} />
             <SaveButton entryId={entry.id} />
+            <KnowButton entryId={entry.id} />
           </div>
         </section>
 
@@ -130,7 +153,7 @@ export default function WordOfTheDayPage() {
                 </p>
                 <p className="mt-0.5 text-[13px]" style={{ color: 'var(--muted)' }}>
                   {response === 'knew'
-                    ? 'It moves further out in the spaced-repetition schedule.'
+                    ? 'It moves further out in the schedule. Tap the check above to retire it from the feed entirely.'
                     : "You'll see it again tomorrow, then on the 3/7/14/30-day ladder."}
                 </p>
               </div>

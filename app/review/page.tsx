@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
-import { DeckTag, PageHeader, SpeakButton } from '@/components/Bits';
+import { DeckTag, PageHeader, SpeakButton, Synonyms } from '@/components/Bits';
 import { CheckIcon, CloseIcon } from '@/components/Icons';
 import { splitExample } from '@/lib/format';
 import { INTERVALS, dueCardIds, isGraduated, MAX_REVIEWS_PER_DAY } from '@/lib/srs';
@@ -162,6 +162,11 @@ export default function ReviewPage() {
           {revealed ? (
             <div className="mt-7 animate-riseIn">
               <p className="text-[17px] leading-[1.5]">{entry.definition}</p>
+              {entry.synonyms?.length ? (
+                <div className="mt-3">
+                  <Synonyms words={entry.synonyms} />
+                </div>
+              ) : null}
               {entry.examples[0] ? (
                 <figure className="mt-4 border-l-2 pl-4" style={{ borderColor: 'var(--rule)' }}>
                   <blockquote

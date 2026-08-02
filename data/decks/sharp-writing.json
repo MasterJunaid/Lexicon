@@ -13,10 +13,19 @@
       "pos": "v.",
       "pron": "kun-FLAYT",
       "definition": "To wrongly merge two distinct things into one, treating them as if they were the same.",
+      "synonyms": [
+        "mix up",
+        "lump together",
+        "treat as the same"
+      ],
       "examples": [
         "Most founders conflate virality with growth; one is an event, the other is a system.",
         "We keep conflating creator output with creator quality, and the roster decisions show it.",
         "The argument conflates being disliked with being right."
+      ],
+      "conversation": [
+        "Dan: The video went viral, so the growth strategy is working.",
+        "You: You are conflating two things. Virality is an event. Growth is a system that survives the event."
       ],
       "note": "Naming a conflation is one of the strongest openings for a LinkedIn post or memo: “X and Y get used interchangeably. They're not the same thing, and the difference costs money.”",
       "tier": 2
@@ -27,10 +36,19 @@
       "pos": "v.",
       "pron": "dih-STIL",
       "definition": "To reduce something to its essential core, boiling off everything that isn't load-bearing.",
+      "synonyms": [
+        "boil down",
+        "reduce to essentials",
+        "get to the core"
+      ],
       "examples": [
         "After 40 creators and 40M views, the playbook distills to one line: the comment section is the conversion surface.",
         "Six weeks of research distilled into a paragraph is worth more than the deck it came from.",
         "Distilling is subtraction — you don't summarize the thing, you find what it actually is."
+      ],
+      "conversation": [
+        "Jae: Can you get the memo down to something I can repeat?",
+        "You: Distilled, it is one line. The comment section is the conversion surface."
       ],
       "note": "The whole point of an insight one-liner. If you can't distill the memo to one sentence, you haven't finished thinking about it.",
       "tier": 1
@@ -41,10 +59,19 @@
       "pos": "v.",
       "pron": "un-der-KUT",
       "definition": "To quietly weaken something from below — usually your own argument, without meaning to.",
+      "synonyms": [
+        "weaken",
+        "take back",
+        "sabotage"
+      ],
       "examples": [
         "The hedge in the first paragraph undercuts the whole recommendation; either we're confident or we're not writing it.",
         "Apologizing for the length of a memo undercuts the memo.",
         "Every extra qualifier undercuts the sentence it's protecting."
+      ],
+      "conversation": [
+        "Maya: Why did the recommendation not land?",
+        "You: I undercut it. I said \"we should do this\" and then spent a paragraph explaining why I might be wrong."
       ],
       "note": "The most common self-inflicted wound in growth writing. Read your draft hunting for the sentence that takes back the one before it.",
       "tier": 1
@@ -55,10 +82,19 @@
       "pos": "v.",
       "pron": "HEJ",
       "definition": "To soften a claim so you can't be pinned to it.",
+      "synonyms": [
+        "soften",
+        "qualify",
+        "cover yourself"
+      ],
       "examples": [
         "I hedged three times in that paragraph, so Jae read it as “Jun doesn't know” instead of “Jun isn't certain.”",
         "Hedge on the magnitude, never on the recommendation.",
         "There's a difference between hedging and calibrating: one protects you, the other informs the reader."
+      ],
+      "conversation": [
+        "Jae: So do you want the budget or not?",
+        "You: Sorry, I hedged. Yes. Fifty thousand, and I will own the number."
       ],
       "note": "The fix isn't confidence theater. State the claim, then state your uncertainty once, explicitly — that's calibration, and it reads as strength.",
       "tier": 1
@@ -69,10 +105,19 @@
       "pos": "v.",
       "pron": "bih-LAY-ber",
       "definition": "To keep working a point long after the reader has taken it.",
+      "synonyms": [
+        "overdo",
+        "labour the point",
+        "flog it"
+      ],
       "examples": [
         "The memo makes its case by paragraph two and then belabors it for a page and a half.",
         "I won't belabor the CAC math — the chart says it faster than I can.",
         "Belaboring a point signals that you don't trust it, or don't trust the reader."
+      ],
+      "conversation": [
+        "You: I will not belabor the CAC maths, the chart says it faster than I can.",
+        "Jae: Appreciated. Last three decks did exactly that."
       ],
       "note": "Useful as a transition — “without belaboring it” — that lets you move on while showing you know the ground has been covered.",
       "tier": 2
@@ -83,10 +128,19 @@
       "pos": "v.",
       "pron": "TEL-uh-graf",
       "definition": "To reveal what's coming before it arrives, usually without intending to.",
+      "synonyms": [
+        "give away",
+        "signal early",
+        "show your hand"
+      ],
       "examples": [
         "The first line of a good observation post telegraphs nothing; the first line of a bad one telegraphs the whole conclusion.",
         "Our brief telegraphs the ad in the first two seconds, which is exactly why the drop-off is at 0:03.",
         "A headline that telegraphs the answer removes the reason to read the post."
+      ],
+      "conversation": [
+        "Maya: The drop-off is at three seconds. Why?",
+        "You: The script telegraphs the ad. They know what it is before they have a reason to care."
       ],
       "note": "Two-sided: telegraphing structure helps a memo, telegraphing the punchline kills a post. Know which document you're writing.",
       "tier": 2
@@ -97,10 +151,19 @@
       "pos": "v.",
       "pron": "GAL-vuh-nyze",
       "definition": "To shock a group into action — sudden collective movement, not slow persuasion.",
+      "synonyms": [
+        "spur into action",
+        "jolt",
+        "rally"
+      ],
       "examples": [
         "One screenshot of a churned user's review galvanized the team more than a quarter of retention dashboards.",
         "A number galvanizes nobody; a number attached to a person does.",
         "Fear galvanizes fast and wears off faster."
+      ],
+      "conversation": [
+        "Jae: The retention deck did not move anyone.",
+        "You: One screenshot of a churned user calling us confusing galvanized the team more than a quarter of dashboards."
       ],
       "note": "Implies suddenness. If the movement took a month of meetings, you persuaded them — you didn't galvanize them.",
       "tier": 2
@@ -111,10 +174,19 @@
       "pos": "v.",
       "pron": "en-TRENCH",
       "definition": "To dig something in so deeply it becomes difficult to remove or change.",
+      "synonyms": [
+        "dig in",
+        "cement",
+        "make permanent"
+      ],
       "examples": [
         "Every month we don't fix the brief template, the workaround gets more entrenched.",
         "Incumbents aren't beaten by better products, they're beaten before their advantages entrench.",
         "Habits entrench quietly; you notice them the first time you try to change one."
+      ],
+      "conversation": [
+        "Dan: Can the brief template wait another month?",
+        "You: Every month we wait, the workaround gets more entrenched. Then it is not a template problem, it is a culture problem."
       ],
       "note": "Sits between describing a position (entrenched incumbent) and a behavior (entrenched process). Both carry the sense of “costly to dislodge.”",
       "tier": 2
@@ -125,10 +197,19 @@
       "pos": "v.",
       "pron": "KAL-sih-fy",
       "definition": "To harden into a rigid form that was once flexible — to stop being able to change.",
+      "synonyms": [
+        "harden",
+        "go rigid",
+        "set solid"
+      ],
       "examples": [
         "Our creator playbook has calcified: it's still the doc from March, and March's algorithm is gone.",
         "Processes calcify the moment nobody remembers why they exist.",
         "The opinion calcified into an identity, and now it can't be argued with."
+      ],
+      "conversation": [
+        "Maya: We are still using the March playbook.",
+        "You: It has calcified. March had a different algorithm and we never updated the doc."
       ],
       "note": "Sharper and more physical than “become rigid.” Great for a LinkedIn post about a team or industry that stopped updating its beliefs.",
       "tier": 3
@@ -139,10 +220,19 @@
       "pos": "v.",
       "pron": "OB-vee-ayt",
       "definition": "To make something unnecessary by removing the need for it entirely.",
+      "synonyms": [
+        "remove the need for",
+        "make unnecessary",
+        "do away with"
+      ],
       "examples": [
         "A clearer brief obviates half the review cycle — we're not speeding the process up, we're deleting a step.",
         "Good positioning obviates most of the objection handling in a sales call.",
         "The best fix to a bottleneck obviates the work rather than accelerating it."
+      ],
+      "conversation": [
+        "Dan: Can we speed up the review cycle?",
+        "You: Better idea. A clearer brief obviates half of it. We are not speeding the step up, we are deleting it."
       ],
       "note": "Not “avoid” or “prevent” — obviate means the need itself disappears. That distinction is the whole reason to use the word.",
       "tier": 3
@@ -153,10 +243,19 @@
       "pos": "v.",
       "pron": "UN-der-ryte",
       "definition": "To support something by taking on its risk or supplying its foundation — to be what makes it possible.",
+      "synonyms": [
+        "prop up",
+        "stand behind",
+        "carry the risk of"
+      ],
       "examples": [
         "The creator program is underwritten by one assumption: that trust transfers from the creator to the app.",
         "Our whole Q4 forecast is underwritten by a channel we don't control.",
         "Ask what underwrites a strategy, and you usually find one belief nobody has tested."
+      ],
+      "conversation": [
+        "Jae: What is this whole forecast resting on?",
+        "You: One assumption underwrites it — that trust transfers from the creator to the app. If that is wrong, none of the rest holds."
       ],
       "note": "Borrowed from insurance and finance, and the borrowing is the point — it carries the sense of bearing risk, not merely supporting.",
       "tier": 3
@@ -167,10 +266,19 @@
       "pos": "v.",
       "pron": "ih-LYDE",
       "definition": "To skip over something, leaving out a step or a distinction as if it weren't there.",
+      "synonyms": [
+        "skip over",
+        "leave out",
+        "smooth past"
+      ],
       "examples": [
         "The case study elides the six months of failed formats and jumps straight to the video that worked.",
         "That framing elides the difference between users who churned and users who never activated.",
         "Every clean origin story elides the part where it nearly didn't happen."
+      ],
+      "conversation": [
+        "Maya: Their case study makes it look effortless.",
+        "You: It elides the six months of formats that failed. Every clean story does."
       ],
       "note": "More precise than “ignore” — eliding is smoothing over, often gracefully enough that nobody notices the gap. That's what makes it worth naming.",
       "tier": 3
@@ -181,10 +289,19 @@
       "pos": "v.",
       "pron": "ih-KWIV-uh-kayt",
       "definition": "To use deliberately vague language to avoid committing to a position.",
+      "synonyms": [
+        "waffle",
+        "be deliberately vague",
+        "dodge"
+      ],
       "examples": [
         "Don't equivocate in the recommendation section — Jae reads that part for a decision, not a survey.",
         "The update equivocated so thoroughly that three people left with three different conclusions.",
         "Equivocating buys you a week and costs you the room."
+      ],
+      "conversation": [
+        "Jae: Three people left that meeting with three different conclusions.",
+        "You: Because I equivocated. I will send one paragraph today saying exactly what I think."
       ],
       "note": "Stronger and more accusatory than “hedge.” Hedging can be honest calibration; equivocating is evasion.",
       "tier": 3
@@ -195,10 +312,20 @@
       "pos": "v.",
       "pron": "kun-SEED",
       "definition": "To grant that part of the opposing case is right, before making your own.",
+      "synonyms": [
+        "grant",
+        "admit",
+        "give ground on"
+      ],
       "examples": [
         "Concede the strongest counterargument in paragraph two and the rest of the memo gets read differently.",
         "I'll concede the creator program is expensive; the memo is about what it buys.",
         "An argument that concedes nothing reads as an argument that hasn't been stress-tested."
+      ],
+      "conversation": [
+        "You: I will concede the creator programme is expensive.",
+        "Jae: Go on.",
+        "You: The memo is about what that expense buys, and why the cheap version does not buy it."
       ],
       "note": "The most underrated persuasion move in memo writing. Conceding early makes the reader stop arguing in their head and start listening.",
       "tier": 1
@@ -209,10 +336,19 @@
       "pos": "v.",
       "pron": "ree-LIT-ih-gayt",
       "definition": "To reopen an argument that was already settled, forcing the group to decide it again.",
+      "synonyms": [
+        "reopen",
+        "rehash",
+        "go over again"
+      ],
       "examples": [
         "This memo isn't relitigating the pivot to creators — it's asking what we fund now that it worked.",
         "Half of our Monday meeting is relitigating decisions from three Mondays ago.",
         "Write the decision down or you will relitigate it forever."
+      ],
+      "conversation": [
+        "Dan: Should we revisit whether creators were the right bet?",
+        "You: I do not want to relitigate the pivot. It worked. The question is what we fund now."
       ],
       "note": "Naming it — “I don't want to relitigate this” — is how you close a loop without appearing to steamroll anyone.",
       "tier": 2
@@ -223,10 +359,19 @@
       "pos": "v.",
       "pron": "FOR-grownd",
       "definition": "To move something to the front so it's the first thing seen and can't be missed.",
+      "synonyms": [
+        "lead with",
+        "put up front",
+        "highlight"
+      ],
       "examples": [
         "Foreground the retention number; the view count is context, not the story.",
         "The post foregrounds the mistake and that's exactly why it worked.",
         "What a document foregrounds is an argument about what matters, whether or not you meant it that way."
+      ],
+      "conversation": [
+        "Jae: I read three paragraphs before I hit the point.",
+        "You: Noted. I will foreground the retention number and push the view count down to context."
       ],
       "note": "The verb pairs with “bury.” Every draft has one sentence that should be foregrounded and is currently sitting in paragraph four.",
       "tier": 2
@@ -237,10 +382,19 @@
       "pos": "v.",
       "pron": "uh-TEN-yoo-ayt",
       "definition": "To weaken something gradually — to reduce its force without removing it.",
+      "synonyms": [
+        "weaken gradually",
+        "fade",
+        "lose strength"
+      ],
       "examples": [
         "The signal attenuates the further you get from the creator: their audience converts, their audience's audience doesn't.",
         "Repetition attenuates a hook; the fifth time, the same line lands at half strength.",
         "Trust attenuates across every extra step between the recommendation and the purchase."
+      ],
+      "conversation": [
+        "Maya: Why does the second-degree audience convert so badly?",
+        "You: Trust attenuates with distance. Her audience buys. Her audience’s audience just watches."
       ],
       "note": "Precise where “weaken” is generic — attenuation is gradual and usually a function of distance, time, or repetition.",
       "tier": 3
@@ -251,10 +405,19 @@
       "pos": "v.",
       "pron": "TEM-per",
       "definition": "To moderate something strong with something that balances it.",
+      "synonyms": [
+        "moderate",
+        "balance",
+        "take the edge off"
+      ],
       "examples": [
         "Temper the forecast with the fact that November had two platform outages.",
         "The post is better when the confidence is tempered by one real thing you got wrong.",
         "Temper ambition with a payback number and it becomes a plan."
+      ],
+      "conversation": [
+        "Jae: This forecast feels hot.",
+        "You: Let me temper it. November had two platform outages, so the base month is flattering us."
       ],
       "note": "Not the same as hedging: hedging removes commitment, tempering adds context. The claim survives.",
       "tier": 2
@@ -265,10 +428,19 @@
       "pos": "v.",
       "pron": "KWOL-ih-fy",
       "definition": "To narrow a claim so it's true of the specific case rather than everything.",
+      "synonyms": [
+        "narrow",
+        "add conditions to",
+        "be specific about"
+      ],
       "examples": [
         "Qualify it: creator-led acquisition works for us in finance content, at this budget, on this platform.",
         "An unqualified claim invites the one counterexample that sinks the memo.",
         "Qualifying a statement makes it smaller and much harder to dismiss."
+      ],
+      "conversation": [
+        "Dan: So creator-led acquisition just works?",
+        "You: Qualify it. It works for us, in finance content, at this budget, on this platform."
       ],
       "note": "Where hedging weakens, qualifying sharpens — you're trading breadth for defensibility, which is usually a good trade in writing.",
       "tier": 2
@@ -279,10 +451,19 @@
       "pos": "v.",
       "pron": "GLOSS",
       "definition": "To pass over a difficulty quickly, making it look smaller than it is (usually as “gloss over”).",
+      "synonyms": [
+        "skate over",
+        "brush past",
+        "downplay"
+      ],
       "examples": [
         "The deck glosses over the fact that the two best months were driven by one creator who has since gone exclusive elsewhere.",
         "I glossed the methodology and got three questions about it in the first five minutes — deserved.",
         "Every glossed-over detail is a question saved up for the worst possible moment."
+      ],
+      "conversation": [
+        "Jae: Where did the two best months come from?",
+        "You: One creator, and the deck glossed over the fact that she has since signed exclusively elsewhere."
       ],
       "note": "As a noun, a gloss is a brief explanation of a term. As a verb with “over,” it means the opposite — skating past. Context does the work.",
       "tier": 2
@@ -293,10 +474,19 @@
       "pos": "v.",
       "pron": "VIN-dih-kayt",
       "definition": "To prove right something that was doubted.",
+      "synonyms": [
+        "prove right",
+        "justify",
+        "bear out"
+      ],
       "examples": [
         "Two quarters of retention data vindicated the decision to pay creators on a retainer instead of per view.",
         "Being vindicated is pleasant and almost never instructive — the interesting write-up is about the call that didn't land.",
         "Results vindicate the bet, not the reasoning; those can come apart."
+      ],
+      "conversation": [
+        "Maya: Retainers over per-view. You were right.",
+        "You: Two quarters of data vindicated it. Though honestly, the interesting write-up is the call that did not land."
       ],
       "note": "Worth resisting in a memo. Writing that a decision was vindicated invites the reader to relitigate whether it was.",
       "tier": 2
@@ -307,10 +497,19 @@
       "pos": "adj.",
       "pron": "FAS-ul",
       "definition": "Too easy to be true — arrived at without the difficulty the subject actually contains.",
+      "synonyms": [
+        "glib",
+        "too easy",
+        "superficial"
+      ],
       "examples": [
         "“Just make good content” is a facile answer to a distribution problem.",
         "The facile version of the creator thesis is that authenticity wins; the real version is that a specific kind of specificity wins.",
         "A facile explanation is worse than no explanation, because it stops the search."
+      ],
+      "conversation": [
+        "Dan: The fix is just to make better content.",
+        "You: That is facile. It is a distribution problem wearing a content costume."
       ],
       "note": "Not a synonym for “easy” — the criticism is that the ease came from skipping the hard part. Use it on ideas, not on people.",
       "tier": 3
@@ -321,10 +520,19 @@
       "pos": "adj.",
       "pron": "TEN-yoo-us",
       "definition": "Thin and weakly supported — holding, but barely.",
+      "synonyms": [
+        "flimsy",
+        "thin",
+        "weakly supported"
+      ],
       "examples": [
         "The link between posting cadence and conversion is tenuous at best; I wouldn't build a quarter on it.",
         "Our claim on that audience is tenuous — one algorithm change and it's gone.",
         "A tenuous connection stated confidently is how bad strategy gets funded."
+      ],
+      "conversation": [
+        "Jae: Should we build the quarter on the posting-cadence finding?",
+        "You: The link is tenuous at best. I would not put a hiring plan behind it."
       ],
       "note": "The right word when something isn't false, just under-supported. Softer than “wrong,” much more useful than “interesting.”",
       "tier": 2
@@ -335,10 +543,19 @@
       "pos": "adj.",
       "pron": "SAY-lee-unt",
       "definition": "Standing out as the most noticeable or relevant thing in view.",
+      "synonyms": [
+        "most relevant",
+        "standout",
+        "the thing that matters"
+      ],
       "examples": [
         "The salient fact for this memo: 70% of new users now arrive already knowing a creator's name.",
         "Everything in the dashboard is true; only two numbers are salient.",
         "Making one thing salient means making everything else quieter."
+      ],
+      "conversation": [
+        "Jae: Give me the one fact.",
+        "You: The salient one is that seventy percent of new users already know a creator’s name when they land."
       ],
       "note": "Salience is what a writer controls. Editing is mostly deciding what gets to be salient and demoting the rest.",
       "tier": 2
@@ -349,10 +566,19 @@
       "pos": "adj.",
       "pron": "puh-REN-ee-ul",
       "definition": "Recurring year after year — a problem or theme that never fully goes away.",
+      "synonyms": [
+        "recurring",
+        "never-ending",
+        "every year"
+      ],
       "examples": [
         "Creator burnout is a perennial problem in this program, not a Q3 problem, and I'd rather design for it than be surprised by it.",
         "The perennial question in every growth review is whether the spike was us.",
         "Perennial complaints deserve systems; one-off complaints deserve replies."
+      ],
+      "conversation": [
+        "Maya: Two creators burned out again.",
+        "You: It is perennial, not a Q3 thing. Perennial problems get systems, not fire drills."
       ],
       "note": "Signals that you've seen the cycle before. Perennial problems get processes, not fire drills — that framing alone is often the memo's point.",
       "tier": 2
@@ -363,10 +589,19 @@
       "pos": "adj.",
       "pron": "in-SY-siv",
       "definition": "Cutting directly to the heart of a thing — sharply and economically clear.",
+      "synonyms": [
+        "sharp",
+        "penetrating",
+        "cuts to it"
+      ],
       "examples": [
         "Jae's one incisive question in the review — “what's the counterfactual?” — did more than my six slides.",
         "The most incisive line in The Mom Test is that people lie to be nice, so ask about their past instead of their intentions.",
         "Incisive writing feels effortless and takes the longest."
+      ],
+      "conversation": [
+        "Dan: How did the review go?",
+        "You: Jae asked one incisive question — what is the counterfactual — and it did more than my six slides."
       ],
       "note": "Reserve it for the thing that cuts, not the thing that's merely smart. Its currency comes from being rare.",
       "tier": 3
@@ -377,10 +612,19 @@
       "pos": "adj.",
       "pron": "THRED-bair",
       "definition": "Worn thin from overuse until nothing is left of the original force.",
+      "synonyms": [
+        "worn out",
+        "overused",
+        "tired"
+      ],
       "examples": [
         "“Authenticity” is threadbare as a creator brief — every brand says it and no creator can act on it.",
         "The growth-hacking canon is threadbare; the tactics are ten years old and the platforms aren't.",
         "A threadbare metaphor is worse than a plain sentence."
+      ],
+      "conversation": [
+        "Creator: The brief just says be authentic.",
+        "You: That is fair, it is threadbare. Let me rewrite it with something you can actually act on."
       ],
       "note": "Lovely for LinkedIn precisely because it's concrete — the image of a coat worn through does the argument for you.",
       "tier": 3
@@ -391,10 +635,19 @@
       "pos": "adj.",
       "pron": "GLIB",
       "definition": "Smooth and quick in a way that suggests the speaker hasn't done the thinking.",
+      "synonyms": [
+        "slick",
+        "too smooth",
+        "shallow"
+      ],
       "examples": [
         "My first draft's answer to churn was glib: “make the product better.” That's not a plan, it's a mood.",
         "Glib confidence sells in a pitch and collapses in a working session.",
         "There's a glib version of every good idea, and it usually goes viral first."
+      ],
+      "conversation": [
+        "Maya: What is the answer to churn?",
+        "You: My first draft said make the product better, which is glib. That is a mood, not a plan."
       ],
       "note": "About manner as much as content — glib means the delivery outran the thought. A useful self-check on your own one-liners.",
       "tier": 2
@@ -405,10 +658,19 @@
       "pos": "adj.",
       "pron": "BRIT-ul",
       "definition": "Strong until it isn't — holding well under normal conditions and shattering rather than bending under stress.",
+      "synonyms": [
+        "fragile",
+        "liable to snap",
+        "not resilient"
+      ],
       "examples": [
         "A creator strategy that depends on one platform's algorithm is brittle, however well it's performing this month.",
         "The process works, but it's brittle: it assumes I'm the one reviewing every script.",
         "Brittle systems look robust right up to the moment they don't."
+      ],
+      "conversation": [
+        "Jae: The process is working, though.",
+        "You: It is brittle. It works because I review every script. It breaks the week I am on a plane."
       ],
       "note": "The precise opposite of “resilient,” and much more evocative than “risky.” Brittleness is about failure mode, not failure probability.",
       "tier": 2
@@ -419,10 +681,19 @@
       "pos": "adj.",
       "pron": "rih-DUK-tiv",
       "definition": "Simplifying so far that the important part gets lost.",
+      "synonyms": [
+        "oversimplified",
+        "flattening",
+        "losing the point"
+      ],
       "examples": [
         "Calling it a “TikTok strategy” is reductive — the videos are the visible 10% of an operation that's mostly casting and scripting.",
         "The reductive read of our growth is luck; the accurate read is 40 shots on goal a week.",
         "There's a line between distilled and reductive, and it's whether the claim still survives contact with the details."
+      ],
+      "conversation": [
+        "Dan: So it is a TikTok strategy.",
+        "You: That is reductive. The videos are the visible ten percent. The rest is casting and scripting."
       ],
       "note": "The natural counterweight to distill. Distilling keeps what's load-bearing; being reductive throws it out with everything else.",
       "tier": 2
@@ -433,10 +704,19 @@
       "pos": "adj.",
       "pron": "SWEE-ping",
       "definition": "Broad to the point of ignoring exceptions — covering far more ground than the evidence does.",
+      "synonyms": [
+        "too broad",
+        "blanket",
+        "over-general"
+      ],
       "examples": [
         "I made a sweeping claim about Gen Z attention spans off a sample of four videos, and it deserved the pushback it got.",
         "Sweeping statements travel well on LinkedIn and age badly in a memo.",
         "The sweeping version gets shared; the qualified version gets used."
+      ],
+      "conversation": [
+        "Maya: You said Gen Z has no attention span.",
+        "You: Sweeping claim off four videos. It deserved the pushback it got."
       ],
       "note": "Useful as self-criticism in a draft review. Ask of each big sentence: is this sweeping, or is it just confident?",
       "tier": 1
@@ -447,10 +727,19 @@
       "pos": "adj.",
       "pron": "LOHD-bair-ing",
       "definition": "Holding the weight of the whole argument — remove it and the structure falls.",
+      "synonyms": [
+        "structural",
+        "holds the weight",
+        "critical"
+      ],
       "examples": [
         "The load-bearing assumption in this forecast is that creator CPMs stay flat; everything else is detail.",
         "In that sentence, “sustainably” is doing all the load-bearing work and it isn't defined anywhere.",
         "Find the load-bearing claim, test that one, and skip the rest."
+      ],
+      "conversation": [
+        "Jae: What should I actually test in this plan?",
+        "You: The load-bearing assumption is flat creator CPMs. Everything else is detail."
       ],
       "note": "Borrowed from architecture and now standard in good tech writing. Fastest way to focus a review on the thing that actually matters.",
       "tier": 2
@@ -461,10 +750,19 @@
       "pos": "adj.",
       "pron": "oh-BLEEK",
       "definition": "Approaching indirectly, at an angle rather than head-on.",
+      "synonyms": [
+        "indirect",
+        "at an angle",
+        "roundabout"
+      ],
       "examples": [
         "The best-performing script takes an oblique route to the product: 50 seconds about a breakup, 8 seconds about saving.",
         "An oblique opening earns attention that a direct one demands.",
         "Feedback delivered obliquely usually arrives as no feedback at all."
+      ],
+      "conversation": [
+        "Creator: Fifty seconds about a breakup, then eight about saving?",
+        "You: Exactly. The oblique route earns the attention that the direct one demands."
       ],
       "note": "Two-edged: oblique is a virtue in a hook and a vice in a recommendation. Never be oblique in the section where a decision gets made.",
       "tier": 3
@@ -475,10 +773,19 @@
       "pos": "adj.",
       "pron": "KAN-did",
       "definition": "Honest in a way that costs the speaker something.",
+      "synonyms": [
+        "frank",
+        "honest",
+        "straight"
+      ],
       "examples": [
         "The candid version of this update is that we hit the number and I still don't know which channel did it.",
         "Candid writing beats polished writing in a founder update every single time.",
         "Candor isn't bluntness — it's saying the thing you'd rather leave out."
+      ],
+      "conversation": [
+        "Jae: How is the quarter really going?",
+        "You: Candidly, we hit the number and I still cannot tell you which channel did it."
       ],
       "note": "The move that builds trust with a CEO fastest. One candid sentence per memo, placed early, buys the benefit of the doubt on everything after it.",
       "tier": 1
@@ -489,10 +796,19 @@
       "pos": "adj.",
       "pron": "uh-KYOOT",
       "definition": "Sharp and intense — either a perception that's unusually precise or a problem that's unusually urgent.",
+      "synonyms": [
+        "urgent",
+        "sharp",
+        "pressing"
+      ],
       "examples": [
         "The scripting bottleneck is acute right now: three creators are blocked today, not eventually.",
         "She has an acute sense of which comment threads are about to turn.",
         "Acute problems get attention; chronic ones get memos."
+      ],
+      "conversation": [
+        "Dan: How bad is the scripting backlog?",
+        "You: Acute, not chronic. Three creators are blocked today, not eventually."
       ],
       "note": "Pairs with chronic. Labeling a problem acute or chronic tells the reader what kind of response you're asking for.",
       "tier": 2
@@ -503,10 +819,19 @@
       "pos": "n.",
       "pron": "PLAT-ih-tood",
       "definition": "A statement so obviously true and so often repeated that it carries no information.",
+      "synonyms": [
+        "empty phrase",
+        "cliché",
+        "filler wisdom"
+      ],
       "examples": [
         "“Know your audience” is a platitude until you name which 5,000 people you mean and what they already believe.",
         "The strategy doc was four pages of platitudes and one real decision buried on page three.",
         "Platitudes survive because nobody can disagree with them."
+      ],
+      "conversation": [
+        "Maya: The strategy doc says know your audience.",
+        "You: That is a platitude until it names which five thousand people and what they already believe."
       ],
       "note": "Test for one: could the opposite ever be stated seriously? If not, it's a platitude and it's taking up space.",
       "tier": 2
@@ -517,10 +842,19 @@
       "pos": "n.",
       "pron": "TROO-iz-um",
       "definition": "Something true by definition, and therefore not worth saying on its own.",
+      "synonyms": [
+        "obvious statement",
+        "stating the obvious",
+        "self-evident line"
+      ],
       "examples": [
         "“Retention drives growth” is a truism; the memo has to say which retention, at what week, for which cohort.",
         "Open a post with a truism and you've spent the reader's attention before earning it.",
         "A truism becomes useful the moment you attach a number to it."
+      ],
+      "conversation": [
+        "Dan: Retention drives growth.",
+        "You: True, and a truism. Which retention, at what week, for which cohort?"
       ],
       "note": "Near-neighbor of platitude, with a subtle difference: a truism is trivially true, a platitude is tediously repeated. Both signal a draft that isn't done.",
       "tier": 2
@@ -531,10 +865,20 @@
       "pos": "n.",
       "pron": "KOR-uh-lair-ee",
       "definition": "Something that follows automatically once the main point is accepted.",
+      "synonyms": [
+        "follow-on",
+        "what follows",
+        "the flip side"
+      ],
       "examples": [
         "If the comment section is the conversion surface, the corollary is that reply speed is a growth metric, not a support metric.",
         "The corollary nobody likes: if creators own the relationship, they can take it with them.",
         "State the corollary explicitly — readers rarely draw the conclusion you assume is obvious."
+      ],
+      "conversation": [
+        "You: If the comment section is the conversion surface, the corollary is that reply speed is a growth metric.",
+        "Jae: Which means it is not a support problem any more.",
+        "You: Right. That is the ask."
       ],
       "note": "Structurally the best second beat in an insight one-liner: claim, then corollary. It shows the thinking continued past the clever part.",
       "tier": 3
@@ -545,10 +889,19 @@
       "pos": "n.",
       "pron": "KAV-ee-aht",
       "definition": "A specific warning attached to a claim, marking where it stops being reliable.",
+      "synonyms": [
+        "warning",
+        "proviso",
+        "condition"
+      ],
       "examples": [
         "One caveat on the retention read: it excludes users from the November promo, who behave nothing like the rest.",
         "A caveat at the top is honest; six caveats at the top is a memo that doesn't want to be responsible for itself.",
         "Put the caveat next to the number it limits, not in a footnote nobody reaches."
+      ],
+      "conversation": [
+        "Jae: Retention is up four points?",
+        "You: One caveat — that excludes the November promo cohort, who behave nothing like the rest."
       ],
       "note": "Different from a hedge: a caveat is bounded and specific, a hedge is diffuse. Caveats increase trust, hedges spend it.",
       "tier": 1
@@ -559,10 +912,19 @@
       "pos": "n.",
       "pron": "PREM-iss",
       "definition": "The starting assumption an argument is built on — accepted rather than proved.",
+      "synonyms": [
+        "starting assumption",
+        "basis",
+        "what it rests on"
+      ],
       "examples": [
         "The premise of the whole creator program is that attention rented from a creator converts better than attention bought at auction.",
         "Argue with the premise, not the conclusion; the conclusion is downstream.",
         "Most disagreements that feel like conflicts about tactics are actually conflicts about a premise nobody stated."
+      ],
+      "conversation": [
+        "Dan: We keep going round on this.",
+        "You: Because we are arguing about tactics. The disagreement is about the premise — whether rented attention converts better than bought."
       ],
       "note": "The most productive question in any strategy meeting: “what's the premise here?” It moves the room from arguing to locating the disagreement.",
       "tier": 1
@@ -573,10 +935,19 @@
       "pos": "n.",
       "pron": "THROO-lyne",
       "definition": "The single continuous idea that connects everything in a piece from start to finish.",
+      "synonyms": [
+        "connecting thread",
+        "spine",
+        "unifying idea"
+      ],
       "examples": [
         "The throughline of the deep memo is trust transfer; if a section doesn't touch it, it goes in the appendix.",
         "Three good sections without a throughline is a newsletter, not an argument.",
         "Find the throughline in the edit and half the cuts make themselves."
+      ],
+      "conversation": [
+        "Maya: The memo reads like three good sections.",
+        "You: No throughline. It is trust transfer. Anything that does not touch that goes in the appendix."
       ],
       "note": "Borrowed from theater. Write it as one sentence at the top of the doc before drafting, and delete it before publishing.",
       "tier": 2

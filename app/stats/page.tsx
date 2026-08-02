@@ -24,14 +24,14 @@ export default function StatsPage() {
     () =>
       decks.map((deck) => {
         const total = deck.entries.length;
-        const seen = deck.entries.filter((e) => state.seen[e.id]).length;
+        const seen = deck.entries.filter((e) => state.seen[e.id] || state.known[e.id]).length;
         const mastered = deck.entries.filter((e) => {
           const card = state.srs[e.id];
-          return card && isGraduated(card);
+          return (card && isGraduated(card)) || state.known[e.id];
         }).length;
         return { deck, total, seen, mastered };
       }),
-    [decks, state.seen, state.srs]
+    [decks, state.seen, state.srs, state.known]
   );
 
   const last14 = useMemo(() => {
@@ -48,7 +48,8 @@ export default function StatsPage() {
 
   const peak = Math.max(1, ...last14.map((d) => d.total));
   const totalSeen = Object.keys(state.seen).length;
-  const mastered = masteredCount(state.srs);
+  const knownCount = Object.keys(state.known).length;
+  const mastered = masteredCount(state.srs) + knownCount;
   const inQueue = Object.values(state.srs).filter((c) => !isGraduated(c)).length;
 
   return (
@@ -78,7 +79,11 @@ export default function StatsPage() {
           />
           <Stat label="Longest streak" value={state.longestStreak} suffix="days" />
           <Stat label="Words seen" value={totalSeen} />
-          <Stat label="Mastered" value={mastered} suffix="graduated" />
+          <Stat
+            label="Mastered"
+            value={mastered}
+            suffix={knownCount ? `${knownCount} marked known` : 'graduated'}
+          />
         </div>
 
         <section className="card-surface rounded-card p-5">

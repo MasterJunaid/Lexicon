@@ -2,8 +2,17 @@
 
 import { useEffect, useState } from 'react';
 import { splitExample } from '@/lib/format';
+import { useStore } from '@/lib/store';
 import type { FeedItem } from '@/lib/types';
-import { DeckTag, SaveButton, SpeakButton, TierDots } from './Bits';
+import {
+  Conversation,
+  DeckTag,
+  KnowButton,
+  SaveButton,
+  SpeakButton,
+  Synonyms,
+  TierDots,
+} from './Bits';
 import { ChevronDown } from './Icons';
 
 function displaySize(word: string): string {
@@ -25,7 +34,9 @@ export default function WordCard({
   index: number;
 }) {
   const [expanded, setExpanded] = useState(false);
+  const { isKnown } = useStore();
   const { entry } = item;
+  const known = isKnown(entry.id);
 
   useEffect(() => {
     if (!active) setExpanded(false);
@@ -47,8 +58,15 @@ export default function WordCard({
         </div>
       </div>
 
-      <div className="flex min-h-0 flex-1 flex-col justify-center py-4">
-        <div key={entry.id} className={active ? 'animate-riseIn' : ''}>
+      <div
+        className={`flex min-h-0 flex-1 flex-col py-4 ${expanded ? 'justify-start' : 'justify-center'}`}
+      >
+        <div
+          key={entry.id}
+          className={`flex min-h-0 flex-col ${expanded ? 'flex-1' : ''} ${
+            active ? 'animate-riseIn' : ''
+          }`}
+        >
           <h2
             className="display text-balance"
             style={{ fontSize: displaySize(entry.word), lineHeight: 0.94 }}
@@ -78,16 +96,25 @@ export default function WordCard({
             {entry.definition}
           </p>
 
-          <div
-            className="overflow-hidden transition-all duration-500"
-            style={{
-              maxHeight: expanded ? '52vh' : '0px',
-              opacity: expanded ? 1 : 0,
-              transitionTimingFunction: 'var(--ease-editorial)',
-            }}
-            aria-hidden={!expanded}
-          >
-            <div className="no-scrollbar mt-6 max-h-[50vh] space-y-4 overflow-y-auto pr-1">
+          {entry.synonyms?.length ? (
+            <div className="mt-4">
+              <Synonyms words={entry.synonyms} />
+            </div>
+          ) : null}
+
+          {expanded ? (
+            <div
+              className="no-scrollbar mt-6 min-h-0 flex-1 space-y-4 overflow-y-auto pb-2 pr-1 animate-fadeIn"
+              style={{
+                overscrollBehavior: 'contain',
+                // Softens the cut where the panel meets the action row, and
+                // hints that there's more to scroll.
+                WebkitMaskImage:
+                  'linear-gradient(to bottom, #000 calc(100% - 28px), transparent 100%)',
+                maskImage: 'linear-gradient(to bottom, #000 calc(100% - 28px), transparent 100%)',
+              }}
+              onClick={(event) => event.stopPropagation()}
+            >
               {entry.examples.map((example, i) => {
                 const [source, gloss] = splitExample(example, item.lang);
                 return (
@@ -115,6 +142,8 @@ export default function WordCard({
                 );
               })}
 
+              <Conversation lines={entry.conversation} lang={item.lang} />
+
               {entry.note ? (
                 <div
                   className="rounded-2xl px-4 py-3"
@@ -127,14 +156,25 @@ export default function WordCard({
                 </div>
               ) : null}
             </div>
-          </div>
+          ) : null}
         </div>
       </div>
 
+      {known ? (
+        <p
+          className="shrink-0 pb-2.5 text-[12.5px] animate-fadeIn"
+          style={{ color: 'var(--accent-2)' }}
+          role="status"
+        >
+          Known — dropping out of the feed. Tap the check to undo.
+        </p>
+      ) : null}
+
       <div className="flex shrink-0 items-center justify-between pb-2">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2.5">
           <SpeakButton text={entry.word} lang={item.lang} />
           <SaveButton entryId={entry.id} />
+          <KnowButton entryId={entry.id} />
         </div>
 
         <button

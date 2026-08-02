@@ -20,10 +20,12 @@ export default function SettingsPage() {
     setSpeechRate,
     importJSON,
     resetAll,
+    clearKnown,
   } = useStore();
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState<string | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
+  const knownCount = Object.keys(state.known).length;
 
   if (!ready) return <main className="min-h-[100dvh]" />;
 
@@ -144,6 +146,28 @@ export default function SettingsPage() {
               );
             })}
           </ul>
+        </section>
+
+        <section className="card-surface rounded-card p-5">
+          <p className="kicker mb-1">Known words</p>
+          <p className="mb-4 text-[13px] leading-snug" style={{ color: 'var(--muted)' }}>
+            {knownCount
+              ? `${knownCount} word${knownCount === 1 ? '' : 's'} marked "I know this" and held out of the feed, the daily word, and practice.`
+              : 'Nothing marked known yet. Tap the check on any card to retire a word you already use.'}
+          </p>
+          <button
+            type="button"
+            className="btn btn-ghost w-full py-3.5"
+            disabled={!knownCount}
+            style={{ opacity: knownCount ? 1 : 0.45 }}
+            onClick={() => {
+              clearKnown();
+              setMessage('Known words are back in rotation.');
+              window.setTimeout(() => setMessage(null), 2400);
+            }}
+          >
+            Put them all back
+          </button>
         </section>
 
         <section className="card-surface rounded-card p-5">

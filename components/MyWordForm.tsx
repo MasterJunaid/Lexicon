@@ -9,8 +9,10 @@ const EMPTY = {
   pos: 'n.',
   pron: '',
   definition: '',
+  synonyms: '',
   example1: '',
   example2: '',
+  conversation: '',
   note: '',
   tier: 2 as Tier,
 };
@@ -33,7 +35,15 @@ export default function MyWordForm({ onAdded }: { onAdded?: () => void }) {
       pos: form.pos,
       pron: form.pron.trim() || form.word.trim().toLowerCase(),
       definition: form.definition.trim(),
+      synonyms: form.synonyms
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean),
       examples: [form.example1.trim(), form.example2.trim()].filter(Boolean),
+      conversation: form.conversation
+        .split('\n')
+        .map((line) => line.trim())
+        .filter(Boolean),
       note: form.note.trim(),
       tier: form.tier,
     });
@@ -92,6 +102,14 @@ export default function MyWordForm({ onAdded }: { onAdded?: () => void }) {
           aria-label="Definition"
         />
 
+        <input
+          className="field"
+          placeholder="Synonyms, comma separated (optional)"
+          value={form.synonyms}
+          onChange={(e) => set('synonyms', e.target.value)}
+          aria-label="Synonyms"
+        />
+
         <textarea
           className="field min-h-[68px] resize-y"
           placeholder="Example sentence — one you'd actually write"
@@ -106,6 +124,14 @@ export default function MyWordForm({ onAdded }: { onAdded?: () => void }) {
           value={form.example2}
           onChange={(e) => set('example2', e.target.value)}
           aria-label="Second example"
+        />
+
+        <textarea
+          className="field min-h-[68px] resize-y"
+          placeholder={'Conversation, one turn per line (optional)\nJae: …\nYou: …'}
+          value={form.conversation}
+          onChange={(e) => set('conversation', e.target.value)}
+          aria-label="Conversation"
         />
 
         <input

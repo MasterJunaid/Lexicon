@@ -9,6 +9,10 @@ export interface Entry {
   examples: string[];
   note: string;
   tier: Tier;
+  /** Near-equivalents, for getting the sense fast. Not exact swaps. */
+  synonyms?: string[];
+  /** A spoken exchange, each line written as "Speaker: what they say". */
+  conversation?: string[];
   /** Optional hand-written cloze sentence using ___ for the blank. */
   cloze?: string;
 }
@@ -44,6 +48,8 @@ export interface MyWord {
   examples: string[];
   note: string;
   tier: Tier;
+  synonyms?: string[];
+  conversation?: string[];
   createdAt: number;
 }
 
@@ -81,7 +87,7 @@ export interface DayLog {
   reviews: number;
 }
 
-export const STATE_VERSION = 1;
+export const STATE_VERSION = 2;
 
 export interface LexiconState {
   version: number;
@@ -98,6 +104,8 @@ export interface LexiconState {
   srs: Record<string, SrsCard>;
   /** entryId -> last seen timestamp */
   seen: Record<string, number>;
+  /** entryId -> when it was dismissed as already known. Kept out of the feed. */
+  known: Record<string, number>;
   /** ISO date -> word-of-the-day response */
   wotd: Record<string, 'knew' | 'new'>;
   days: Record<string, DayLog>;

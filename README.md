@@ -4,8 +4,10 @@ A personal vocabulary PWA. Full-screen swipe feed, a deterministic Word of the D
 practice modes, and a spaced-repetition queue — built around one question: **would this word
 actually earn its place in a growth memo, a LinkedIn post, or a creator brief?**
 
-Eight decks ship with the app. Every example sentence in the first four is written to be
-pasteable into real work, not lifted from a dictionary.
+Eight decks ship with the app. Every entry carries a rewritten definition, near-synonyms so the
+sense lands in a second, three example sentences, a short spoken exchange showing how the word
+actually gets said out loud, and a usage note. Every example in the first four decks is written
+to be pasteable into real work, not lifted from a dictionary.
 
 | Deck | What it's for | Entries |
 | --- | --- | --- |
@@ -116,10 +118,15 @@ Deck JSON lives in `data/decks/`. To add one:
          "pos": "n.",
          "pron": "ig-ZAM-pul",
          "definition": "Rewritten in your own words, not scraped from a dictionary.",
+         "synonyms": ["near-equivalent", "rough substitute"],
          "examples": [
            "One sentence set in the work you actually do.",
            "A second sentence, general is fine.",
            "A third is optional."
+         ],
+         "conversation": [
+           "Jae: A question someone would actually ask.",
+           "You: The reply, using the word the way you'd say it out loud."
          ],
          "note": "When to reach for it, and what it's often confused with.",
          "tier": 2
@@ -131,12 +138,18 @@ Deck JSON lives in `data/decks/`. To add one:
 2. Register it in `lib/decks.ts` — import the JSON and add it to the `DECKS` array. That's the
    only code change.
 3. Run `npm run check:decks`. It enforces required fields, unique ids across all decks, 35–45
-   entries, at least two examples each, and flags any entry that can't produce a fill-the-blank
-   question.
+   entries, at least two examples, at least two synonyms, a two-turn conversation in
+   `Speaker: line` form, and flags any entry that can't produce a fill-the-blank question or
+   never uses its own word in its conversation.
 
 Field notes:
 
 - `tier` is 1–3 (difficulty), shown as dots on the card.
+- `synonyms` are near-equivalents for getting the sense fast, not exact swaps. They render as
+  chips under the definition, and they also keep the practice modes fair — a word listed as a
+  synonym is never offered as a wrong answer against its own entry.
+- `conversation` is 2–4 turns, each `"Speaker: what they say"`. Use `You:` for your own line.
+  It renders as the "Out loud" block in the expanded card.
 - `lang` drives the `speechSynthesis` voice. Set it to `es-ES`, `fr-FR` and so on for a
   non-English deck; those decks may write examples as `"Spanish sentence — English gloss"` and
   the card renders the gloss underneath in a smaller size. English decks treat em-dashes as
@@ -152,7 +165,13 @@ the mark in code — no design tool or image dependency.
 
 **Feed** (`/`) — a full-screen vertical swipe through every word in the active decks, shuffled
 with a per-day seed so today's order is stable all day. Unseen words come first. Tap a card to
-expand examples and the usage note; scrolling past the last card offers a reshuffle.
+expand examples, the spoken exchange, and the usage note; scrolling past the last card offers a
+reshuffle.
+
+Three actions sit under every word: speak it, heart it, or **✓ I know this**. The check retires
+a word — it stops appearing in the feed, the daily word, and practice rounds, and any review card
+for it is dropped. The card stays on screen after you tap so the ✓ can undo it, and disappears
+from the next session onward. Settings → Known words puts everything back at once.
 
 **Word of the Day** (`/word-of-the-day`) — deterministic from the date. 60% of days it draws from
 Growth Operator or Sharp Writing, the other 40% from everything else that's on. "Knew it" pushes
@@ -179,7 +198,8 @@ anything you heart.
 
 **Stats** (`/stats`) — streak, longest streak, 14-day activity, per-deck coverage, high scores.
 
-**Settings** (`/settings`) — themes, deck toggles, daily goal, speech rate, export/import, reset.
+**Settings** (`/settings`) — themes, deck toggles, known-word reset, daily goal, speech rate,
+export/import, full reset.
 
 ### Themes
 
@@ -191,13 +211,15 @@ the root layout, so there's no flash of the wrong theme on launch. All motion re
 
 ## localStorage schema
 
-One key: **`lexicon.state.v1`**. Unknown fields are merged over defaults on load, so an older
-save never breaks a newer build, and a save written by a *newer* build is preserved rather than
-wiped. Migrations go in `migrate()` in `lib/storage.ts` alongside a bump to `STATE_VERSION`.
+One key: **`lexicon.state.v1`** (the key name is fixed; the schema version lives inside).
+Unknown fields are merged over defaults on load, so an older save never breaks a newer build,
+and a save written by a *newer* build is preserved rather than wiped. Migrations go in
+`migrate()` in `lib/storage.ts` alongside a bump to `STATE_VERSION`. Current version: **2**
+(v1 → v2 added the `known` map; v1 saves upgrade in place, keeping everything else).
 
 ```jsonc
 {
-  "version": 1,
+  "version": 2,
   "settings": {
     "theme": "editorial",              // theme id
     "decksOn": { "growth-operator": true, "espanol-starter": false },
@@ -212,7 +234,8 @@ wiped. Migrations go in `migrate()` in `lib/storage.ts` alongside a bump to `STA
   "myWords": [
     {
       "id": "mw-…", "word": "", "pos": "n.", "pron": "",
-      "definition": "", "examples": [""], "note": "", "tier": 2, "createdAt": 0
+      "definition": "", "synonyms": [""], "examples": [""], "conversation": ["You: …"],
+      "note": "", "tier": 2, "createdAt": 0
     }
   ],
   "srs": {
@@ -223,6 +246,7 @@ wiped. Migrations go in `migrate()` in `lib/storage.ts` alongside a bump to `STA
     }
   },
   "seen": { "go-incrementality": 1754150400000 },   // entry id -> last seen (ms)
+  "known": { "go-delta": 1754150400000 },           // "I know this" -> held out of rotation
   "wotd": { "2026-08-02": "new" },                  // date -> "knew" | "new"
   "days": { "2026-08-02": { "words": 6, "practice": 1, "reviews": 12 } },
   "streak": 4,

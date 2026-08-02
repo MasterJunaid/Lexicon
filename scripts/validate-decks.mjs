@@ -27,7 +27,7 @@ const warn = (message) => {
 const ARTICLES = new Set(['el', 'la', 'los', 'las', 'un', 'una', 'the', 'a', 'an']);
 
 /** Loose mirror of lib/cloze.ts — enough to flag entries the mode can't use. */
-function hasUsableExample(entry, lang = 'en-US') {
+function hasUsableExample(entry, lang = 'en-US', minLength = 24) {
   const parts = entry.word
     .replace(/[¿¡?!.]/g, '')
     .trim()
@@ -41,7 +41,7 @@ function hasUsableExample(entry, lang = 'en-US') {
       : [core[0].length >= 6 ? core[0].slice(0, core[0].length - 3) : core[0].slice(0, Math.max(3, core[0].length - 1))];
   return entry.examples.some((example) => {
     const source = (lang.startsWith('en') ? example : example.split(' — ')[0]).toLowerCase();
-    return source.length >= 24 && needles.every((n) => source.includes(n));
+    return source.length >= minLength && needles.every((n) => source.includes(n));
   });
 }
 
@@ -89,6 +89,26 @@ for (const file of files) {
     if (entry.examples?.length && !hasUsableExample(entry, deck.lang)) {
       noCloze++;
       warn(`${label}: no example contains the word, so it can't appear in Fill the blank`);
+    }
+
+    if (!Array.isArray(entry.synonyms) || entry.synonyms.length < 2) {
+      fail(`${label}: needs at least 2 synonyms`);
+    } else if (entry.synonyms.some((s) => s.toLowerCase() === entry.word.toLowerCase())) {
+      fail(`${label}: lists itself as a synonym`);
+    }
+
+    if (!Array.isArray(entry.conversation) || entry.conversation.length < 2) {
+      fail(`${label}: needs a conversation of at least 2 turns`);
+    } else {
+      for (const line of entry.conversation) {
+        if (!/^[^:]{1,24}: .+/.test(line)) {
+          fail(`${label}: conversation line is not "Speaker: line" — "${line}"`);
+        }
+      }
+      const mentionsWord = entry.conversation.some((line) =>
+        hasUsableExample({ ...entry, examples: [line.slice(line.indexOf(': ') + 2)] }, deck.lang, 0)
+      );
+      if (!mentionsWord) warn(`${label}: the word never appears in its own conversation`);
     }
   }
 

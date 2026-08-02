@@ -3,13 +3,14 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { NotEnoughWords, PracticeResult, PracticeShell } from '@/components/practice/Shell';
 import { buildPairs, practicePool } from '@/lib/practice';
-import { useStore } from '@/lib/store';
+import { useLearnableItems, useStore } from '@/lib/store';
 
 const SIZE = 5;
 const SOFT_LIMIT = 60;
 
 export default function PairsPage() {
-  const { items, state, ready, queueForReview, logPractice, byId } = useStore();
+  const { state, ready, queueForReview, logPractice, byId } = useStore();
+  const items = useLearnableItems();
   const pool = useMemo(
     () => practicePool(items, state.seen, state.saved, state.srs),
     [items, state.seen, state.saved, state.srs]

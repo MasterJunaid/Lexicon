@@ -59,10 +59,18 @@ export function practicePool(
 }
 
 function distractors(pool: FeedItem[], target: FeedItem, count: number, rand: () => number) {
-  const sameDeck = pool.filter(
-    (i) => i.deckId === target.deckId && i.entry.id !== target.entry.id
+  // A near-synonym as a wrong answer makes the question unfair, not harder.
+  const related = new Set(
+    [...(target.entry.synonyms ?? []), target.entry.word].map((w) => w.toLowerCase())
   );
-  const others = pool.filter((i) => i.deckId !== target.deckId);
+  const fair = (i: FeedItem) =>
+    !related.has(i.entry.word.toLowerCase()) &&
+    !(i.entry.synonyms ?? []).some((s) => s.toLowerCase() === target.entry.word.toLowerCase());
+
+  const sameDeck = pool.filter(
+    (i) => i.deckId === target.deckId && i.entry.id !== target.entry.id && fair(i)
+  );
+  const others = pool.filter((i) => i.deckId !== target.deckId && fair(i));
   const chosen = sample(sameDeck, count, rand);
   if (chosen.length < count) {
     chosen.push(...sample(others, count - chosen.length, rand));

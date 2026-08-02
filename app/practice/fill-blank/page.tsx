@@ -4,10 +4,11 @@ import { useCallback, useMemo } from 'react';
 import McqRunner from '@/components/practice/McqRunner';
 import { NotEnoughWords } from '@/components/practice/Shell';
 import { buildFillBlank, practicePool } from '@/lib/practice';
-import { useStore } from '@/lib/store';
+import { useLearnableItems, useStore } from '@/lib/store';
 
 export default function FillBlankPage() {
-  const { items, state, ready } = useStore();
+  const { state, ready } = useStore();
+  const items = useLearnableItems();
   const pool = useMemo(
     () => practicePool(items, state.seen, state.saved, state.srs),
     [items, state.seen, state.saved, state.srs]

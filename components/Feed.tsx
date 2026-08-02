@@ -4,29 +4,35 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { feedOrder, freshFirst } from '@/lib/daily';
 import { hashString, seededShuffle } from '@/lib/random';
-import { useStore } from '@/lib/store';
+import { useLearnableItems, useStore } from '@/lib/store';
 import WordCard from './WordCard';
 
 const PAGE = 12;
 
 export default function Feed() {
-  const { items, today, state, markSeen, ready } = useStore();
+  const { today, state, markSeen, ready, items: allItems, clearKnown } = useStore();
+  const items = useLearnableItems();
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [limit, setLimit] = useState(PAGE);
   const [shuffleKey, setShuffleKey] = useState(0);
 
+  // Which words were unseen when the session started. Frozen, so scrolling
+  // (which marks words seen) can't reorder the feed under your thumb.
+  const [seenAtOpen, setSeenAtOpen] = useState<Record<string, number> | null>(null);
+  useEffect(() => {
+    if (ready && seenAtOpen === null) setSeenAtOpen(state.seen);
+  }, [ready, seenAtOpen, state.seen]);
+
   const order = useMemo(() => {
     if (!items.length) return [];
     const base = feedOrder(items, today);
     const [first, ...rest] = [base.slice(0, items.length), ...chunk(base.slice(items.length), items.length)];
-    const opening = freshFirst(first, state.seen);
+    const opening = freshFirst(first, seenAtOpen ?? {});
     const merged = [...opening, ...rest.flat()];
     if (shuffleKey === 0) return merged;
     return seededShuffle(merged, hashString(`${today}-reshuffle-${shuffleKey}`));
-    // state.seen is intentionally read once per mount so hearts don't reorder mid-scroll.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [items, today, shuffleKey]);
+  }, [items, today, shuffleKey, seenAtOpen]);
 
   const visible = order.slice(0, limit);
 
@@ -58,16 +64,25 @@ export default function Feed() {
   }
 
   if (!items.length) {
+    const allKnown = allItems.length > 0;
     return (
       <div className="flex h-[100dvh] flex-col items-center justify-center px-8 text-center">
-        <h1 className="display text-4xl">No decks on</h1>
+        <h1 className="display text-4xl">{allKnown ? 'You know them all' : 'No decks on'}</h1>
         <p className="mt-3 max-w-xs text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
-          Every deck is switched off, so there is nothing to scroll. Turn one back on and the
-          feed fills up again.
+          {allKnown
+            ? 'Every word in your active decks is marked as known. Switch another deck on, add your own words, or put the known ones back.'
+            : 'Every deck is switched off, so there is nothing to scroll. Turn one back on and the feed fills up again.'}
         </p>
-        <Link href="/settings" className="btn btn-primary mt-6">
-          Open settings
-        </Link>
+        <div className="mt-6 flex flex-col gap-3">
+          <Link href="/settings" className="btn btn-primary">
+            Open settings
+          </Link>
+          {allKnown ? (
+            <button type="button" className="btn btn-ghost" onClick={clearKnown}>
+              Put known words back
+            </button>
+          ) : null}
+        </div>
       </div>
     );
   }

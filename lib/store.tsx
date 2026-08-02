@@ -36,6 +36,9 @@ interface StoreValue {
   goalMet: boolean;
   isSaved: (id: string) => boolean;
   toggleSave: (id: string) => void;
+  isKnown: (id: string) => boolean;
+  toggleKnown: (id: string) => void;
+  clearKnown: () => void;
   markSeen: (id: string) => void;
   setTheme: (theme: string) => void;
   toggleDeck: (deckId: string) => void;
@@ -162,6 +165,27 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     },
     []
   );
+
+  const isKnown = useCallback((id: string) => Boolean(state.known[id]), [state.known]);
+
+  const toggleKnown = useCallback((id: string) => {
+    setState((prev) => {
+      const known = { ...prev.known };
+      const srs = { ...prev.srs };
+      if (known[id]) {
+        delete known[id];
+      } else {
+        known[id] = Date.now();
+        // A word you already know doesn't belong in the review ladder.
+        delete srs[id];
+      }
+      return { ...prev, known, srs };
+    });
+  }, []);
+
+  const clearKnown = useCallback(() => {
+    setState((prev) => ({ ...prev, known: {} }));
+  }, []);
 
   const markSeen = useCallback(
     (id: string) => {
@@ -349,6 +373,9 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     goalMet,
     isSaved,
     toggleSave,
+    isKnown,
+    toggleKnown,
+    clearKnown,
     markSeen,
     setTheme,
     toggleDeck,
@@ -376,6 +403,27 @@ export function useStore(): StoreValue {
   const ctx = useContext(StoreContext);
   if (!ctx) throw new Error('useStore must be used inside <StoreProvider>');
   return ctx;
+}
+
+/**
+ * Active words minus the ones marked known. The known list is snapshotted once
+ * per mount: tapping "I know this" must not reorder the feed under your thumb,
+ * so the word stays on screen (undoable) and is gone on the next visit.
+ */
+export function useLearnableItems(): FeedItem[] {
+  const { items, state, ready } = useStore();
+  const [snapshot, setSnapshot] = useState<Record<string, number> | null>(null);
+
+  useEffect(() => {
+    if (ready && snapshot === null) setSnapshot(state.known);
+  }, [ready, snapshot, state.known]);
+
+  // Deliberately not keyed on state.known: a later change must not produce a
+  // new array, or every list built from this would reshuffle mid-session.
+  return useMemo(() => {
+    const known = snapshot ?? {};
+    return items.filter((item) => !known[item.entry.id]);
+  }, [items, snapshot]);
 }
 
 export type { Tier };

@@ -50,6 +50,8 @@ export function myWordsDeck(myWords: MyWord[]): Deck {
           pron: w.pron,
           definition: w.definition,
           examples: w.examples.filter(Boolean),
+          synonyms: w.synonyms?.filter(Boolean),
+          conversation: w.conversation?.filter(Boolean),
           note: w.note,
           tier: w.tier,
         })
