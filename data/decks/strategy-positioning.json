@@ -1,0 +1,571 @@
+{
+  "id": "strategy-positioning",
+  "name": "Strategy & Positioning",
+  "tagline": "The bookshelf deck",
+  "description": "Vocabulary from and around the reading list: Positioning, Obviously Awesome, Good Strategy Bad Strategy, High Growth Handbook, The Mom Test.",
+  "accent": "#2F6B4F",
+  "lang": "en-US",
+  "defaultOn": true,
+  "entries": [
+    {
+      "id": "sp-kernel",
+      "word": "kernel",
+      "pos": "n.",
+      "pron": "KER-nul",
+      "definition": "The irreducible core of a strategy: a diagnosis of the situation, a guiding policy for dealing with it, and a coherent set of actions that follow.",
+      "examples": [
+        "Our Q4 kernel fits in three sentences: creators out-convert paid, so we fund the roster and starve the auction, which means the ad budget moves to retainers.",
+        "If the strategy doc has no kernel, it's a budget request with adjectives.",
+        "Rumelt's point is that most “strategies” are goals — a kernel is what turns a goal into a strategy."
+      ],
+      "note": "From Good Strategy Bad Strategy. The fastest test of any plan: can you state its diagnosis, its guiding policy, and the actions — without using the word “growth” as a verb?",
+      "tier": 3
+    },
+    {
+      "id": "sp-diagnosis",
+      "word": "diagnosis",
+      "pos": "n.",
+      "pron": "dy-ug-NOH-sis",
+      "definition": "A judgment about what is actually going on — naming the one or two things that explain the mess.",
+      "examples": [
+        "My diagnosis isn't “we need more content,” it's “we have distribution and no second act — 40M views land on an onboarding built for search traffic.”",
+        "Skipping the diagnosis is why so many roadmaps are a list of everyone's favorite project.",
+        "A good diagnosis simplifies; it tells you what to ignore."
+      ],
+      "note": "The first and most-skipped part of the kernel. Write the diagnosis before the plan, and half the plan writes itself.",
+      "tier": 2
+    },
+    {
+      "id": "sp-guiding-policy",
+      "word": "guiding policy",
+      "pos": "n.",
+      "pron": "GY-ding POL-ih-see",
+      "definition": "The overall approach chosen to deal with the diagnosis — a direction that rules some options out.",
+      "examples": [
+        "Guiding policy for the half: win on trust, not on reach. That's why we're paying retainers instead of buying impressions.",
+        "A guiding policy that forbids nothing isn't a policy, it's a slogan.",
+        "The test of a guiding policy is whether a new hire could use it to say no to something."
+      ],
+      "note": "Rumelt's middle term. Its whole value is exclusion — if every good idea still passes, you haven't chosen anything.",
+      "tier": 3
+    },
+    {
+      "id": "sp-coherent",
+      "word": "coherent",
+      "pos": "adj.",
+      "pron": "koh-HEER-unt",
+      "definition": "Fitting together so the parts reinforce each other instead of pulling in different directions.",
+      "examples": [
+        "Paying creators for reach while telling them to optimize for comments isn't coherent, and they can feel the contradiction.",
+        "Five coherent actions beat fifteen good ones that don't compound.",
+        "Coherence is what makes a small budget feel like a strategy and a large one feel like a strategy."
+      ],
+      "note": "Rumelt's “coherent action” is the third leg of the kernel. Incoherence usually shows up as teams working hard against each other with no one at fault.",
+      "tier": 2
+    },
+    {
+      "id": "sp-proximate",
+      "word": "proximate",
+      "pos": "adj.",
+      "pron": "PROK-sih-mut",
+      "definition": "Close enough to be reachable — an objective near enough that the team can actually see how to hit it.",
+      "examples": [
+        "Set a proximate objective: 10 creators producing 4 videos a month at under $2 CPM. “Own creator finance” is a wish, not a target.",
+        "The proximate cause was the algorithm change; the real cause was depending on one platform.",
+        "Good leadership converts a distant ambition into a proximate objective the team believes is doable."
+      ],
+      "note": "Two senses worth keeping straight — proximate objective (near enough to attack) and proximate cause (the last domino, not the first). Both come up in postmortems.",
+      "tier": 3
+    },
+    {
+      "id": "sp-wedge",
+      "word": "wedge",
+      "pos": "n.",
+      "pron": "WEJ",
+      "definition": "A narrow initial entry point into a market — deliberately small, chosen because it can widen later.",
+      "examples": [
+        "Bloom's wedge isn't “investing app” — it's “the app your favorite creator taught you to invest with.”",
+        "A wedge should be embarrassingly narrow; if it sounds like a whole market, it's not a wedge.",
+        "The wedge wins the beachhead; the roadmap decides whether it widens."
+      ],
+      "note": "The wedge is about entry, the moat about defense, the beachhead about the territory itself. Mixing them up muddles a positioning memo fast.",
+      "tier": 2
+    },
+    {
+      "id": "sp-beachhead",
+      "word": "beachhead",
+      "pos": "n.",
+      "pron": "BEECH-hed",
+      "definition": "The first segment you take and hold completely, chosen because it makes the next segment easier.",
+      "examples": [
+        "Our beachhead is 19–24 year olds who already follow finance creators — small, winnable, and adjacent to everyone we want next.",
+        "A beachhead you can't dominate isn't a beachhead, it's a pilot.",
+        "Pick the beachhead for what it opens up, not for how big it is."
+      ],
+      "note": "From Crossing the Chasm, and the military metaphor is doing real work: the point is total control of a small area, not partial presence in a large one.",
+      "tier": 3
+    },
+    {
+      "id": "sp-moat",
+      "word": "moat",
+      "pos": "n.",
+      "pron": "MOHT",
+      "definition": "A structural advantage that makes a business hard to attack — something a competitor can't just buy or copy.",
+      "examples": [
+        "Our moat is the roster relationship: a competitor can outbid us on any single creator and still can't replicate 40 of them at once.",
+        "Content isn't a moat. A content system with exclusive talent might be.",
+        "Every claimed moat should come with a sentence describing how a funded rival would try to cross it."
+      ],
+      "note": "The stress test: if a well-funded competitor showed up tomorrow with your playbook, what would still be hard? That answer is the moat; everything else is a head start.",
+      "tier": 2
+    },
+    {
+      "id": "sp-incumbent",
+      "word": "incumbent",
+      "pos": "n.",
+      "pron": "in-KUM-bunt",
+      "definition": "The established player currently holding the position you want.",
+      "examples": [
+        "The incumbent here isn't another app, it's a group chat where three friends tell each other what to buy.",
+        "Incumbents rarely lose on features; they lose on distribution changes they refuse to take seriously.",
+        "Every incumbent's advantage is also a commitment it can't easily walk away from."
+      ],
+      "note": "The most useful positioning question in The Mom Test register: what is the customer doing today instead? That's your real incumbent, and it's usually not a company.",
+      "tier": 2
+    },
+    {
+      "id": "sp-insurgent",
+      "word": "insurgent",
+      "pos": "n.",
+      "pron": "in-SER-junt",
+      "definition": "The challenger attacking an established position, usually with fewer resources and a different shape.",
+      "examples": [
+        "We're the insurgent here, which means we win on speed and specificity, not on feature count.",
+        "Insurgents pick fights incumbents can't answer without damaging their own business.",
+        "The moment an insurgent starts defending, it has to become a different company."
+      ],
+      "note": "Deciding which one you are settles a surprising number of arguments — insurgents should be picking fights, incumbents should be closing gaps.",
+      "tier": 3
+    },
+    {
+      "id": "sp-category",
+      "word": "category",
+      "pos": "n.",
+      "pron": "KAT-uh-gor-ee",
+      "definition": "The mental box a customer files you into, which sets the expectations and comparisons you're judged against.",
+      "examples": [
+        "If we land in the “trading app” category we're compared on fees; in the “learn to invest” category we're compared on whether people understand anything.",
+        "Choosing the category is the highest-leverage decision in positioning, and most teams let the market choose it for them.",
+        "You don't get to be uncategorized — customers will file you somewhere within seconds."
+      ],
+      "note": "April Dunford's core move: the category sets the frame of reference, which sets what counts as a strength. Pick the frame where your differentiators matter.",
+      "tier": 2
+    },
+    {
+      "id": "sp-positioning",
+      "word": "positioning",
+      "pos": "n.",
+      "pron": "puh-ZISH-uh-ning",
+      "definition": "The deliberate choice of what you are, who you're for, and what you're better at — the context that makes your strengths legible.",
+      "examples": [
+        "Our positioning problem isn't the copy — it's that we've never decided whether we're a learning product with a brokerage or a brokerage with lessons.",
+        "Positioning happens whether you do it or not; the only question is who does it, you or the market.",
+        "Weak positioning shows up as a sales cycle where you keep explaining what you're not."
+      ],
+      "note": "Ries and Trout's original claim still holds: positioning is done in the customer's mind, not in your deck. You're arranging their existing furniture, not building new rooms.",
+      "tier": 1
+    },
+    {
+      "id": "sp-frame-of-reference",
+      "word": "frame of reference",
+      "pos": "n.",
+      "pron": "FRAYM uv REF-runs",
+      "definition": "The set of alternatives a customer mentally compares you against — the “instead of what?” behind every decision.",
+      "examples": [
+        "Set the frame of reference before you list features: against a brokerage we look thin, against a finance TikTok we look accountable.",
+        "The user's frame of reference for us is a creator they trust, not a competitor we track.",
+        "Change the frame of reference and the same product becomes expensive or cheap without touching the price."
+      ],
+      "note": "From Obviously Awesome. Most “our messaging isn't landing” problems are frame-of-reference problems in disguise.",
+      "tier": 3
+    },
+    {
+      "id": "sp-differentiated",
+      "word": "differentiated",
+      "pos": "adj.",
+      "pron": "dif-uh-REN-shee-ay-tid",
+      "definition": "Meaningfully different in a way the customer can perceive and cares about.",
+      "examples": [
+        "Being differentiated means a user could describe why we're different without reading our website — right now most couldn't.",
+        "A feature nobody else has isn't differentiated if nobody wants it; that's just unusual.",
+        "Differentiation has to be defensible and valued, or it's trivia."
+      ],
+      "note": "Two tests: can a customer name the difference, and would they pay for it? Failing either means you're merely different, not differentiated.",
+      "tier": 2
+    },
+    {
+      "id": "sp-commoditize",
+      "word": "commoditize",
+      "pos": "v.",
+      "pron": "kuh-MOD-ih-tyze",
+      "definition": "To turn something distinctive into an interchangeable good, where price becomes the only remaining difference.",
+      "examples": [
+        "AI scripting tools are commoditizing hook writing; what they can't commoditize is a creator whose audience believes her.",
+        "Once every app has fractional shares, fractional shares are commoditized and we're back to competing on trust.",
+        "Commoditize your complement — make the thing next to you cheap so the thing you sell gets more valuable."
+      ],
+      "note": "The strategic question is always which layer is being commoditized and which is capturing the value that leaks out of it.",
+      "tier": 3
+    },
+    {
+      "id": "sp-table-stakes",
+      "word": "table stakes",
+      "pos": "n. pl.",
+      "pron": "TAY-bul stayks",
+      "definition": "The minimum required to be considered at all — necessary to compete, useless as a differentiator.",
+      "examples": [
+        "Instant transfers are table stakes now; putting them on the landing page is spending our best real estate on the price of entry.",
+        "Table stakes still have to be built — you just don't get to brag about them.",
+        "Confusing table stakes with differentiation produces marketing that sounds like every competitor's."
+      ],
+      "note": "Sorting features into table stakes vs. differentiators is the single most clarifying hour you can spend before a positioning rewrite.",
+      "tier": 2
+    },
+    {
+      "id": "sp-fait-accompli",
+      "word": "fait accompli",
+      "pos": "n.",
+      "pron": "fayt uh-kom-PLEE",
+      "definition": "Something already done by the time anyone gets to object — a decision presented as settled.",
+      "examples": [
+        "Rather than pitching a Spanish-language pilot, I ran it with two creators for three weeks and brought Jae a fait accompli with numbers attached.",
+        "The platform's algorithm change was a fait accompli; the only question was how fast we adapted.",
+        "A fait accompli spends trust — worth it for small reversible bets, expensive for anything else."
+      ],
+      "note": "French, kept in English because there's no clean equivalent. Powerful and slightly aggressive: use it about your own moves sparingly, and never on something hard to undo.",
+      "tier": 3
+    },
+    {
+      "id": "sp-flank",
+      "word": "flank",
+      "pos": "v.",
+      "pron": "FLANK",
+      "definition": "To attack from the side rather than head-on — going where the competitor isn't defending.",
+      "examples": [
+        "We're not going to outspend the incumbents on app-install ads; we flank them by owning the creator's comment section, where they don't show up at all.",
+        "Flanking works because the incumbent's strength points forward.",
+        "A flanking move that the leader can copy in a week isn't a flanking move."
+      ],
+      "note": "Ries and Trout's classic move for a challenger. Pick the flank the incumbent can't defend without contradicting its own business.",
+      "tier": 3
+    },
+    {
+      "id": "sp-chokepoint",
+      "word": "chokepoint",
+      "pos": "n.",
+      "pron": "CHOHK-poynt",
+      "definition": "The narrow place everything must pass through — control it and you control the flow.",
+      "examples": [
+        "The chokepoint in Gen Z finance isn't the brokerage, it's the 12 creators who decide what 4 million people think is a good idea this month.",
+        "Own a chokepoint and you don't have to be the best product in the category.",
+        "Every chokepoint eventually attracts a competitor trying to route around it."
+      ],
+      "note": "Distinct from a bottleneck: a bottleneck limits your own throughput, a chokepoint is a position of power over a market.",
+      "tier": 3
+    },
+    {
+      "id": "sp-network-effect",
+      "word": "network effect",
+      "pos": "n.",
+      "pron": "NET-werk ih-FEKT",
+      "definition": "When each additional user makes the product more valuable to every other user.",
+      "examples": [
+        "We don't have a network effect yet — more users don't make Bloom better for existing users, they just make our chart nicer.",
+        "The creator roster has a weak network effect: each good creator makes recruiting the next one easier.",
+        "Real network effects show up as retention that improves with cohort size, not just as growth."
+      ],
+      "note": "The most over-claimed advantage in startup writing. If you can't name the mechanism by which user N+1 helps user N, you have scale, not a network effect.",
+      "tier": 2
+    },
+    {
+      "id": "sp-switching-cost",
+      "word": "switching cost",
+      "pos": "n.",
+      "pron": "SWICH-ing kost",
+      "definition": "What a customer must spend — in money, effort, or lost history — to move to a competitor.",
+      "examples": [
+        "Our switching costs are near zero: a user's whole relationship is with the creator, not with us, and the creator is portable.",
+        "Transferring a funded account creates a real switching cost, which is why activation matters more than installs.",
+        "Switching costs built on friction are resented; switching costs built on accumulated value are earned."
+      ],
+      "note": "The honest way to distinguish the two: would the customer keep the accumulated thing if leaving were free? If yes, that's value. If no, it's a hostage.",
+      "tier": 2
+    },
+    {
+      "id": "sp-lock-in",
+      "word": "lock-in",
+      "pos": "n.",
+      "pron": "LOK-in",
+      "definition": "A situation where leaving is impractical, whether or not the customer still wants to stay.",
+      "examples": [
+        "I'd rather build retention than lock-in — this audience talks to each other and punishes anything that feels like a trap.",
+        "Data portability rules are eroding the lock-in that a decade of fintech was built on.",
+        "Lock-in flatters your retention numbers right up until a competitor makes leaving one tap."
+      ],
+      "note": "Carries a negative charge that switching cost doesn't. Say lock-in about a rival, switching cost about yourself, and know you're doing it.",
+      "tier": 2
+    },
+    {
+      "id": "sp-disintermediate",
+      "word": "disintermediate",
+      "pos": "v.",
+      "pron": "dis-in-ter-MEE-dee-ayt",
+      "definition": "To cut out the middle layer between two parties who could deal directly.",
+      "examples": [
+        "The real risk isn't a competitor — it's a top creator disintermediating us by launching her own product to the audience we helped her monetize.",
+        "Every marketplace lives with the fear of being disintermediated by its own best users.",
+        "Platforms disintermediate agencies; creators disintermediate platforms; the cycle doesn't stop."
+      ],
+      "note": "Long word, precise meaning, no clean substitute. The defense is always to be worth more than the fee you charge for standing in the middle.",
+      "tier": 3
+    },
+    {
+      "id": "sp-adjacency",
+      "word": "adjacency",
+      "pos": "n.",
+      "pron": "uh-JAY-sun-see",
+      "definition": "A neighboring market or use case you can reach from where you already stand.",
+      "examples": [
+        "The natural adjacency from creator finance content is creator financial tooling — same audience, same trust, different product.",
+        "Adjacencies are cheap to enter and easy to overrate; the audience overlaps, the buying behavior often doesn't.",
+        "Expand into an adjacency only when the core is boring enough to run itself."
+      ],
+      "note": "Ask what transfers — audience, trust, distribution, or nothing. Adjacencies that only share a demographic usually aren't adjacent at all.",
+      "tier": 3
+    },
+    {
+      "id": "sp-chasm",
+      "word": "chasm",
+      "pos": "n.",
+      "pron": "KAZ-um",
+      "definition": "The gap between early enthusiasts and the mainstream, where products stall because the two groups buy for different reasons.",
+      "examples": [
+        "Our power users love the community; the chasm is everyone who wants to be told what to do and doesn't want a community at all.",
+        "Crossing the chasm means abandoning the messaging that got you your first 10,000 users.",
+        "Early adopters forgive rough edges as authenticity; the mainstream reads the same edges as risk."
+      ],
+      "note": "From Geoffrey Moore. The uncomfortable implication is that your most passionate users are the least representative of the market you need next.",
+      "tier": 3
+    },
+    {
+      "id": "sp-segment",
+      "word": "segment",
+      "pos": "v.",
+      "pron": "seg-MENT",
+      "definition": "To divide a market into groups that behave differently enough to be worth treating differently.",
+      "examples": [
+        "Segment by what they came for, not by age — “sent here by a creator” and “found us in the App Store” behave like two different products.",
+        "A segment you can't reach differently isn't a segment, it's a description.",
+        "Over-segmenting produces a plan nobody has the staff to execute."
+      ],
+      "note": "The test for a real segment: different needs, reachable through a different channel, and big enough to matter. Two out of three is a demographic slide.",
+      "tier": 2
+    },
+    {
+      "id": "sp-constraint",
+      "word": "constraint",
+      "pos": "n.",
+      "pron": "kun-STRAYNT",
+      "definition": "The limit that actually governs what's possible right now — the thing you'd have to change to get a different answer.",
+      "examples": [
+        "Our constraint isn't budget, it's my review time; a bigger budget makes the queue longer, not the output better.",
+        "Name the binding constraint in the memo's first paragraph and the rest of the argument gets much shorter.",
+        "Strategy is mostly choosing which constraint to attack and which to accept for now."
+      ],
+      "note": "Sibling of bottleneck, at a strategic altitude. Teams that argue for months are usually arguing about the plan while disagreeing about the constraint.",
+      "tier": 1
+    },
+    {
+      "id": "sp-orthodoxy",
+      "word": "orthodoxy",
+      "pos": "n.",
+      "pron": "OR-thuh-dok-see",
+      "definition": "The set of beliefs an industry accepts without re-examining them.",
+      "examples": [
+        "The orthodoxy in fintech marketing is that trust comes from looking like a bank; our whole thesis is that for this audience it comes from a person.",
+        "Every orthodoxy was once an insight that stopped being tested.",
+        "The strongest LinkedIn posts name an orthodoxy precisely and then show the counterexample."
+      ],
+      "note": "A reliable engine for the deep memo: state the orthodoxy in one sentence, show where it came from, then show where it stopped being true.",
+      "tier": 3
+    },
+    {
+      "id": "sp-trojan-horse",
+      "word": "trojan horse",
+      "pos": "n.",
+      "pron": "TROH-jun HORS",
+      "definition": "A modest, welcome offering that gets you inside — and carries the larger ambition with it.",
+      "examples": [
+        "The weekly market explainer is a trojan horse: people come for the takes and end up with a funded account.",
+        "A trojan horse only works if the first thing is genuinely good on its own terms.",
+        "Every successful wedge product is a trojan horse the market let in willingly."
+      ],
+      "note": "The mechanism is consent — the horse gets wheeled in because people want it. If the first offering isn't independently valuable, it's a bait-and-switch and it reads as one.",
+      "tier": 2
+    },
+    {
+      "id": "sp-pivot",
+      "word": "pivot",
+      "pos": "n.",
+      "pron": "PIV-ut",
+      "definition": "A change of direction that keeps one foot planted — you hold something (the audience, the insight, the technology) and change everything else.",
+      "examples": [
+        "Moving from paid social to creators was a pivot in channel, not in thesis: same audience, same insight about trust, different distribution.",
+        "A pivot that changes the audience and the product isn't a pivot, it's a new company with the old cap table.",
+        "The best pivots keep the thing that was working and abandon the thing everyone was emotionally attached to."
+      ],
+      "note": "The planted foot is the whole idea, and it's the part most usages drop. Say what stays fixed and the word does real work.",
+      "tier": 1
+    },
+    {
+      "id": "sp-vertical",
+      "word": "vertical",
+      "pos": "n.",
+      "pron": "VER-tih-kul",
+      "definition": "A specific industry or niche served end-to-end, as opposed to a broad tool serving everyone shallowly.",
+      "examples": [
+        "Going vertical on Gen Z finance means we lose the generalist audience and win the ability to say something specific.",
+        "Horizontal products win on scale; vertical products win on knowing exactly what the customer's Tuesday looks like.",
+        "The vertical is only worth owning if it's growing or nobody's serving it well."
+      ],
+      "note": "Pairs with horizontal. The strategic trade is always reach versus depth of understanding, and early-stage companies almost always underweight depth.",
+      "tier": 2
+    },
+    {
+      "id": "sp-first-mover",
+      "word": "first-mover",
+      "pos": "adj.",
+      "pron": "FERST-MOO-ver",
+      "definition": "Describing the advantage claimed by whoever got to a market first.",
+      "examples": [
+        "First-mover advantage is real for about a quarter, and then it's just a head start someone better funded can erase.",
+        "We had first-mover advantage on creator-led finance content and mostly spent it learning what didn't work.",
+        "First-mover advantage only converts into a moat if you use the time to build something structural."
+      ],
+      "note": "Treat it skeptically in memos — the empirical record favors fast followers. The useful question is what the first mover did with the head start.",
+      "tier": 2
+    },
+    {
+      "id": "sp-economies-of-scale",
+      "word": "economies of scale",
+      "pos": "n. pl.",
+      "pron": "ih-KON-uh-meez uv SKAYL",
+      "definition": "Cost advantages that arrive because you're bigger — the per-unit cost falls as volume rises.",
+      "examples": [
+        "There are real economies of scale in creator ops: the 40th brief costs a fraction of the 4th because the template already exists.",
+        "Creative doesn't have economies of scale the way media buying does — every video still needs a person with taste.",
+        "Claiming economies of scale means claiming a specific cost that falls; name it or don't claim it."
+      ],
+      "note": "In creator and content businesses, look for economies of scale in process and casting, not in the creative itself. That's where the actual leverage hides.",
+      "tier": 2
+    },
+    {
+      "id": "sp-distribution",
+      "word": "distribution",
+      "pos": "n.",
+      "pron": "dis-trih-BYOO-shun",
+      "definition": "The means by which a product reaches people — the channels, relationships, and surfaces that put it in front of them.",
+      "examples": [
+        "We have distribution and a product gap, which is a much better problem than the reverse.",
+        "Distribution is the scarce asset in this market; anyone can ship an investing app in a quarter.",
+        "Design for the distribution you have, not the one in the case study."
+      ],
+      "note": "The central asset in Jun's job. Frame the creator program as a distribution asset rather than a marketing expense, and the budget conversation changes shape.",
+      "tier": 1
+    },
+    {
+      "id": "sp-bundle",
+      "word": "bundle",
+      "pos": "v.",
+      "pron": "BUN-dul",
+      "definition": "To sell several things together as one offer, at one price.",
+      "examples": [
+        "We bundle the lessons with the brokerage because separately, nobody would pay for the lessons and nobody would trust the brokerage.",
+        "Bundling hides the price of the weak item and raises the value of the strong one.",
+        "A bundle is a positioning decision before it's a pricing decision."
+      ],
+      "note": "Bundling and unbundling alternate in every market. Knowing which phase you're in tells you whether to add or to strip.",
+      "tier": 2
+    },
+    {
+      "id": "sp-unbundle",
+      "word": "unbundle",
+      "pos": "v.",
+      "pron": "un-BUN-dul",
+      "definition": "To pull one valuable piece out of an existing package and offer it alone, better.",
+      "examples": [
+        "Creators unbundled financial media from financial institutions — the advice left the building and the accounts followed.",
+        "Every fintech of the last decade unbundled one line item off a bank statement.",
+        "Unbundling wins on focus and then slowly rebundles to survive."
+      ],
+      "note": "The Bloom origin story in one word. Worth saying out loud in a memo: what did we unbundle, and what will we have to rebundle to keep the customer?",
+      "tier": 2
+    },
+    {
+      "id": "sp-anchor",
+      "word": "anchor",
+      "pos": "v.",
+      "pron": "ANG-ker",
+      "definition": "To set a reference point that shapes how everything after it is judged.",
+      "examples": [
+        "The first number in the deck anchors the whole conversation — lead with 40M views and $12 CAC sounds cheap.",
+        "Anchor the price against a $200 advisor session, not against a free app.",
+        "Whoever states the first number is doing the anchoring, whether or not they intended to."
+      ],
+      "note": "A cognitive bias you can use ethically by choosing an honest, relevant comparison — and one you should notice being used on you in every negotiation.",
+      "tier": 2
+    },
+    {
+      "id": "sp-disruptive",
+      "word": "disruptive",
+      "pos": "adj.",
+      "pron": "dis-RUP-tiv",
+      "definition": "Describing an entrant that starts out worse on the metrics incumbents care about, serves an overlooked segment, and improves until it takes the market.",
+      "examples": [
+        "A 60-second creator video is disruptive in the strict sense: worse than a financial advisor on every traditional axis, and it reaches people the advisor never would.",
+        "Most things called disruptive are just competitive — better products attacking the same customers head-on.",
+        "The incumbent's rational response to a disruptive entrant is to ignore it, which is exactly why it works."
+      ],
+      "note": "Christensen's technical meaning, and the misuse is now so common that using it correctly is itself a signal. Say “new” or “better” when that's what you mean.",
+      "tier": 3
+    },
+    {
+      "id": "sp-leapfrog",
+      "word": "leapfrog",
+      "pos": "v.",
+      "pron": "LEEP-frog",
+      "definition": "To skip a stage of development entirely and land ahead of where the incumbent stands.",
+      "examples": [
+        "This audience leapfrogged the bank branch and the robo-advisor; their first financial relationship is a person on a screen.",
+        "Emerging markets leapfrogged desktop banking straight to mobile wallets.",
+        "You can't leapfrog by copying the leader's roadmap faster."
+      ],
+      "note": "Best used about customer behavior rather than about your own product. Claiming your company leapfrogged someone rarely lands; showing that users skipped a step always does.",
+      "tier": 2
+    },
+    {
+      "id": "sp-proof-point",
+      "word": "proof point",
+      "pos": "n.",
+      "pron": "PROOF poynt",
+      "definition": "A concrete piece of evidence that makes a claim believable rather than aspirational.",
+      "examples": [
+        "The claim is that creators build trust; the proof point is that creator-sourced users fund accounts at 2.3× the rate of paid-social users.",
+        "Every value theme in the positioning doc needs a proof point, or it's a promise.",
+        "One specific number beats three adjectives as a proof point."
+      ],
+      "note": "From April Dunford's positioning canvas. When a message isn't landing, it's usually missing a proof point, not missing enthusiasm.",
+      "tier": 2
+    }
+  ]
+}

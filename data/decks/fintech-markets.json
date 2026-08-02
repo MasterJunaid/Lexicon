@@ -1,0 +1,585 @@
+{
+  "id": "fintech-markets",
+  "name": "Fintech & Markets",
+  "tagline": "Creator scripts & the cheat sheet",
+  "description": "Terms to be fluent in for Bloom content, creator briefs, and the Finance Cheat Sheet. Register: a good Gen Z finance script — accurate, plain, never condescending.",
+  "accent": "#1E6F6B",
+  "lang": "en-US",
+  "defaultOn": true,
+  "entries": [
+    {
+      "id": "fm-basis-point",
+      "word": "basis point",
+      "pos": "n.",
+      "pron": "BAY-sis poynt",
+      "definition": "One hundredth of a percentage point — the unit finance uses when “percent” is too clumsy to be precise.",
+      "examples": [
+        "When a fund says it charges 75 basis points, it means 0.75% a year, every year, whether you made money or not.",
+        "Script note: say “bps” out loud as “bips” and immediately translate it, or half the audience tunes out.",
+        "The Fed cut 25 basis points and every finance account on the app posted about it within the hour."
+      ],
+      "note": "Exists because “a 1% cut from 5%” is ambiguous — is that to 4% or to 4.95%? Basis points remove the ambiguity, which is why fees are quoted in them.",
+      "tier": 2
+    },
+    {
+      "id": "fm-liquidity",
+      "word": "liquidity",
+      "pos": "n.",
+      "pron": "lih-KWID-ih-tee",
+      "definition": "How fast something can be turned into cash without losing value in the process.",
+      "examples": [
+        "Every “finance guru” on TikTok says liquidity like it's magic — it just means how fast you can turn a thing into cash without losing value.",
+        "Your checking account is perfectly liquid. Your sneakers are not, and the resale market will remind you at the worst possible time.",
+        "A stock can be liquid and still be a bad investment; liquidity is about exit speed, not quality."
+      ],
+      "note": "Best script framing: the question isn't “is it worth $500,” it's “can I get $500 for it by Friday.” That's the whole concept.",
+      "tier": 1
+    },
+    {
+      "id": "fm-custodial",
+      "word": "custodial",
+      "pos": "adj.",
+      "pron": "kuh-STOH-dee-ul",
+      "definition": "Describing an account or service where someone else holds and safeguards the assets on your behalf.",
+      "examples": [
+        "A custodial account is how a 16-year-old invests legally — an adult holds it, the kid owns it, and it transfers at 18 or 21 depending on the state.",
+        "In crypto, custodial means the platform holds your keys; non-custodial means you do, along with all the responsibility.",
+        "“Not your keys, not your coins” is a slogan about custody, and it cuts both ways."
+      ],
+      "note": "Two contexts, one idea: someone is holding the thing for you. Always answer the follow-up — what happens if that someone fails?",
+      "tier": 2
+    },
+    {
+      "id": "fm-fiduciary",
+      "word": "fiduciary",
+      "pos": "n.",
+      "pron": "fih-DOO-shee-air-ee",
+      "definition": "Someone legally required to act in your interest ahead of their own.",
+      "examples": [
+        "Ask any advisor one question: are you a fiduciary? If the answer takes more than a word, it's no.",
+        "A fiduciary has to recommend the cheaper fund when it's better for you; a salesperson only has to recommend something suitable.",
+        "The word is boring and it's the single highest-value question in the whole Finance Cheat Sheet."
+      ],
+      "note": "The best 15 seconds in any advice-adjacent script. It converts a fuzzy trust question into a specific legal one the audience can actually ask.",
+      "tier": 3
+    },
+    {
+      "id": "fm-expense-ratio",
+      "word": "expense ratio",
+      "pos": "n.",
+      "pron": "ik-SPENS RAY-shee-oh",
+      "definition": "The annual percentage a fund takes out of your money to run itself, deducted automatically whether the fund goes up or down.",
+      "examples": [
+        "A 1% expense ratio doesn't sound like anything until you run it over 30 years and it's eaten roughly a quarter of your ending balance.",
+        "Two funds tracking the same index at 0.03% and 0.60% are the same product at twenty times the price.",
+        "You never see the expense ratio leave your account, which is exactly why it works so well."
+      ],
+      "note": "The most script-friendly number in personal finance because the comparison is so stark and requires no market opinion at all.",
+      "tier": 2
+    },
+    {
+      "id": "fm-dollar-cost-averaging",
+      "word": "dollar-cost averaging",
+      "pos": "n.",
+      "pron": "DOL-er-kost AV-rij-ing",
+      "definition": "Investing a fixed amount on a fixed schedule regardless of price, so you buy more shares when it's cheap and fewer when it's expensive.",
+      "examples": [
+        "$50 every payday is dollar-cost averaging, and its real benefit is that it removes the decision — you can't panic about timing something automatic.",
+        "DCA doesn't beat investing everything at once on average; it beats what you'd actually do with a lump sum at 2am.",
+        "The strategy is boring by design; that's the feature everyone tries to optimize away."
+      ],
+      "note": "Be honest in scripts: lump-sum wins more often historically. DCA wins behaviorally, and behavior is what actually determines returns.",
+      "tier": 2
+    },
+    {
+      "id": "fm-vesting",
+      "word": "vesting",
+      "pos": "n.",
+      "pron": "VEST-ing",
+      "definition": "The schedule by which equity you've been promised actually becomes yours over time.",
+      "examples": [
+        "Your offer says 10,000 shares, but vesting means you own zero until the one-year cliff and then a slice each month for three more years.",
+        "Leaving two months before your cliff means leaving with nothing, and it happens constantly.",
+        "Read the vesting schedule before the headline equity number — the schedule is the actual offer."
+      ],
+      "note": "The most under-explained line in every job offer, and a reliably high-performing content topic for anyone in their first real role.",
+      "tier": 2
+    },
+    {
+      "id": "fm-dilution",
+      "word": "dilution",
+      "pos": "n.",
+      "pron": "dy-LOO-shun",
+      "definition": "The shrinking of your ownership percentage when new shares are issued to someone else.",
+      "examples": [
+        "Every funding round dilutes existing shareholders — your 1% becomes 0.8% and the hope is that the smaller slice is of a much bigger pie.",
+        "Dilution isn't theft; it's the price of capital. It only stings when the round doesn't grow the pie.",
+        "Employees discover dilution at the exit, which is the worst possible time to learn about it."
+      ],
+      "note": "Frame it as slice versus pie in scripts. The concept lands instantly and the number stops feeling like a trick.",
+      "tier": 2
+    },
+    {
+      "id": "fm-secular",
+      "word": "secular",
+      "pos": "adj.",
+      "pron": "SEK-yuh-ler",
+      "definition": "Describing a long-term trend that runs across market cycles rather than with them.",
+      "examples": [
+        "The shift of financial advice from institutions to individual creators is secular, not a 2021 bubble — it hasn't reversed through two market moods.",
+        "Don't confuse a secular trend with a cyclical bounce; one survives a recession and one is caused by the last one.",
+        "Secular trends are boring, slow, and where most of the money is."
+      ],
+      "note": "Nothing to do with religion here. It's the finance sense — “across eras.” Pairs directly against cyclical, and the pair is a good memo structure.",
+      "tier": 3
+    },
+    {
+      "id": "fm-cyclical",
+      "word": "cyclical",
+      "pos": "adj.",
+      "pron": "SIK-lih-kul",
+      "definition": "Rising and falling with the broader economy in a repeating pattern.",
+      "examples": [
+        "Trading app downloads are cyclical — they spike with volatility and evaporate in a quiet market, which makes our forecast a market call in disguise.",
+        "Luxury and travel are cyclical; utilities and groceries mostly aren't.",
+        "Calling a cyclical downturn a structural decline is how good companies get sold too cheap."
+      ],
+      "note": "For Bloom specifically, worth saying in a memo: how much of our growth is cyclical, and what does the number look like in a flat market?",
+      "tier": 2
+    },
+    {
+      "id": "fm-accretive",
+      "word": "accretive",
+      "pos": "adj.",
+      "pron": "uh-KREE-tiv",
+      "definition": "Adding to value rather than subtracting from it — usually said of a deal that improves per-share earnings.",
+      "examples": [
+        "The partnership is accretive on day one: their audience, our product, no new headcount.",
+        "An acquisition is accretive if the thing you bought earns more than the cost of buying it — anything else is a story about synergies.",
+        "Accretive is the finance word for “this made the pie bigger per person,” and it's the opposite of dilutive."
+      ],
+      "note": "Sits in direct opposition to dilutive. Useful in a partnership memo, where it makes a fuzzy “good for both sides” claim into a testable one.",
+      "tier": 3
+    },
+    {
+      "id": "fm-principal",
+      "word": "principal",
+      "pos": "n.",
+      "pron": "PRIN-sih-pul",
+      "definition": "The original amount put in or borrowed, before any interest or returns.",
+      "examples": [
+        "On a loan, early payments barely touch the principal — you're mostly paying interest, which is why the balance seems frozen for two years.",
+        "“Don't risk your principal” means don't gamble the money you actually need back.",
+        "Principal is the amount; interest is the rent on it."
+      ],
+      "note": "Spelling matters and people get it wrong constantly: principal is money, principle is a rule. In captions, that error costs credibility fast.",
+      "tier": 1
+    },
+    {
+      "id": "fm-yield",
+      "word": "yield",
+      "pos": "n.",
+      "pron": "YEELD",
+      "definition": "The income something pays out over a year, expressed as a percentage of its price.",
+      "examples": [
+        "A savings account at 4.5% yield pays you $45 a year on $1,000 — that's yield, and it's separate from whether the asset itself gained value.",
+        "High yield almost always means high risk; the market rarely hands out free income.",
+        "When a stock's price falls and the dividend doesn't, the yield goes up — which looks like good news and often isn't."
+      ],
+      "note": "The mechanical relationship — price down, yield up — is the single most confusing thing for beginners, and explaining it well is a great 45-second script.",
+      "tier": 1
+    },
+    {
+      "id": "fm-volatility",
+      "word": "volatility",
+      "pos": "n.",
+      "pron": "vol-uh-TIL-ih-tee",
+      "definition": "How much and how fast a price swings around — the size of the moves, not their direction.",
+      "examples": [
+        "Volatility isn't loss. It's the price of admission for returns that beat a savings account, and you pay it in stomach lining.",
+        "High volatility means a wide range of outcomes, which cuts both ways — people forget the upside half when they're scared.",
+        "Our install volume is correlated with market volatility, which is a nice tailwind and a terrible thing to build a forecast on."
+      ],
+      "note": "The most valuable reframe in beginner content: volatility is a description of movement, not a synonym for danger. Losing money permanently is the risk.",
+      "tier": 1
+    },
+    {
+      "id": "fm-contrarian",
+      "word": "contrarian",
+      "pos": "adj.",
+      "pron": "kun-TRAIR-ee-un",
+      "definition": "Taking the position most of the market currently rejects, on the belief that the consensus is wrong.",
+      "examples": [
+        "The contrarian take on finance content is that nobody wants more information — they want permission to start.",
+        "Being contrarian isn't a strategy on its own; you also have to be right, which is the part nobody posts about.",
+        "Contrarian and correct is where the returns are. Contrarian and wrong is most of the internet."
+      ],
+      "note": "The two-word test before publishing a contrarian post: contrarian and right, or just contrarian? The second is a personality, not an argument.",
+      "tier": 2
+    },
+    {
+      "id": "fm-macro",
+      "word": "macro",
+      "pos": "n.",
+      "pron": "MAK-roh",
+      "definition": "The economy-wide forces — rates, inflation, employment — that move everything at once regardless of individual quality.",
+      "examples": [
+        "Don't build a script around macro; by the time it's edited, the Fed has moved and the video is wrong.",
+        "Macro explains why everything fell on Tuesday; it can't tell you which company was worth owning.",
+        "Half our Q1 lift was macro — rate-cut chatter pulled a lot of first-time investors into the market."
+      ],
+      "note": "Its opposite here is idiosyncratic — the stuff specific to one company. Separating the two is most of what sounding informed consists of.",
+      "tier": 2
+    },
+    {
+      "id": "fm-diversification",
+      "word": "diversification",
+      "pos": "n.",
+      "pron": "dy-ver-sih-fih-KAY-shun",
+      "definition": "Spreading money across things that don't move together, so no single bad outcome takes you out.",
+      "examples": [
+        "Owning ten tech stocks isn't diversification; it's one bet with ten tickers.",
+        "Diversification is the only thing in finance that reduces risk without reducing expected return — that's why it gets called the free lunch.",
+        "Real diversification feels bad by design: something in the portfolio should always be underperforming."
+      ],
+      "note": "The emotional truth is the good script angle — a properly diversified portfolio always has a piece you resent, and that piece is doing its job.",
+      "tier": 1
+    },
+    {
+      "id": "fm-index-fund",
+      "word": "index fund",
+      "pos": "n.",
+      "pron": "IN-deks fund",
+      "definition": "A fund that mechanically buys everything in a defined list of companies instead of trying to pick winners.",
+      "examples": [
+        "An index fund isn't a stock pick, it's a decision to stop picking — you buy the whole list and pay almost nothing for the privilege.",
+        "Most active funds lose to the index over ten years, and the ones that win rarely win twice.",
+        "The index fund is the most boring product in finance and the correct default for almost everyone starting out."
+      ],
+      "note": "Careful in scripts: this is education, not advice. Explain what the thing is and how it works, and let the audience make the call.",
+      "tier": 1
+    },
+    {
+      "id": "fm-drawdown",
+      "word": "drawdown",
+      "pos": "n.",
+      "pron": "DRAW-down",
+      "definition": "The drop from a peak to the low that follows — how far down you went before recovering.",
+      "examples": [
+        "A 50% drawdown needs a 100% gain to get back to even, and that asymmetry is the whole reason risk tolerance matters.",
+        "Before you pick an allocation, ask what drawdown you'd hold through without selling — that's your real risk tolerance, not the number in the quiz.",
+        "Every backtest looks great until you sit through its worst drawdown in real time."
+      ],
+      "note": "More useful than volatility for beginner scripts because it's a felt experience: this is how much of your money disappeared, and for how long.",
+      "tier": 3
+    },
+    {
+      "id": "fm-bear-market",
+      "word": "bear market",
+      "pos": "n.",
+      "pron": "BAIR MAR-kit",
+      "definition": "A sustained decline of roughly 20% or more from a recent high.",
+      "examples": [
+        "Bear markets happen about every six years, last around a year, and are the entire reason “time in the market” is a sentence people say.",
+        "The first bear market you invest through teaches you more about yourself than any risk quiz.",
+        "Our download volume falls in a bear market while our education content performs better — worth planning content around, not just reacting to."
+      ],
+      "note": "The 20% threshold is a convention, not a law. In scripts, give the number so the term stops sounding like weather.",
+      "tier": 1
+    },
+    {
+      "id": "fm-correction",
+      "word": "correction",
+      "pos": "n.",
+      "pron": "kuh-REK-shun",
+      "definition": "A drop of about 10% from a recent high — smaller and far more frequent than a bear market.",
+      "examples": [
+        "Corrections happen roughly once a year; treating each one as the beginning of a collapse is how people end up selling at the bottom.",
+        "The word itself is a bit of finance PR — it implies the previous price was a mistake being fixed.",
+        "A correction is a headline event and usually a non-event for anyone with a ten-year horizon."
+      ],
+      "note": "Pair with bear market when explaining scale: 10% is a correction, 20% is a bear. Two numbers, and the audience has a working vocabulary.",
+      "tier": 2
+    },
+    {
+      "id": "fm-capital-gains",
+      "word": "capital gains",
+      "pos": "n. pl.",
+      "pron": "KAP-ih-tul GAYNZ",
+      "definition": "The profit made when you sell something for more than you paid — and the thing that gets taxed.",
+      "examples": [
+        "You don't owe capital gains tax because your portfolio went up; you owe it when you sell, which is why selling is a tax decision, not just a market one.",
+        "Hold longer than a year in the US and the gain is usually taxed at a lower long-term rate.",
+        "Nobody's first investing lesson mentions taxes, and then April arrives."
+      ],
+      "note": "The realized-versus-unrealized distinction is the whole lesson. It's also the most common gap in otherwise decent finance content.",
+      "tier": 2
+    },
+    {
+      "id": "fm-cost-basis",
+      "word": "cost basis",
+      "pos": "n.",
+      "pron": "KOST BAY-sis",
+      "definition": "What you originally paid for an investment, used to work out your gain or loss when you sell.",
+      "examples": [
+        "If you bought in three times at different prices, your cost basis is the blended average — and the app should show it, not make you do arithmetic.",
+        "A high cost basis means a smaller taxable gain, which is why tracking it matters more than people expect.",
+        "Transferring between brokerages can lose your cost basis history, and reconstructing it is genuinely miserable."
+      ],
+      "note": "Good product-content overlap: showing cost basis clearly is a real UX advantage and worth a script explaining why the number is there.",
+      "tier": 3
+    },
+    {
+      "id": "fm-allocation",
+      "word": "allocation",
+      "pos": "n.",
+      "pron": "al-uh-KAY-shun",
+      "definition": "How your money is split across different types of assets.",
+      "examples": [
+        "Your allocation is the actual decision — which specific fund you picked matters much less than whether you're 90% stocks or 40%.",
+        "A 22-year-old and a 62-year-old should not have the same allocation, and neither should copy their favorite creator's.",
+        "Allocation first, product second; most beginner content does it backwards."
+      ],
+      "note": "The research is consistent that allocation drives most of the variation in returns. It's also the least exciting thing to make content about — the challenge, not a reason to skip it.",
+      "tier": 2
+    },
+    {
+      "id": "fm-rebalance",
+      "word": "rebalance",
+      "pos": "v.",
+      "pron": "ree-BAL-uns",
+      "definition": "To sell some of what's grown and buy what's lagged, returning to your target mix.",
+      "examples": [
+        "Rebalancing forces you to sell high and buy low on a schedule, which is the opposite of what you'd do on instinct.",
+        "If stocks ran and you're now 85% equities against a 70% target, rebalancing is maintenance, not a market call.",
+        "Once a year is plenty; rebalancing weekly is a hobby with a tax bill."
+      ],
+      "note": "The strongest emotional angle: it's a rule that makes you do the right thing at the exact moment you least want to. That's the script.",
+      "tier": 2
+    },
+    {
+      "id": "fm-time-horizon",
+      "word": "time horizon",
+      "pos": "n.",
+      "pron": "TYME huh-RY-zun",
+      "definition": "How long until you need the money — the input that determines what risk is reasonable.",
+      "examples": [
+        "Money you need in 18 months for a deposit doesn't belong in the market, no matter how good the setup looks. That's a time horizon problem, not a conviction problem.",
+        "A 40-year horizon turns a bear market from a catastrophe into a sale.",
+        "Ask about the time horizon before the risk tolerance; one is a fact, the other is a mood."
+      ],
+      "note": "The single best question for any “what should I invest in?” comment, and it makes a great recurring script format.",
+      "tier": 1
+    },
+    {
+      "id": "fm-risk-tolerance",
+      "word": "risk tolerance",
+      "pos": "n.",
+      "pron": "RISK TOL-er-uns",
+      "definition": "How much loss you can actually sit through without selling — measured in behavior, not in intentions.",
+      "examples": [
+        "Everyone has a high risk tolerance in a bull market; you find out the real number the first time your account is down 30%.",
+        "Risk tolerance and risk capacity are different: one is how you feel, the other is whether you can afford it.",
+        "Build the portfolio for the version of you that's scared, not the one filling out the questionnaire."
+      ],
+      "note": "The honest framing for Gen Z content — self-knowledge outperforms optimization here, and that's a more useful message than another allocation chart.",
+      "tier": 2
+    },
+    {
+      "id": "fm-inflation",
+      "word": "inflation",
+      "pos": "n.",
+      "pron": "in-FLAY-shun",
+      "definition": "The steady loss of purchasing power as prices rise — the same money buying less each year.",
+      "examples": [
+        "Cash “feels” safe and loses about 3% of its buying power a year to inflation. Safe from volatility isn't the same as safe.",
+        "At 3% inflation, prices roughly double every 24 years, which is the entire argument for investing at all.",
+        "A 4% raise in a 5% inflation year is a pay cut wearing a nice email."
+      ],
+      "note": "The rule of 72 pairs perfectly here — divide 72 by the rate to get the doubling time. It's the most shareable piece of math in personal finance.",
+      "tier": 1
+    },
+    {
+      "id": "fm-nominal",
+      "word": "nominal",
+      "pos": "adj.",
+      "pron": "NOM-ih-nul",
+      "definition": "Stated at face value, before adjusting for inflation.",
+      "examples": [
+        "That 7% is a nominal return; after inflation you kept about 4%, and the gap is where most “I'm doing great” stories live.",
+        "Nominal wages went up, real wages didn't, and everybody's confused about why the vibes are bad.",
+        "Any long-run number quoted without saying nominal or real is missing the most important word in the sentence."
+      ],
+      "note": "Also means “trivially small” in everyday English (“a nominal fee”), which is a genuinely confusing overlap. In finance, always the face-value sense.",
+      "tier": 3
+    },
+    {
+      "id": "fm-real",
+      "word": "real",
+      "pos": "adj.",
+      "pron": "REEL",
+      "definition": "Adjusted for inflation — what the number is actually worth in purchasing power.",
+      "examples": [
+        "Your savings account pays 4.5% nominal; with inflation at 3%, the real return is 1.5%, and that's the only number that buys anything.",
+        "Historical stock market returns are about 10% nominal and 7% real, and the second figure is the honest one to put in a script.",
+        "Real returns are what you eat; nominal returns are what you post."
+      ],
+      "note": "Teaching the nominal/real pair in one 30-second video is one of the highest-value things a finance creator can do. Most audiences have never had it named.",
+      "tier": 2
+    },
+    {
+      "id": "fm-equity",
+      "word": "equity",
+      "pos": "n.",
+      "pron": "EK-wih-tee",
+      "definition": "Ownership — the share of a thing that's actually yours after everything owed against it.",
+      "examples": [
+        "Equity means ownership: a stock is a slice of a company, and startup equity is the same idea with worse liquidity and better upside.",
+        "You have $30K of equity in the car and a $22K loan, which means the bank still owns a real chunk of it.",
+        "Equity compensation is a bet on the company that you're paid in instead of cash."
+      ],
+      "note": "Three overlapping senses — stocks, home equity, startup equity — and they're all the same underlying idea: what's left over that belongs to you.",
+      "tier": 1
+    },
+    {
+      "id": "fm-dividend",
+      "word": "dividend",
+      "pos": "n.",
+      "pron": "DIV-ih-dend",
+      "definition": "A share of a company's profits paid out in cash to shareholders, usually every quarter.",
+      "examples": [
+        "Dividends feel like free money and aren't — the share price drops by roughly the payout on the day it's paid.",
+        "A company that pays a dividend is telling you it has more cash than it has ideas, which isn't automatically bad.",
+        "Dividend investing is popular with beginners because the payment is visible and the compounding is legible."
+      ],
+      "note": "Correcting the “free money” intuition without being condescending is a real craft challenge, and the videos that manage it perform.",
+      "tier": 1
+    },
+    {
+      "id": "fm-valuation",
+      "word": "valuation",
+      "pos": "n.",
+      "pron": "val-yoo-AY-shun",
+      "definition": "What the market currently says something is worth — an opinion expressed as a price, not a measurement.",
+      "examples": [
+        "A valuation isn't a fact about a company, it's the price at which the last buyer and seller agreed to stop arguing.",
+        "Startup valuations are negotiated on a story about the future; public valuations are negotiated on a story plus quarterly proof.",
+        "Two companies with identical revenue can have valuations 10x apart, and the difference is entirely belief about what happens next."
+      ],
+      "note": "Great script framing: price is what someone paid, value is what it's worth, valuation is a crowd's guess at the second expressed as the first.",
+      "tier": 2
+    },
+    {
+      "id": "fm-market-cap",
+      "word": "market cap",
+      "pos": "n.",
+      "pron": "MAR-kit KAP",
+      "definition": "The total value of a company's shares — share price times number of shares.",
+      "examples": [
+        "Share price alone tells you nothing: a $5 stock and a $500 stock can be the same size company with different share counts. Market cap is the actual size.",
+        "This is why “it's only $3, it could easily go to $300” is a red-flag sentence in any comment section.",
+        "Market cap sorts the universe into small, mid, and large — a more useful first cut than sector."
+      ],
+      "note": "The cheap-stock fallacy is one of the most common beginner mistakes, and market cap is the one-sentence cure. High-performing script topic.",
+      "tier": 1
+    },
+    {
+      "id": "fm-runway",
+      "word": "runway",
+      "pos": "n.",
+      "pron": "RUN-way",
+      "definition": "How long a company can keep operating on the cash it has before it needs more.",
+      "examples": [
+        "Eleven months of runway means every budget conversation is really a conversation about the raise.",
+        "Runway is cash divided by net burn, and the number changes the moment you hire.",
+        "Knowing the runway is what separates a growth plan from a wish list."
+      ],
+      "note": "Worth Jun knowing precisely, because a marketing budget request lands completely differently at 24 months of runway than at 9.",
+      "tier": 1
+    },
+    {
+      "id": "fm-burn",
+      "word": "burn",
+      "pos": "n.",
+      "pron": "BERN",
+      "definition": "The cash a company spends beyond what it brings in, per month.",
+      "examples": [
+        "Net burn is $400K a month, so every $100K of creator retainers is a week of runway — that's the honest way to frame the ask.",
+        "Gross burn is everything going out; net burn is what's left after revenue comes in.",
+        "Burn is the metric that turns strategy debates into arithmetic."
+      ],
+      "note": "Always specify gross or net. Quoting the wrong one in a memo to a CEO is a small error that reads as not knowing the business.",
+      "tier": 1
+    },
+    {
+      "id": "fm-speculation",
+      "word": "speculation",
+      "pos": "n.",
+      "pron": "spek-yuh-LAY-shun",
+      "definition": "Buying something purely because you expect its price to rise, with no underlying cash flow to fall back on.",
+      "examples": [
+        "Investing is buying a claim on future earnings; speculation is buying a claim on someone else's future enthusiasm.",
+        "There's nothing wrong with speculating with money you can lose — the danger is doing it while calling it investing.",
+        "Most of what performs well on finance TikTok is speculation content, which is a real tension for anyone trying to build trust."
+      ],
+      "note": "Naming the line honestly — rather than moralizing about it — is what separates a credible finance creator from a scold or a shill.",
+      "tier": 2
+    },
+    {
+      "id": "fm-margin",
+      "word": "margin",
+      "pos": "n.",
+      "pron": "MAR-jin",
+      "definition": "Borrowed money used to buy investments, with your existing holdings as collateral.",
+      "examples": [
+        "Trading on margin means a 20% drop can wipe out 100% of your money, and the broker doesn't wait for your feelings to catch up.",
+        "A margin call is the broker demanding cash immediately or selling your position for you at the worst moment.",
+        "Margin turns volatility from something you sit through into something that can end you."
+      ],
+      "note": "Distinct from margin in the business sense (profit per sale). In an investing script, always say “on margin” so the context is unambiguous.",
+      "tier": 2
+    },
+    {
+      "id": "fm-fractional-shares",
+      "word": "fractional shares",
+      "pos": "n. pl.",
+      "pron": "FRAK-shuh-nul SHAIRZ",
+      "definition": "Pieces of a single share, letting you invest a dollar amount rather than a whole-share amount.",
+      "examples": [
+        "Fractional shares are why $20 can buy a slice of a $600 stock — the barrier to starting used to be the share price and now it isn't.",
+        "They're table stakes in this category now; nobody's downloading an app because it offers them.",
+        "Fractional access changed who could start investing far more than any product feature of the last decade."
+      ],
+      "note": "Historically important, commercially unremarkable today. Good for a “how we got here” script, bad for a landing page headline.",
+      "tier": 1
+    },
+    {
+      "id": "fm-short",
+      "word": "short",
+      "pos": "v.",
+      "pron": "SHORT",
+      "definition": "To bet against something by borrowing shares, selling them, and hoping to buy them back cheaper.",
+      "examples": [
+        "When you short a stock, your maximum gain is capped at 100% and your maximum loss isn't capped at all — that asymmetry is the whole story.",
+        "A short squeeze happens when a rising price forces short sellers to buy back in, which pushes the price up further.",
+        "Shorting is the finance concept most frequently explained badly in 30 seconds, which is precisely why explaining it well travels."
+      ],
+      "note": "The unlimited-downside point is the non-negotiable part of any script here. Leaving it out isn't simplification, it's a mistake.",
+      "tier": 3
+    },
+    {
+      "id": "fm-portfolio",
+      "word": "portfolio",
+      "pos": "n.",
+      "pron": "port-FOH-lee-oh",
+      "definition": "Everything you own, considered as one thing rather than as a list of separate bets.",
+      "examples": [
+        "Judge the portfolio, not the position — one holding being down doesn't mean anything on its own.",
+        "People check individual stocks daily and their portfolio monthly, which is exactly backwards.",
+        "A portfolio has a job: getting you to a goal by a date, at a level of risk you can hold through."
+      ],
+      "note": "The portfolio-level view is the mental shift beginners find hardest, and it's the foundation for diversification, allocation, and rebalancing all at once.",
+      "tier": 1
+    }
+  ]
+}

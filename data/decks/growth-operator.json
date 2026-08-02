@@ -1,0 +1,600 @@
+{
+  "id": "growth-operator",
+  "name": "Growth Operator",
+  "tagline": "Memos & reports",
+  "description": "The working vocabulary of weekly growth reports, experiment writeups, and strategy memos. Register: Lenny's Newsletter, Brian Balfour, First Round Review.",
+  "accent": "#9C3B2E",
+  "lang": "en-US",
+  "defaultOn": true,
+  "entries": [
+    {
+      "id": "go-incrementality",
+      "word": "incrementality",
+      "pos": "n.",
+      "pron": "in-kruh-men-TAL-ih-tee",
+      "definition": "The portion of an outcome that would not have happened without the intervention — the lift you actually caused, stripped of everything you were going to get anyway.",
+      "examples": [
+        "Before we scale Spark Ads to $50K/mo, I want an incrementality read: how many of those installs were coming organically anyway?",
+        "A coupon that only reaches people already at checkout has close to zero incrementality — you paid a discount for a sale you had.",
+        "Geo-holdouts are the cheapest incrementality test we can run this quarter: turn the channel off in three metros and watch what doesn't move."
+      ],
+      "note": "The single most important word in paid marketing. Use it to push back on inflated channel attribution — platforms report credit, not causation.",
+      "tier": 2
+    },
+    {
+      "id": "go-directionally",
+      "word": "directionally",
+      "pos": "adv.",
+      "pron": "duh-REK-shuh-nuh-lee",
+      "definition": "Correct in trend or sign even if imprecise in magnitude — right about which way the arrow points, not about the exact number.",
+      "examples": [
+        "The cohort data is noisy at this sample size, but directionally, creator-spike users retain better than baseline.",
+        "I don't trust the model's exact payback number, but it's directionally the same story we saw in Q2.",
+        "Directionally we should cut the bottom ten creators; I'll have the exact list once Amplitude backfills."
+      ],
+      "note": "Lets you commit to a conclusion while flagging uncertainty — Jae-memo gold. Say it once per memo, not five times, or it starts reading as hedging.",
+      "tier": 1
+    },
+    {
+      "id": "go-saturate",
+      "word": "saturate",
+      "pos": "v.",
+      "pron": "SATCH-uh-rayt",
+      "definition": "To reach the point where additional input stops producing additional output — the audience, format, or channel is full.",
+      "examples": [
+        "Text-overlay format is starting to saturate; the last five videos in that style did half the views of March's.",
+        "We've saturated the 18–24 lookalike — frequency is at 4.2 and CPI has climbed every week since the 12th.",
+        "A sponge saturates long before it looks full; so does a channel."
+      ],
+      "note": "Saturation is a ceiling, not a failure. The memo move is to name it early and reallocate, rather than defending a format past its peak.",
+      "tier": 1
+    },
+    {
+      "id": "go-orthogonal",
+      "word": "orthogonal",
+      "pos": "adj.",
+      "pron": "or-THOG-uh-nul",
+      "definition": "Independent of something else; able to vary without affecting it. Two problems that look related but move on separate axes.",
+      "examples": [
+        "Creator count and creator quality are orthogonal problems — hiring 20 more doesn't fix scripting.",
+        "Retention and virality are orthogonal here: the loop brings people in, the product decides whether they stay.",
+        "That's an orthogonal concern — real, but it belongs in the pricing doc, not this experiment review."
+      ],
+      "note": "The politest way to say “that's a different problem” in a meeting. It reframes without dismissing.",
+      "tier": 3
+    },
+    {
+      "id": "go-counterfactual",
+      "word": "counterfactual",
+      "pos": "n.",
+      "pron": "kown-ter-FAK-choo-ul",
+      "definition": "What would have happened otherwise — the invisible baseline any result is implicitly being compared against.",
+      "examples": [
+        "The 20K-download spike looks great, but what's the counterfactual — what does a normal Tuesday do?",
+        "Every case study skips the counterfactual, which is why every case study works.",
+        "Without a holdout we're guessing at the counterfactual, and a guess isn't a result."
+      ],
+      "note": "Sibling of incrementality: incrementality is the measurement, the counterfactual is the thing being measured against.",
+      "tier": 2
+    },
+    {
+      "id": "go-asymmetric",
+      "word": "asymmetric",
+      "pos": "adj.",
+      "pron": "ay-suh-MET-rik",
+      "definition": "Unbalanced in payoff — where the upside and the downside are wildly different sizes.",
+      "examples": [
+        "Seeding 10 micro-creators is an asymmetric bet: it costs us a week of ops and one of them could carry the quarter.",
+        "Posting the memo publicly is asymmetric — worst case nobody reads it, best case three founders in our ICP do.",
+        "Rewriting the onboarding copy is asymmetric in the wrong direction: small upside, real risk of breaking a funnel that works.",
+        "Insurance is an asymmetric trade you hope never pays off."
+      ],
+      "note": "Pair it with a direction — “asymmetric upside” or “asymmetric downside” — or the reader has to guess which way you mean.",
+      "tier": 2
+    },
+    {
+      "id": "go-defensible",
+      "word": "defensible",
+      "pos": "adj.",
+      "pron": "dih-FEN-suh-bul",
+      "definition": "Hard for a competitor to copy or erode — an advantage that survives someone else deciding to take it.",
+      "examples": [
+        "Our creator roster is defensible in a way our ad creative isn't; anyone can clone a hook, nobody can clone 40 relationships.",
+        "Cheap CAC on a single platform isn't defensible — it's a rented advantage with a landlord who raises rent.",
+        "Ask of any moat: is it defensible on a Tuesday when a funded competitor decides to attack it?"
+      ],
+      "note": "Applies to two different things — an advantage (hard to copy) and a decision (justifiable to a skeptic). Context carries it, but don't switch senses mid-paragraph.",
+      "tier": 1
+    },
+    {
+      "id": "go-arbitrage",
+      "word": "arbitrage",
+      "pos": "n.",
+      "pron": "AR-bih-trahzh",
+      "definition": "Profiting from a price or attention gap between two markets before the gap closes — buying cheap where the rest of the market hasn't looked yet.",
+      "examples": [
+        "TikTok CPMs in 2021 were pure attention arbitrage; that window is closed and the memo should say so.",
+        "There's a small arbitrage in Reels right now — same creators, same edits, a third of the CPM.",
+        "Every arbitrage carries its own expiry date: the moment it's written up, it's being competed away."
+      ],
+      "note": "Useful for arguing timing rather than merit — the tactic isn't better, the price is temporarily wrong. Name the expiry date and you sound like an operator, not a hypebeast.",
+      "tier": 3
+    },
+    {
+      "id": "go-cannibalize",
+      "word": "cannibalize",
+      "pos": "v.",
+      "pron": "KAN-ih-buh-lyze",
+      "definition": "To take volume from your own channel or product rather than adding new volume on top.",
+      "examples": [
+        "Half the “new” signups from branded search are cannibalized organic — people who typed Bloom into the box and would have found us free.",
+        "The referral bonus mostly cannibalized invites that were already happening in group chats.",
+        "Launching a cheaper tier grows the base but cannibalizes the plan that pays for the company."
+      ],
+      "note": "The word that separates a real win from a reshuffle. If a channel grows and the total doesn't, you found cannibalization, not growth.",
+      "tier": 2
+    },
+    {
+      "id": "go-throughput",
+      "word": "throughput",
+      "pos": "n.",
+      "pron": "THROO-poot",
+      "definition": "How much actually gets all the way through a system in a given period — finished output, not work started.",
+      "examples": [
+        "Our creator throughput is 34 briefs a week in and 19 published out; the gap is the whole problem.",
+        "Adding creators without adding review throughput just lengthens the queue.",
+        "Throughput, not headcount, is the number I'd put on the ops slide."
+      ],
+      "note": "Contrast with capacity: capacity is what the system could do, throughput is what it did. Managers who confuse the two hire into a bottleneck.",
+      "tier": 2
+    },
+    {
+      "id": "go-latent",
+      "word": "latent",
+      "pos": "adj.",
+      "pron": "LAY-tunt",
+      "definition": "Present but not yet visible or active — real demand, risk, or capability that hasn't surfaced.",
+      "examples": [
+        "There's latent demand for a Spanish-language version — we see it in comments weekly and we've never once served it.",
+        "The churn risk was latent for months; the price change just gave it a reason to show up.",
+        "Every waitlist is a measurement of latent intent, which is why the number always flatters you."
+      ],
+      "note": "Latent demand is the most-abused version of this word — plenty of “latent demand” is just nobody wanting the thing yet. Insist on evidence.",
+      "tier": 2
+    },
+    {
+      "id": "go-marginal",
+      "word": "marginal",
+      "pos": "adj.",
+      "pron": "MAR-jih-nul",
+      "definition": "Relating to the next one added, not the average of all of them — the cost or return of one more unit.",
+      "examples": [
+        "Average CAC is $14, but the marginal CAC on the last $10K of spend is $31 — that's the number that decides whether we scale.",
+        "The marginal creator we onboard is worse than the average creator we already have, and that's normal.",
+        "Judging a budget decision on averages is how teams talk themselves into spending past the point it works."
+      ],
+      "note": "Averages describe the past; margins decide the next dollar. Nearly every scaling argument that goes wrong confuses the two.",
+      "tier": 2
+    },
+    {
+      "id": "go-compounding",
+      "word": "compounding",
+      "pos": "n.",
+      "pron": "kum-POWN-ding",
+      "definition": "Growth that builds on its own output, so each period starts from a bigger base than the last.",
+      "examples": [
+        "Paid is linear — you stop, it stops. The creator library is compounding: March's videos still drove 900K views last month.",
+        "SEO and referrals compound; discounts don't.",
+        "Compounding is boring for two quarters and then it isn't, which is exactly why it's underfunded."
+      ],
+      "note": "The strongest available argument for patient budget. Show the base growing, not just the rate — a big rate on a tiny base impresses nobody twice.",
+      "tier": 1
+    },
+    {
+      "id": "go-attribution",
+      "word": "attribution",
+      "pos": "n.",
+      "pron": "at-rih-BYOO-shun",
+      "definition": "The assignment of credit for an outcome to a particular channel or touchpoint — an accounting choice, not a fact of nature.",
+      "examples": [
+        "Attribution says TikTok drove 62% of installs; TikTok's own dashboard says 91%, and neither is measuring cause.",
+        "Post-iOS 14, attribution is a model wearing the costume of a measurement.",
+        "I'd rather have one clean holdout than three attribution windows arguing with each other."
+      ],
+      "note": "Say “attributed installs,” never “installs from,” when the number came from a platform dashboard. The extra word is the honesty.",
+      "tier": 1
+    },
+    {
+      "id": "go-heuristic",
+      "word": "heuristic",
+      "pos": "n.",
+      "pron": "hyoo-RIS-tik",
+      "definition": "A rough rule that gets you a good-enough answer fast, without proving it's the right one.",
+      "examples": [
+        "Our creator heuristic is simple: if the first three seconds don't work without sound, we don't ship it.",
+        "“Payback under 12 months” is a heuristic, not a law — it's there so we don't relitigate every buy.",
+        "Good heuristics are cheap to apply and easy to override once the data is in."
+      ],
+      "note": "Frame a heuristic as a default rather than a rule, and people will actually follow it instead of arguing with it.",
+      "tier": 2
+    },
+    {
+      "id": "go-leverage",
+      "word": "leverage",
+      "pos": "v.",
+      "pron": "LEV-uh-rij",
+      "definition": "To use an existing asset to get a disproportionate result somewhere else.",
+      "examples": [
+        "We can leverage the 40M monthly views into a brand-partnership line without adding a single new creator.",
+        "The report leverages data we already collect — it's a formatting problem, not a research project.",
+        "Leverage is the difference between working harder and having something work for you."
+      ],
+      "note": "Corporate-speak has beaten this word flat. In writing, prefer the specific verb — “use,” “reuse,” “build on” — and save leverage for when the disproportion is the point.",
+      "tier": 1
+    },
+    {
+      "id": "go-delta",
+      "word": "delta",
+      "pos": "n.",
+      "pron": "DEL-tuh",
+      "definition": "The difference between two numbers — usually before and after, or test and control.",
+      "examples": [
+        "The delta between creator-sourced and paid-sourced D30 retention is 11 points, and it's held for three months.",
+        "Give me the delta, not both numbers — I can't hold two figures in my head while reading a memo.",
+        "A big delta on a small base is a rounding error in a nice outfit."
+      ],
+      "note": "Sharper than “change” because it implies a specific comparison. Always say what it's a delta between.",
+      "tier": 1
+    },
+    {
+      "id": "go-regress",
+      "word": "regress",
+      "pos": "v.",
+      "pron": "rih-GRES",
+      "definition": "To drift back toward the average after an unusual result — the extreme was partly luck, and the luck doesn't repeat.",
+      "examples": [
+        "That creator's 4M-view video will regress; I'm forecasting off her median, not her best week.",
+        "Half of every “our new process worked” story is a bad month regressing to the mean.",
+        "Pick your top performers on one week of data and you've selected for outliers that are about to regress."
+      ],
+      "note": "Regression to the mean is the most common way smart teams fool themselves. If you intervened right after an extreme, expect improvement you didn't cause.",
+      "tier": 3
+    },
+    {
+      "id": "go-confound",
+      "word": "confound",
+      "pos": "v.",
+      "pron": "kun-FOWND",
+      "definition": "To muddle a result by letting a second variable move at the same time as the one you're testing.",
+      "examples": [
+        "The paywall test is confounded — we shipped it the same week the TikTok Shop integration went live.",
+        "Seasonality confounds every Q4 read we've ever done; December flatters everyone.",
+        "Two changes in one week means one confounded result and no learning."
+      ],
+      "note": "As a noun, a confound (or confounder) is the intruding variable. Naming one is how you kill a bad conclusion without insulting anyone.",
+      "tier": 3
+    },
+    {
+      "id": "go-cohort",
+      "word": "cohort",
+      "pos": "n.",
+      "pron": "KOH-hort",
+      "definition": "A group defined by when they arrived or what they share, tracked over time as a unit.",
+      "examples": [
+        "The January creator cohort is still outperforming every cohort we've onboarded since — worth understanding why before we hire more.",
+        "Blended retention hides the story; cohort retention tells it.",
+        "Each cohort gets its own line on the chart, and the shape of the newest line is the health of the business."
+      ],
+      "note": "Aggregate numbers can improve while every single cohort gets worse — that's Simpson's paradox, and cohorts are how you catch it.",
+      "tier": 1
+    },
+    {
+      "id": "go-tailwind",
+      "word": "tailwind",
+      "pos": "n.",
+      "pron": "TAYL-wind",
+      "definition": "An external force pushing your numbers up that you didn't create and can't take credit for.",
+      "examples": [
+        "Q1 had a real tailwind — every finance creator on the app was posting about the market, and we rode it.",
+        "Name the tailwind in the memo before Jae does; it buys you credibility for the parts that were actually us.",
+        "A tailwind flatters a mediocre quarter and disguises a great one."
+      ],
+      "note": "Volunteering the tailwind is a credibility move. The operator who says “half of this wasn't us” gets believed on the half that was.",
+      "tier": 1
+    },
+    {
+      "id": "go-headwind",
+      "word": "headwind",
+      "pos": "n.",
+      "pron": "HED-wind",
+      "definition": "An external force working against your numbers — real resistance you have to row through.",
+      "examples": [
+        "We're into a headwind on CPMs: election spend is pushing every auction we're in up 30%.",
+        "Flat month against that headwind is closer to a win than the dashboard makes it look.",
+        "Headwinds explain a miss; they don't excuse not having a plan for them."
+      ],
+      "note": "Use once, with a number attached. Headwinds cited without magnitude read as excuses.",
+      "tier": 1
+    },
+    {
+      "id": "go-second-order",
+      "word": "second-order",
+      "pos": "adj.",
+      "pron": "SEK-und-OR-der",
+      "definition": "Describing the consequences of the consequences — what happens after the obvious first effect settles.",
+      "examples": [
+        "First-order, paying creators per view lifts output. Second-order, it selects for cheap reach and our comment quality falls off a cliff.",
+        "Every incentive has a second-order effect, and it usually shows up a quarter after the person who designed it got promoted.",
+        "Thinking one move ahead is table stakes; the memo that pays is the one that thinks two."
+      ],
+      "note": "The most reliable way to sound senior in a strategy doc: state the first-order effect, then the second-order one, then which you're optimizing for.",
+      "tier": 2
+    },
+    {
+      "id": "go-degrade",
+      "word": "degrade",
+      "pos": "v.",
+      "pron": "dih-GRAYD",
+      "definition": "To get steadily worse in performance, usually slowly enough that nobody files a bug.",
+      "examples": [
+        "Hook performance degrades about 15% every time we reuse a format — it's a decay curve, not a cliff.",
+        "Our onboarding hasn't broken, it's degraded: three points of drop-off a quarter for four quarters.",
+        "Systems rarely fail loudly; they degrade until someone finally looks at the chart."
+      ],
+      "note": "Reach for it when the problem is a slope rather than an incident. Pair with the rate — “degrading 3 points a quarter” — or it's just vibes.",
+      "tier": 1
+    },
+    {
+      "id": "go-plateau",
+      "word": "plateau",
+      "pos": "v.",
+      "pron": "pla-TOH",
+      "definition": "To level off after a period of growth and stay there.",
+      "examples": [
+        "Installs plateaued at 40K/week in April and no amount of extra spend has moved the line since.",
+        "We plateaued because we ran out of creators in the niche, not because the format stopped working.",
+        "A plateau is information: it tells you the current system has found its ceiling."
+      ],
+      "note": "A plateau is a diagnosis, not a verdict. The useful next sentence is always which constraint is holding the line flat.",
+      "tier": 1
+    },
+    {
+      "id": "go-inflection",
+      "word": "inflection",
+      "pos": "n.",
+      "pron": "in-FLEK-shun",
+      "definition": "The point where a curve changes shape — where growth stops decelerating and starts speeding up, or the reverse.",
+      "examples": [
+        "Week 6 of the creator program is the inflection: that's when referred creators started outnumbering the ones we recruited.",
+        "Everyone claims an inflection point; most of them are showing you a good month.",
+        "Real inflections are only visible in hindsight, which is why the chart matters more than the anecdote."
+      ],
+      "note": "Overclaimed in decks. Reserve it for a genuine change in the shape of the curve, not a step up in level.",
+      "tier": 2
+    },
+    {
+      "id": "go-payback",
+      "word": "payback",
+      "pos": "n.",
+      "pron": "PAY-bak",
+      "definition": "How long it takes for the revenue from a customer to cover what you spent to get them.",
+      "examples": [
+        "Payback on creator-sourced users is 7 months versus 14 on paid social — same CAC, very different cash story.",
+        "A 9-month payback is fine if we're funded through it and fatal if we aren't.",
+        "LTV/CAC tells you whether it works eventually; payback tells you whether you survive until then."
+      ],
+      "note": "The metric a CEO feels, because it's about cash, not theory. Lead with payback when the audience is Jae; lead with LTV/CAC when the audience is a deck.",
+      "tier": 2
+    },
+    {
+      "id": "go-unit-economics",
+      "word": "unit economics",
+      "pos": "n. pl.",
+      "pron": "YOO-nit ek-uh-NOM-iks",
+      "definition": "The revenue and cost of a single customer or transaction, isolated from company-level totals.",
+      "examples": [
+        "Our unit economics work at $18 CAC and break at $30 — that single sentence should govern every buy this quarter.",
+        "Growth without unit economics is just a faster way to run out of money.",
+        "Define the unit before arguing about the economics; ours is a funded account, not an install."
+      ],
+      "note": "Always state the unit explicitly. Half of all unit-economics disagreements are two people using different denominators.",
+      "tier": 2
+    },
+    {
+      "id": "go-baseline",
+      "word": "baseline",
+      "pos": "n.",
+      "pron": "BAYS-lyne",
+      "definition": "The normal level you measure change against — what the number does when you do nothing.",
+      "examples": [
+        "Set the baseline before the campaign launches, or we'll spend February arguing about what February would have been.",
+        "Our baseline Tuesday is 4,800 installs; anything under 6K on a campaign day isn't a spike.",
+        "No baseline, no result — just a number with a nice story attached."
+      ],
+      "note": "The unglamorous prerequisite for every other word in this deck. Baselines are cheap before the launch and impossible after it.",
+      "tier": 1
+    },
+    {
+      "id": "go-proxy",
+      "word": "proxy",
+      "pos": "n.",
+      "pron": "PROK-see",
+      "definition": "A measurable stand-in for something you actually care about but can't measure directly.",
+      "examples": [
+        "Saves-per-view is our proxy for intent — it's not conversion, but it moves before conversion does.",
+        "Comment sentiment is a rough proxy for trust, and rough is better than nothing here.",
+        "Every proxy drifts from the thing it stands for, especially once a team is bonused on it."
+      ],
+      "note": "Related to Goodhart's law: a proxy that becomes a target stops being a good proxy. Re-validate it against the real outcome every quarter.",
+      "tier": 2
+    },
+    {
+      "id": "go-variance",
+      "word": "variance",
+      "pos": "n.",
+      "pron": "VAIR-ee-uns",
+      "definition": "How much the numbers scatter around their average — the spread, not the center.",
+      "examples": [
+        "Creator performance has enormous variance: median video is 40K views, mean is 210K, and one account explains the gap.",
+        "High variance means we need more videos, not better forecasts.",
+        "Reporting an average without its variance is how a portfolio of lottery tickets gets described as a stable business."
+      ],
+      "note": "In creator and content work, variance is the business model — you're buying lottery tickets and need enough of them for the math to show up.",
+      "tier": 2
+    },
+    {
+      "id": "go-spurious",
+      "word": "spurious",
+      "pos": "adj.",
+      "pron": "SPYOOR-ee-us",
+      "definition": "Looking like a real relationship but produced by chance or a hidden third factor.",
+      "examples": [
+        "Test enough segments and you'll find a spurious winner — that's arithmetic, not insight.",
+        "The correlation between posting time and retention is spurious; both track who was running the account that month.",
+        "Slice a dashboard twenty ways and one slice will look significant by accident."
+      ],
+      "note": "The polite kill shot for a dashboard finding. Follow it with what you'd need to see to believe the effect is real.",
+      "tier": 3
+    },
+    {
+      "id": "go-bottleneck",
+      "word": "bottleneck",
+      "pos": "n.",
+      "pron": "BOT-ul-nek",
+      "definition": "The single constraint that caps the whole system's output, no matter what you improve elsewhere.",
+      "examples": [
+        "Script review is the bottleneck — creators are idle four days a week waiting on me, and 20 more creators makes that worse, not better.",
+        "Improving anything except the bottleneck just builds a bigger queue in front of it.",
+        "Every system has exactly one binding bottleneck at a time; the work is finding which."
+      ],
+      "note": "Test for it: if this got twice as fast, would total output rise? If not, you're fixing the wrong thing.",
+      "tier": 1
+    },
+    {
+      "id": "go-flywheel",
+      "word": "flywheel",
+      "pos": "n.",
+      "pron": "FLY-weel",
+      "definition": "A loop where each turn makes the next turn easier — output feeds back in as input.",
+      "examples": [
+        "The creator flywheel is real now: good creators attract good creators, and our last six signed because a friend vouched for us.",
+        "Draw the flywheel as a loop with arrows, and if you can't close the circle, it's a funnel wearing a costume.",
+        "Flywheels are heavy at the start; that's the part every deck leaves out."
+      ],
+      "note": "Wildly overused. Earn it by naming the specific mechanism that closes the loop — otherwise say “funnel” and keep your credibility.",
+      "tier": 1
+    },
+    {
+      "id": "go-decay",
+      "word": "decay",
+      "pos": "n.",
+      "pron": "dih-KAY",
+      "definition": "The predictable falling-off of an effect over time — the half-life of a result.",
+      "examples": [
+        "A viral video has about a 72-hour decay curve; if the landing page isn't ready on day one we've lost most of it.",
+        "Model the decay into the forecast — assuming a spike holds is how we missed April.",
+        "Attention decays faster than anyone plans for and slower than the panic in the group chat suggests."
+      ],
+      "note": "Pairs naturally with half-life. If you can state a decay rate, you can forecast; if you can't, you're extrapolating a good day.",
+      "tier": 2
+    },
+    {
+      "id": "go-instrument",
+      "word": "instrument",
+      "pos": "v.",
+      "pron": "IN-struh-ment",
+      "definition": "To add tracking to something so its behavior can be measured.",
+      "examples": [
+        "We never instrumented the creator-link path, which is why six months of that traffic shows up as direct.",
+        "Instrument the funnel before the campaign, not after the CEO asks a question about it.",
+        "An uninstrumented feature is a feature nobody can defend at review time."
+      ],
+      "note": "The verb that separates teams who can answer questions from teams who have opinions. Stress falls on the first syllable as a verb.",
+      "tier": 2
+    },
+    {
+      "id": "go-normalize",
+      "word": "normalize",
+      "pos": "v.",
+      "pron": "NOR-muh-lyze",
+      "definition": "To adjust numbers onto a common footing so they can be fairly compared.",
+      "examples": [
+        "Normalize by follower count before you rank creators, or you're just ranking who already had an audience.",
+        "Once you normalize for spend, the “breakout” channel is our third-best.",
+        "Comparing a 30-day month to a 31-day month without normalizing is a 3% lie."
+      ],
+      "note": "Say what you normalized by, every time. An unstated denominator is where most misleading charts are born.",
+      "tier": 2
+    },
+    {
+      "id": "go-durable",
+      "word": "durable",
+      "pos": "adj.",
+      "pron": "DUR-uh-bul",
+      "definition": "Lasting after the push stops — a result that doesn't need continuous spend or attention to hold.",
+      "examples": [
+        "The question for the memo isn't whether the campaign worked, it's whether any of the lift was durable 60 days out.",
+        "Discount-driven signups are never durable; they retain like a rental.",
+        "Durable growth is quieter than a spike and worth about ten of them."
+      ],
+      "note": "The natural counterweight to a spike narrative. “Durable” is what you argue for when everyone else is arguing for volume.",
+      "tier": 1
+    },
+    {
+      "id": "go-ceiling",
+      "word": "ceiling",
+      "pos": "n.",
+      "pron": "SEE-ling",
+      "definition": "The maximum a channel or tactic can produce, however well it's executed.",
+      "examples": [
+        "This niche has a ceiling of maybe 200K reachable users — worth being honest about that before we build a team around it.",
+        "We're not underperforming the channel, we're at its ceiling; the next unit of growth has to come from somewhere else.",
+        "Knowing a tactic's ceiling early saves a quarter of optimizing toward it."
+      ],
+      "note": "Distinguish a ceiling (structural, external) from a plateau (current, possibly fixable). Calling a plateau a ceiling ends work too early.",
+      "tier": 1
+    },
+    {
+      "id": "go-downstream",
+      "word": "downstream",
+      "pos": "adj.",
+      "pron": "DOWN-streem",
+      "definition": "Occurring later in the flow, as a result of something earlier — effects that show up further along the funnel.",
+      "examples": [
+        "Loosening the creator brief lifted output but the downstream effect was a 20% rise in legal review time.",
+        "Every top-of-funnel win is a downstream cost for someone; ask support before you celebrate.",
+        "Fixing the form field upstream removed four downstream support tickets a day."
+      ],
+      "note": "Its counterpart, upstream, points at causes. The most valuable sentence in an ops memo is usually “the downstream cost of this lands on another team.”",
+      "tier": 1
+    },
+    {
+      "id": "go-elasticity",
+      "word": "elasticity",
+      "pos": "n.",
+      "pron": "ee-la-STIS-ih-tee",
+      "definition": "How much one thing responds when another moves — the responsiveness of demand to price, or results to spend.",
+      "examples": [
+        "Spend elasticity has collapsed: doubling budget moved installs 12%, so the extra money is buying frequency, not reach.",
+        "We know nothing about our price elasticity because we've never tested a price.",
+        "Elastic demand punishes a price rise; inelastic demand shrugs at one."
+      ],
+      "note": "The precise version of “diminishing returns.” Attach the pair — elasticity of what, with respect to what.",
+      "tier": 3
+    },
+    {
+      "id": "go-underpowered",
+      "word": "underpowered",
+      "pos": "adj.",
+      "pron": "UN-der-POW-erd",
+      "definition": "Describing a test with too little data to detect the effect it's looking for, so a null result means nothing.",
+      "examples": [
+        "That A/B test was underpowered — 400 users per arm can't detect a 3% lift, so “no difference” tells us nothing.",
+        "Underpowered tests don't just fail to find effects, they manufacture fake ones when they do hit significance.",
+        "Run the power calculation first; it takes ten minutes and saves three weeks of a test that could never have answered the question."
+      ],
+      "note": "The most common flaw in startup experimentation. Ask “what effect size could this have detected?” before reading any result.",
+      "tier": 3
+    }
+  ]
+}

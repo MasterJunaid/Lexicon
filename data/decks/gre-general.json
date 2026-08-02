@@ -1,0 +1,599 @@
+{
+  "id": "gre-general",
+  "name": "GRE-tier General",
+  "tagline": "Advanced general vocabulary",
+  "description": "Genuinely useful advanced words — the ones that earn their place in real writing, not the ones that only appear on tests.",
+  "accent": "#5B4B8A",
+  "lang": "en-US",
+  "defaultOn": true,
+  "entries": [
+    {
+      "id": "gg-ubiquitous",
+      "word": "ubiquitous",
+      "pos": "adj.",
+      "pron": "yoo-BIK-wih-tus",
+      "definition": "Present everywhere at once, to the point of being unremarkable.",
+      "examples": [
+        "Short-form video is ubiquitous now, which means it's a baseline capability and not a strategy.",
+        "The greenscreen-reaction format went from novel to ubiquitous in about eleven months.",
+        "Anything ubiquitous stops being a differentiator the moment it stops being scarce."
+      ],
+      "note": "The useful implication for strategy writing: ubiquity and advantage are opposites. If everyone has it, it's table stakes.",
+      "tier": 1
+    },
+    {
+      "id": "gg-pragmatic",
+      "word": "pragmatic",
+      "pos": "adj.",
+      "pron": "prag-MAT-ik",
+      "definition": "Judging by what works rather than by what ought to work in principle.",
+      "examples": [
+        "The pragmatic call is to keep the ugly landing page that converts and rebuild it next quarter.",
+        "Pragmatism becomes a problem when it's used to avoid ever fixing anything structural.",
+        "There's a pragmatic version of every ideal and it usually ships six months sooner."
+      ],
+      "note": "Careful — “let's be pragmatic” is often a rhetorical move to end a debate rather than an argument. Notice when it's being used on you.",
+      "tier": 1
+    },
+    {
+      "id": "gg-ephemeral",
+      "word": "ephemeral",
+      "pos": "adj.",
+      "pron": "ih-FEM-er-ul",
+      "definition": "Lasting a very short time by nature — not failing to last, but built not to.",
+      "examples": [
+        "Stories are ephemeral by design, and that's exactly why they get more honest engagement than the grid.",
+        "A viral moment is ephemeral; a creator relationship is the asset it should be converted into.",
+        "Ephemeral content is cheap to make and worthless to archive, which is a fair trade if you know it going in."
+      ],
+      "note": "Not a synonym for “brief” — the shortness is intrinsic. A meeting is short; a mayfly is ephemeral.",
+      "tier": 2
+    },
+    {
+      "id": "gg-capricious",
+      "word": "capricious",
+      "pos": "adj.",
+      "pron": "kuh-PREE-shus",
+      "definition": "Changing suddenly and without discernible reason.",
+      "examples": [
+        "The algorithm isn't capricious, it just optimizes for something we can't see — but it's rational to plan as though it were.",
+        "A capricious client is more expensive than a demanding one, because you can't build a process around them.",
+        "Treating a system as capricious is a decision to stop trying to model it."
+      ],
+      "note": "Implies arbitrariness, not just volatility. Reserve it for things that change without a reason, not things that change unpredictably.",
+      "tier": 2
+    },
+    {
+      "id": "gg-austere",
+      "word": "austere",
+      "pos": "adj.",
+      "pron": "aw-STEER",
+      "definition": "Stripped of ornament — plain to the point of severity, whether by taste or by necessity.",
+      "examples": [
+        "The austere version of the deck is eight slides and one number per slide, and it lands harder than the forty-slide one.",
+        "Austere design is confident design; it has nothing to hide behind.",
+        "An austere budget forces the prioritization a comfortable one lets you avoid."
+      ],
+      "note": "Applies to aesthetics, budgets, and personalities. In design contexts it's a compliment; in personal ones it usually isn't.",
+      "tier": 2
+    },
+    {
+      "id": "gg-ostensibly",
+      "word": "ostensibly",
+      "pos": "adv.",
+      "pron": "oh-STEN-sih-blee",
+      "definition": "According to what's claimed, with the implication that the truth may differ.",
+      "examples": [
+        "The partnership is ostensibly about distribution; in practice it's about them getting a look at our retention data.",
+        "The meeting was ostensibly a check-in and was actually a decision meeting nobody labeled.",
+        "Ostensibly is a polite way to raise an eyebrow in print."
+      ],
+      "note": "It plants doubt without accusing anyone. Powerful in a memo, and slightly passive-aggressive — use once, deliberately.",
+      "tier": 3
+    },
+    {
+      "id": "gg-tacit",
+      "word": "tacit",
+      "pos": "adj.",
+      "pron": "TAS-it",
+      "definition": "Understood without being stated — real, agreed, and never written down.",
+      "examples": [
+        "There's a tacit rule on the team that nobody posts on a Friday, and it's cost us two good launch windows.",
+        "Tacit knowledge is the reason a new hire takes three months: the doc explains the process, not the exceptions.",
+        "Every tacit agreement becomes a problem the first time someone new joins."
+      ],
+      "note": "The organizational insight worth a post: what a company hasn't written down is usually the part that actually runs it.",
+      "tier": 2
+    },
+    {
+      "id": "gg-nascent",
+      "word": "nascent",
+      "pos": "adj.",
+      "pron": "NAY-sunt",
+      "definition": "Just coming into existence — real but not yet formed.",
+      "examples": [
+        "There's a nascent community in the comment section of three of our creators, and it will either be cultivated or it will move to Discord without us.",
+        "Nascent markets reward presence over polish.",
+        "The nascent version of any category looks like a hobby right up until it doesn't."
+      ],
+      "note": "Carries optimism that “early” doesn't — nascent implies the thing is genuinely forming, not just underdeveloped.",
+      "tier": 2
+    },
+    {
+      "id": "gg-myopic",
+      "word": "myopic",
+      "pos": "adj.",
+      "pron": "my-OP-ik",
+      "definition": "Focused on the near term at the cost of seeing what's coming.",
+      "examples": [
+        "Optimizing every video for day-one views is myopic; the library is worth more than any single upload.",
+        "Myopic decisions are usually rational under a short measurement window, which is why the window is the real problem.",
+        "The cure for myopia in a team is almost always a longer reporting period."
+      ],
+      "note": "Best used about incentives rather than people. “The metric is myopic” lands; “you're myopic” starts a fight.",
+      "tier": 2
+    },
+    {
+      "id": "gg-prescient",
+      "word": "prescient",
+      "pos": "adj.",
+      "pron": "PRESH-unt",
+      "definition": "Right about what was coming, before there was evidence for it.",
+      "examples": [
+        "The prescient call was staffing creators in 2023 when the whole industry was still buying installs at auction.",
+        "Prescience is indistinguishable from luck for about two years, and then it isn't.",
+        "Everyone is prescient in retrospect, which is why written predictions with dates are so valuable."
+      ],
+      "note": "Cheap to claim afterwards. Writing predictions down with dates is the only version of this word that means anything.",
+      "tier": 3
+    },
+    {
+      "id": "gg-intractable",
+      "word": "intractable",
+      "pos": "adj.",
+      "pron": "in-TRAK-tuh-bul",
+      "definition": "Resistant to solution — not merely hard, but not yielding to the approaches available.",
+      "examples": [
+        "Creator burnout looked intractable until we changed the pay structure; it turned out to be a design problem wearing a human-nature costume.",
+        "Most intractable problems are tractable at a different altitude.",
+        "Label a problem intractable and you've decided to route around it, so decide that on purpose."
+      ],
+      "note": "A strong claim. Before writing it, ask whether the problem is genuinely intractable or just outside the current team's control.",
+      "tier": 3
+    },
+    {
+      "id": "gg-cogent",
+      "word": "cogent",
+      "pos": "adj.",
+      "pron": "KOH-junt",
+      "definition": "Clear, logical, and convincing — an argument whose pieces actually connect.",
+      "examples": [
+        "The most cogent case for the creator budget is one page: cost per funded account, by channel, over twelve months.",
+        "Cogent isn't the same as persuasive; some very persuasive arguments have no structure at all.",
+        "A cogent memo survives being forwarded to someone who wasn't in the meeting."
+      ],
+      "note": "The forwarding test is the best measure of cogency. If it needs you in the room to make sense, it isn't cogent yet.",
+      "tier": 3
+    },
+    {
+      "id": "gg-ostentatious",
+      "word": "ostentatious",
+      "pos": "adj.",
+      "pron": "os-ten-TAY-shus",
+      "definition": "Showy in a way designed to be noticed — display for the sake of display.",
+      "examples": [
+        "There's an ostentatious way to report a good quarter and a quiet way, and the quiet way gets believed.",
+        "Ostentatious spending in a startup is a signal, and rarely the one intended.",
+        "The opposite move — understatement — costs nothing and reads as confidence."
+      ],
+      "note": "Direct antonym of understated. Both are choices about signaling, and the choice says more than the thing being signaled.",
+      "tier": 2
+    },
+    {
+      "id": "gg-superfluous",
+      "word": "superfluous",
+      "pos": "adj.",
+      "pron": "soo-PER-floo-us",
+      "definition": "More than is needed — removable without loss.",
+      "examples": [
+        "Half the slides in the QBR are superfluous; they're there because someone made them, not because anyone needs them.",
+        "Superfluous words in a memo aren't neutral — they dilute the ones that matter.",
+        "Cut anything superfluous and what's left gets louder without being longer."
+      ],
+      "note": "The editing test in one word: if removing it costs nothing, it was superfluous and it's gone.",
+      "tier": 2
+    },
+    {
+      "id": "gg-meticulous",
+      "word": "meticulous",
+      "pos": "adj.",
+      "pron": "muh-TIK-yuh-lus",
+      "definition": "Careful about small details, consistently and by habit.",
+      "examples": [
+        "The creators who go furthest aren't the most talented, they're the most meticulous about the first three seconds.",
+        "Meticulous work is invisible when it's done and glaring when it isn't.",
+        "There's a line between meticulous and slow, and it's whether the care is going into things that matter."
+      ],
+      "note": "A compliment about process rather than outcome. Pairs well with “considered” from the Taste deck — same underlying value.",
+      "tier": 1
+    },
+    {
+      "id": "gg-arduous",
+      "word": "arduous",
+      "pos": "adj.",
+      "pron": "AR-joo-us",
+      "definition": "Demanding sustained effort over a long stretch — hard because it's long, not because it's complex.",
+      "examples": [
+        "Recruiting 40 creators one at a time was arduous, unglamorous, and the actual reason the program works.",
+        "Arduous work is the part case studies compress into a sentence.",
+        "The arduous path is often the defensible one precisely because most people won't take it."
+      ],
+      "note": "Emphasizes duration and grind. A problem can be difficult without being arduous, and vice versa.",
+      "tier": 2
+    },
+    {
+      "id": "gg-laconic",
+      "word": "laconic",
+      "pos": "adj.",
+      "pron": "luh-KON-ik",
+      "definition": "Using very few words — brief to the point of being striking.",
+      "examples": [
+        "Jae's laconic “why?” on a Slack thread does more work than a paragraph of pushback from anyone else.",
+        "A laconic reply can read as confidence or as disdain, and the sender rarely controls which.",
+        "The most laconic line in the memo is usually the one people quote back."
+      ],
+      "note": "From Laconia, home of the Spartans, who were famous for it. Brevity plus a little steel — not the same as merely concise.",
+      "tier": 3
+    },
+    {
+      "id": "gg-verbose",
+      "word": "verbose",
+      "pos": "adj.",
+      "pron": "ver-BOHS",
+      "definition": "Using far more words than the content requires.",
+      "examples": [
+        "The first draft of every strategy memo is verbose because writing long is how you find out what you think.",
+        "Verbose writing usually signals unfinished thinking, not excessive thinking.",
+        "Cutting a verbose paragraph in half almost never loses information."
+      ],
+      "note": "The right response to a verbose draft is another pass, not an apology. Length is a symptom; the disease is unresolved argument.",
+      "tier": 1
+    },
+    {
+      "id": "gg-banal",
+      "word": "banal",
+      "pos": "adj.",
+      "pron": "buh-NAL",
+      "definition": "So ordinary and overfamiliar that it carries no interest at all.",
+      "examples": [
+        "“Consistency is key” is banal; “post at the cadence you can sustain in your worst week” is the same idea made useful.",
+        "Banal advice survives because it's unfalsifiable and comfortable to repeat.",
+        "The gap between banal and profound is usually specificity."
+      ],
+      "note": "Close cousin of platitude, aimed at content rather than phrasing. The fix for both is always a concrete detail.",
+      "tier": 2
+    },
+    {
+      "id": "gg-esoteric",
+      "word": "esoteric",
+      "pos": "adj.",
+      "pron": "es-uh-TAIR-ik",
+      "definition": "Understood only by a small group with specialized knowledge.",
+      "examples": [
+        "Attribution modeling is esoteric, and translating it into one sentence a CEO can act on is most of the job.",
+        "Esoteric knowledge is valuable exactly in proportion to how few people can translate it.",
+        "Content that stays esoteric stays small; the audience is the translation."
+      ],
+      "note": "The core creator insight, in one word: the money is in the translation layer between esoteric knowledge and a general audience.",
+      "tier": 3
+    },
+    {
+      "id": "gg-pedantic",
+      "word": "pedantic",
+      "pos": "adj.",
+      "pron": "puh-DAN-tik",
+      "definition": "Excessively concerned with minor correctness in a way that obstructs the point.",
+      "examples": [
+        "It's pedantic to correct “users” to “accounts” in a Slack message and essential to correct it in a board deck.",
+        "Pedantry is precision applied at the wrong altitude.",
+        "The distinction between pedantic and rigorous is whether the correction changes a decision."
+      ],
+      "note": "That last test is worth internalizing before any review comment: does this change what anyone does? If not, it's pedantry.",
+      "tier": 2
+    },
+    {
+      "id": "gg-innocuous",
+      "word": "innocuous",
+      "pos": "adj.",
+      "pron": "ih-NOK-yoo-us",
+      "definition": "Harmless — usually said of something that could have been harmful and wasn't.",
+      "examples": [
+        "An innocuous copy change on the signup screen dropped conversion 8%, which is why we test innocuous changes.",
+        "The most damaging assumptions in a plan are always the innocuous-looking ones nobody flagged.",
+        "It seemed innocuous at the time is the opening line of most postmortems."
+      ],
+      "note": "Almost always used ironically in a business context — the innocuous thing turned out not to be. Lean into that.",
+      "tier": 2
+    },
+    {
+      "id": "gg-specious",
+      "word": "specious",
+      "pos": "adj.",
+      "pron": "SPEE-shus",
+      "definition": "Superficially convincing but wrong once examined.",
+      "examples": [
+        "The claim that our best creators drive retention is specious — we assign our best creators to the segments that already retain.",
+        "Specious reasoning is more dangerous than obvious nonsense because it survives the first read.",
+        "Anything that sounds right immediately deserves a second pass."
+      ],
+      "note": "Distinct from spurious: spurious is about a false statistical relationship, specious is about an argument that looks sound and isn't.",
+      "tier": 3
+    },
+    {
+      "id": "gg-sanguine",
+      "word": "sanguine",
+      "pos": "adj.",
+      "pron": "SANG-gwin",
+      "definition": "Cheerfully confident about how something will turn out, especially in a difficult situation.",
+      "examples": [
+        "I'm sanguine about Q4 despite the CPM environment — the creator library carries most of the number regardless of auction prices.",
+        "Being sanguine is only useful if you can say what would change your mind.",
+        "There's a difference between sanguine and unbothered, and it's whether you've looked at the numbers."
+      ],
+      "note": "Slightly formal, which is why it works in a memo — it signals considered optimism rather than good mood.",
+      "tier": 3
+    },
+    {
+      "id": "gg-equanimity",
+      "word": "equanimity",
+      "pos": "n.",
+      "pron": "ek-wuh-NIM-ih-tee",
+      "definition": "Steadiness of mind under pressure — not calm because nothing is wrong, calm while things are.",
+      "examples": [
+        "The skill in a creator program isn't taste, it's equanimity: a video flops, a creator ghosts, and Monday still needs a plan.",
+        "Equanimity is what makes a bear market survivable for an investor and a bad quarter survivable for an operator.",
+        "It's a practice, not a temperament, which is the encouraging part."
+      ],
+      "note": "The word for the disposition every operating role actually selects for. Good anchor for a reflective LinkedIn post.",
+      "tier": 3
+    },
+    {
+      "id": "gg-alacrity",
+      "word": "alacrity",
+      "pos": "n.",
+      "pron": "uh-LAK-rih-tee",
+      "definition": "Cheerful readiness — moving quickly and willingly, not just quickly.",
+      "examples": [
+        "The creators who respond with alacrity get the best briefs, and everyone involved knows it.",
+        "Alacrity is speed with willingness attached; you can be fast and grudging, and people notice.",
+        "Responding with alacrity to a small request is how you get asked about the big ones."
+      ],
+      "note": "Formal but genuinely useful, because English is short on words that combine speed with attitude.",
+      "tier": 3
+    },
+    {
+      "id": "gg-magnanimous",
+      "word": "magnanimous",
+      "pos": "adj.",
+      "pron": "mag-NAN-ih-mus",
+      "definition": "Generous toward someone you could reasonably have treated worse — especially a rival or someone who erred.",
+      "examples": [
+        "The magnanimous move when a creator's exclusive deal lapses is to congratulate them publicly; the industry is small and everyone is watching.",
+        "Magnanimity in a postmortem costs nothing and buys years of goodwill.",
+        "It's only magnanimous if you had the standing to do otherwise."
+      ],
+      "note": "The condition matters — generosity from a position of weakness is just necessity. That's what distinguishes it from being nice.",
+      "tier": 3
+    },
+    {
+      "id": "gg-obfuscate",
+      "word": "obfuscate",
+      "pos": "v.",
+      "pron": "OB-fuh-skayt",
+      "definition": "To make something confusing on purpose, usually to hide what it means.",
+      "examples": [
+        "Reporting “engagement up 40%” without the denominator obfuscates a flat quarter.",
+        "Fee disclosures are a masterclass in obfuscating through completeness — every fact present, nothing findable.",
+        "Complexity is sometimes honest; obfuscation never is."
+      ],
+      "note": "Implies intent. Confusing writing is usually a failure of drafting; obfuscation is a choice, and the accusation is serious.",
+      "tier": 3
+    },
+    {
+      "id": "gg-exacerbate",
+      "word": "exacerbate",
+      "pos": "v.",
+      "pron": "ig-ZAS-er-bayt",
+      "definition": "To make an existing bad situation worse.",
+      "examples": [
+        "Adding creators exacerbates the review bottleneck instead of relieving it — more input into a constrained system is just a longer queue.",
+        "The discount exacerbated the retention problem by bringing in exactly the users least likely to stay.",
+        "Most fixes applied to the wrong constraint exacerbate the thing they were meant to help."
+      ],
+      "note": "Only for things already going badly. You can't exacerbate a good situation, though people write it that way constantly.",
+      "tier": 2
+    },
+    {
+      "id": "gg-mitigate",
+      "word": "mitigate",
+      "pos": "v.",
+      "pron": "MIT-ih-gayt",
+      "definition": "To reduce the severity of something without removing it.",
+      "examples": [
+        "We can't eliminate platform risk, but we mitigate it by holding no more than 60% of output on any single channel.",
+        "Mitigation accepts that the bad thing happens and makes it smaller.",
+        "A mitigation plan that requires nothing to go wrong isn't a mitigation plan."
+      ],
+      "note": "Often confused with “militate,” which means to weigh against something. Different words, and the mix-up is common enough to notice.",
+      "tier": 2
+    },
+    {
+      "id": "gg-preclude",
+      "word": "preclude",
+      "pos": "v.",
+      "pron": "prih-KLOOD",
+      "definition": "To rule something out in advance by making it impossible.",
+      "examples": [
+        "Signing an exclusive precludes the multi-brand strategy we spent last quarter arguing for, so the decision is bigger than the contract.",
+        "Nothing about a small budget precludes a good campaign; it precludes a lazy one.",
+        "Every commitment precludes something, and naming what is how you make the tradeoff visible."
+      ],
+      "note": "Stronger than “prevent” — precluding happens beforehand, structurally. The best strategy memos state explicitly what a choice precludes.",
+      "tier": 3
+    },
+    {
+      "id": "gg-cursory",
+      "word": "cursory",
+      "pos": "adj.",
+      "pron": "KER-suh-ree",
+      "definition": "Done quickly and without depth — a look rather than an examination.",
+      "examples": [
+        "A cursory read of the dashboard says the campaign worked; ten minutes with the cohort view says it pulled forward demand.",
+        "Cursory review is fine for low-stakes work and dangerous when it's the only review.",
+        "Even a cursory competitive check would have caught that the name was taken."
+      ],
+      "note": "Not automatically a criticism — matching depth of review to stakes is a real skill. It's only a flaw when the stakes were high.",
+      "tier": 2
+    },
+    {
+      "id": "gg-empirical",
+      "word": "empirical",
+      "pos": "adj.",
+      "pron": "em-PEER-ih-kul",
+      "definition": "Based on what was observed or measured, rather than on theory or intuition.",
+      "examples": [
+        "The empirical answer is that our best-performing hook is a question, across 340 videos and four quarters.",
+        "Empirical beats plausible, and plausible beats confident.",
+        "An empirical claim comes with a sample size or it isn't one."
+      ],
+      "note": "Pairs directly against anecdotal. The best growth writing is explicit about which of the two it's offering.",
+      "tier": 2
+    },
+    {
+      "id": "gg-anecdotal",
+      "word": "anecdotal",
+      "pos": "adj.",
+      "pron": "an-ik-DOH-tul",
+      "definition": "Based on individual stories rather than systematic evidence.",
+      "examples": [
+        "This is anecdotal, but three creators unprompted said the same thing about the brief template — worth checking properly.",
+        "Anecdotal evidence is a great source of hypotheses and a terrible source of conclusions.",
+        "The plural of anecdote isn't data, though it is usually where the data starts."
+      ],
+      "note": "Flagging your own evidence as anecdotal buys enormous credibility. It tells the reader you know the difference and aren't hiding it.",
+      "tier": 1
+    },
+    {
+      "id": "gg-dogmatic",
+      "word": "dogmatic",
+      "pos": "adj.",
+      "pron": "dog-MAT-ik",
+      "definition": "Holding a position as unquestionable, regardless of evidence.",
+      "examples": [
+        "I was dogmatic about never paying per-view and the data eventually made me wrong in two specific cases.",
+        "Dogmatic beliefs are efficient — they save you from re-deciding — right up until conditions change.",
+        "The difference between principles and dogma is whether anything could revise them."
+      ],
+      "note": "The self-check that matters: name what evidence would change your mind. If nothing would, you're being dogmatic.",
+      "tier": 2
+    },
+    {
+      "id": "gg-inexorable",
+      "word": "inexorable",
+      "pos": "adj.",
+      "pron": "in-EK-ser-uh-bul",
+      "definition": "Impossible to stop or divert — proceeding regardless of anyone's preference.",
+      "examples": [
+        "The shift of trust from institutions to individuals looks inexorable; the only open question is who intermediates it.",
+        "Rising CPMs on any platform that finds product-market fit with advertisers are inexorable, not a phase.",
+        "Calling something inexorable is a strong claim — it means planning around it rather than against it."
+      ],
+      "note": "Reach for it when the strategic point is adaptation rather than resistance. Overuse makes you sound like a keynote.",
+      "tier": 3
+    },
+    {
+      "id": "gg-endemic",
+      "word": "endemic",
+      "pos": "adj.",
+      "pron": "en-DEM-ik",
+      "definition": "Regularly found within a particular group or place — built into the environment rather than visiting it.",
+      "examples": [
+        "Late briefs are endemic to creator ops; the fix is a system that assumes them, not a reminder that scolds about them.",
+        "Survivorship bias is endemic to startup content — you only ever read the companies that made it.",
+        "Endemic problems need design changes; epidemic ones need a response."
+      ],
+      "note": "Distinct from epidemic (spreading fast) and pandemic (spreading everywhere). Endemic means it lives there permanently.",
+      "tier": 3
+    },
+    {
+      "id": "gg-quixotic",
+      "word": "quixotic",
+      "pos": "adj.",
+      "pron": "kwik-SOT-ik",
+      "definition": "Idealistic to the point of being impractical — noble and unlikely to work.",
+      "examples": [
+        "Trying to build a finance brand without ever simplifying anything is quixotic; some compression is the price of reaching people.",
+        "There's a quixotic streak in every founder, and it's load-bearing about a third of the time.",
+        "The quixotic version of a plan is often the honest one with no budget attached."
+      ],
+      "note": "From Don Quixote, tilting at windmills. Carries affection alongside the criticism, which is what makes it usable about people you like.",
+      "tier": 3
+    },
+    {
+      "id": "gg-opaque",
+      "word": "opaque",
+      "pos": "adj.",
+      "pron": "oh-PAYK",
+      "definition": "Impossible to see into or understand from outside.",
+      "examples": [
+        "The algorithm is opaque, so we treat it empirically: change one variable, ship 20 videos, read the results.",
+        "Opaque pricing is a design choice, and customers read it correctly every time.",
+        "An opaque process inside a team produces exactly the politics you'd expect."
+      ],
+      "note": "Antonym of transparent, and useful about systems, pricing, and prose alike. Opaque writing is usually protecting something.",
+      "tier": 1
+    },
+    {
+      "id": "gg-germane",
+      "word": "germane",
+      "pos": "adj.",
+      "pron": "jer-MAYN",
+      "definition": "Genuinely relevant to the matter at hand — connected, not merely nearby.",
+      "examples": [
+        "The competitor's funding round is interesting; it isn't germane to whether our creator retainers should go up.",
+        "Half of what gets raised in a strategy meeting is true, related, and not germane.",
+        "Ask whether a point is germane before arguing with it — most tangents die politely at that question."
+      ],
+      "note": "Sharper than “relevant” because it implies a real connection to the decision being made. A quiet way to redirect a meeting.",
+      "tier": 3
+    },
+    {
+      "id": "gg-ambivalent",
+      "word": "ambivalent",
+      "pos": "adj.",
+      "pron": "am-BIV-uh-lunt",
+      "definition": "Holding two opposing feelings at once — pulled both ways, not indifferent.",
+      "examples": [
+        "I'm ambivalent about the exclusive: it protects our best creator and it teaches the roster that leverage gets rewarded.",
+        "Ambivalent doesn't mean you don't care, it means you can see both sides and both are real.",
+        "Writing out the ambivalence is often how you find the decision."
+      ],
+      "note": "Commonly misused as “unbothered.” The prefix is ambi-, both — the whole point is that you feel two things, strongly.",
+      "tier": 2
+    },
+    {
+      "id": "gg-disinterested",
+      "word": "disinterested",
+      "pos": "adj.",
+      "pron": "dis-IN-ter-es-tid",
+      "definition": "Having no personal stake in the outcome, and therefore able to judge it fairly.",
+      "examples": [
+        "We need a disinterested read on the incrementality test — anyone who owns the channel can't be the one grading it.",
+        "A fiduciary is required to be disinterested in exactly this sense.",
+        "Disinterested judgment is rare and valuable; uninterested judgment is neither."
+      ],
+      "note": "Not the same as uninterested (bored). Using it correctly is a small, real signal — and the distinction is genuinely useful in any review process.",
+      "tier": 2
+    }
+  ]
+}
