@@ -985,6 +985,29 @@
       ],
       "note": "The most common flaw in startup experimentation. Ask “what effect size could this have detected?” before reading any result.",
       "tier": 3
+    },
+    {
+      "id": "go-leeway",
+      "word": "leeway",
+      "pos": "n.",
+      "pron": "LEE-way",
+      "definition": "The room you have to move within a plan — the slack between what you committed to and where it actually breaks.",
+      "synonyms": [
+        "room to manoeuvre",
+        "slack",
+        "margin"
+      ],
+      "examples": [
+        "There are about ten days of leeway on the launch date before the creator contracts start overlapping.",
+        "Give the brief leeway on format and creators find the hook faster than we do; give it leeway on the claim and legal finds us.",
+        "A budget with no leeway is a plan that quietly assumes nothing goes wrong."
+      ],
+      "conversation": [
+        "Jae: Can we pull the launch forward to the 12th?",
+        "You: There is about a week of leeway before the creator contracts start overlapping. Past that it gets expensive."
+      ],
+      "note": "Two senses that are easy to blur: having leeway is a fact about the schedule, giving someone leeway is a decision about trust. Say which one you mean. From sailing — the drift a boat is allowed off its course.",
+      "tier": 2
     }
   ]
 }
